@@ -90,7 +90,7 @@ const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({ currentLang, onLang
               className={`lang-item flex items-center gap-3 p-3 text-gray-800 text-sm rounded-md transition-all hover:bg-gray-100 hover:text-primary-red ${currentLang === lang.code ? 'bg-gray-100 text-primary-red font-semibold' : ''}`}
               onClick={() => handleLanguageSelect(lang.code)}
               role="menuitem"
-              style={{ direction: lang.dir || 'ltr' }}
+              style={{ direction: (lang.dir || 'ltr') as 'ltr' | 'rtl' }}
             >
               <span className="lang-name flex-1 whitespace-nowrap overflow-hidden text-ellipsis">
                 {lang.name}
