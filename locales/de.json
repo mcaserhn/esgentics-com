@@ -1,0 +1,506 @@
+{
+  "meta": {
+    "lang": "de",
+    "dir": "ltr"
+  },
+  "navigation": {
+    "home": "Home",
+    "technology": "Technologie",
+    "solutions": "Lösungen",
+    "compliance": "Compliance",
+    "about": "Über Uns",
+    "contact": "Kontakt",
+    "cta_primary": "Lösungen erkunden"
+  },
+  "home": {
+    "hero": {
+      "title": "Intelligentes Bauen. Nachhaltiges Erbe.",
+      "subtitle": "KI-gesteuerte Schlüsselfertig-Lösungen, angetrieben durch NVIDIA-Hardware. Von der Konzeption bis zum Betrieb liefern wir intelligente Bauprojekte in Südostasien, Europa, Nordamerika und im Nahen Osten.",
+      "cta": "Lösungen erkunden"
+    },
+    "value_prop": {
+      "title": "Von Alpha bis Omega, angetrieben von KI.",
+      "body": "ESGentics bietet schlüsselfertige intelligente Bauleistungen. Wir integrieren fortschrittliche KI-Algorithmen, Edge-Hardware und autonome Agenten, um Ihr Projekt von der Konzeption bis zum langfristigen Betrieb zu verwalten."
+    },
+    "features": {
+      "ai_algorithms": {
+        "title": "KI-Algorithmen",
+        "description": "Fortgeschrittene maschinelle Lernmodelle optimieren jeden Aspekt des Bauprozesses."
+      },
+      "edge_hardware": {
+        "title": "Edge-Hardware",
+        "description": "NVIDIA-basierte Computing an der Edge für Echtzeit-Entscheidungsfindung."
+      },
+      "autonomous_agents": {
+        "title": "Autonome Agenten",
+        "description": "Intelligente Agenten überwachen und optimieren Operationen rund um die Uhr."
+      }
+    },
+    "trust": {
+      "title": "Globale Standards. Europäisches Erbe.",
+      "body": "Mit Hauptsitz in Singapur, unterstützt durch europäisches Kapital. Wir bringen Präzisionsingenieurwesen und langfristige ESG-Compliance in jedes Projekt."
+    },
+    "cta": {
+      "title": "Bereit, Ihr intelligentes Bauprojekt zu starten?",
+      "cta": "Kontakt aufnehmen"
+    }
+  },
+  "technology": {
+    "hero": {
+      "title": "Die Technologie hinter dem Bau.",
+      "subtitle": "Fortgeschrittene KI-Agenten und NVIDIA-basierte Hardware arbeiten zusammen, um den Bau zu revolutionieren."
+    },
+    "ai_agents": {
+      "title": "Autonome KI-Agenten.",
+      "body": "Unsere proprietären Algorithmen stellen intelligente Agenten bereit, die Bauprozesse in Echtzeit überwachen, entscheiden und optimieren. Dadurch werden menschliche Fehler reduziert und die Effizienz maximiert.",
+      "features": [
+        "Echtzeitüberwachung und -analyse",
+        "Autonome Entscheidungsfindung",
+        "Vorhersehbare Wartung",
+        "Optimierte Ressourcenallokation"
+      ]
+    },
+    "hardware": {
+      "title": "Angetrieben durch NVIDIA Edge Computing.",
+      "body": "Wir nutzen das robuste Hardware-Ökosystem von NVIDIA, um eine Hochleistungsrechnung am Rand zu gewährleisten. Zuverlässig, skalierbar und für harte Baumaschinenumgebungen gebaut.",
+      "features": [
+        "Hochleistungs-Edge-Computing",
+        "Robuste Bauplatzausrüstung",
+        "Skalierbare Architektur",
+        "Energieeffizienter Betrieb"
+      ]
+    },
+    "nvidia_partner": {
+      "title": "NVIDIA-Partner",
+      "subtitle": "Angetrieben durch NVIDIA-Technologie"
+    },
+    "cta": {
+      "title": "Bereit, die Kraft der KI für Ihr Bauprojekt zu nutzen?",
+      "body": "Unser Team von Experten steht bereit, Ihnen zu helfen, intelligente Baulösungen zu implementieren, die auf Ihre spezifischen Bedürfnisse zugeschnitten sind.",
+      "cta": "Loslegen"
+    }
+  },
+  "solutions": {
+    "hero": {
+      "title": "End-to-End intelligente Lösungen.",
+      "subtitle": "Von der Planung bis zum langfristigen ESG-Betrieb bieten wir schlüsselfertige intelligente Baulösungen."
+    },
+    "turnkey": {
+      "title": "Schlüsselfertige Ingenieurleistungen von A bis Z.",
+      "body": "Wir kümmern uns um alles. Planung, Beschaffung, Bau und Inbetriebnahme. Ein Vertrag, eine Verantwortung, null Stress.",
+      "features": [
+        "Konzeptdesign und Planung",
+        "Beschaffung und Lieferkettenmanagement",
+        "Bau und Installation",
+        "Inbetriebnahme und Übergabe"
+      ]
+    },
+    "operations": {
+      "title": "Langfristiger Betrieb & ESG.",
+      "body": "Der Bau ist nur der Anfang. Unsere KI-Agenten überwachen kontinuierlich die Gebäude Gesundheit, den Energieverbrauch und den CO2-Fußabdruck während des gesamten Lebenszyklus des Vermögens.",
+      "features": [
+        "Echtzeit-Überwachung der Gebäudeleistung",
+        "Energieverbrauchsoptimierung",
+        "CO2-Fußabdruckverfolgung",
+        "Vorhersehbare Wartungsplanung"
+      ]
+    },
+    "conceptual_showcase": {
+      "title": "Konzeptionelle Präsentation.",
+      "body": "Entdecken Sie unsere konzeptionellen Designs, die die Fähigkeiten unserer intelligenten Baulösungen demonstrieren.",
+      "projects": [
+        {
+          "title": "Smart Hub - Südostasien Konzept",
+          "description": "Intelligentes Geschäftszentrum mit integrierten KI-Systemen für optimale Betriebsabläufe.",
+          "region": "Südostasien"
+        },
+        {
+          "title": "Eco-Plant - Europäisches Standardkonzept",
+          "description": "Nachhaltige Produktionsanlage mit null CO2-Fußabdruck und KI-gesteuerter Effizienz.",
+          "region": "Europäisch"
+        },
+        {
+          "title": "Data Nexus - Naher Osten Konzept",
+          "description": "Modernstes Rechenzentrum mit fortschrittlichen Kühl- und Energiemanagementsystemen.",
+          "region": "Naher Osten"
+        }
+      ],
+      "disclaimer": "*Alle Visualisierungen sind konzeptionelle Simulationen zur Demonstration der Fähigkeiten"
+    },
+    "cta": {
+      "title": "Bereit, Ihr Bauprojekt zu transformieren?",
+      "body": "Unsere schlüsselfertigen Lösungen liefern intelligenten Bau von der Konzeption bis zum Betrieb.",
+      "cta": "Angebot anfordern"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Starten Sie Ihr Projekt.",
+      "subtitle": "Nehmen Sie Kontakt mit unserem Team auf, um Ihre intelligenten Bauanforderungen zu besprechen."
+    },
+    "contact_info": {
+      "title": "Kontaktinformationen",
+      "headquarters": "Hauptsitz",
+      "address": "[Ihre Singapur-Büroadresse], Singapur.",
+      "email": "E-Mail",
+      "regions": "Regionen",
+      "regions_text": "Verkaufsanfragen für NA, EU, ME und SE-Asien willkommen.",
+      "location": "Unser Standort",
+      "headquarters_location": "Singapore Hauptsitz"
+    },
+    "form": {
+      "title": "Eine Anfrage senden",
+      "name": "Name *",
+      "company": "Unternehmen *",
+      "region": "Region *",
+      "message": "Nachricht *",
+      "privacy": "Ich stimme der Datenschutzrichtlinie und den Datenverarbeitungsbedingungen zu.",
+      "submit": "Anfrage senden",
+      "region_options": {
+        "select": "Region auswählen",
+        "na": "Nordamerika",
+        "eu": "Europa",
+        "me": "Naher Osten",
+        "se_asia": "Südostasien",
+        "others": "Andere"
+      },
+      "errors": {
+        "name": "Name ist erforderlich",
+        "company": "Unternehmen ist erforderlich",
+        "region": "Region ist erforderlich",
+        "message": "Nachricht ist erforderlich",
+        "privacy": "Sie müssen der Datenschutzrichtlinie zustimmen"
+      }
+    },
+    "cta": {
+      "title": "Bereit zu beginnen?",
+      "body": "Unser Team steht bereit, Ihnen zu helfen, Ihr intelligentes Bauprojekt zum Leben zu erwecken.",
+      "cta": "Jetzt kontaktieren"
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 ESGentics Pte. Ltd. Singapur. Alle Rechte vorbehalten.",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen",
+    "data_sovereignty": "Datensouveränitätserklärung",
+    "compliance": "Compliance",
+    "data_statement": "Server gehostet in Singapur/AWS Global. Keine Datenresidenz in Festlandchina.",
+    "social": "LinkedIn",
+    "description": "Intelligentes Bauen. Nachhaltiges Erbe.",
+    "quick_links": "Schnelllinks",
+    "legal": "Rechtliches",
+    "contact": "Kontakt",
+    "company_name": "ESGentics Pte. Ltd.",
+    "location": "Singapur",
+    "email": "contact@esgentics.com"
+  },
+  "compliance": {
+    "hero": {
+      "title": "Globale Compliance und Datensouveränität.",
+      "subtitle": "Wir gewährleisten die Einhaltung globaler Standards und garantieren Datensouveränität für unsere Kunden."
+    },
+    "legal_entity": {
+      "title": "In Singapur registriert.",
+      "body": "ESGentics Pte. Ltd. ist unter den Gesetzen Singapurs eingetragen. Alle Verträge unterliegen den Regeln des Singapore International Arbitration Centre (SIAC)."
+    },
+    "data_sovereignty": {
+      "title": "Datensitzgarantie.",
+      "body": "Wir verstehen die Sensibilität Ihrer Daten. Unsere Infrastruktur stellt sicher, dass Projektdaten in Ihrer Region (EU, NA, ME oder Südostasien) verarbeitet und gespeichert werden, im Einklang mit DSGVO, PDPA und lokalen Datengesetzen.",
+      "statement_title": "Datensouveränitätserklärung",
+      "statement_body": "Keine Daten werden in das chinesische Festland übertragen. Unsere Server befinden sich in Singapur, Europa und Nordamerika."
+    },
+    "standards": {
+      "title": "Globale Compliancestandards",
+      "body": "Wir halten uns an höchste internationale Standards für Datenschutz und Baupraktiken.",
+      "items": [
+        {
+          "title": "DSGVO-Compliance",
+          "description": "Vollständig konform mit den datenschutzrechtlichen Vorschriften der Europäischen Union."
+        },
+        {
+          "title": "PDPA-Compliance",
+          "description": "Einhaltung des Singapur Personal Data Protection Act."
+        },
+        {
+          "title": "ESG-Standards",
+          "description": "Erfüllt internationale Umwelt-, Sozial- und Regierungsstandards."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Benötigen Sie weitere Informationen zu unseren Compliancestandards?",
+      "body": "Unser Team steht bereit, detaillierte Informationen zu unseren Compliance-Praktiken und Datensouveränitätspolitiken bereitzustellen.",
+      "cta": "Kontaktieren Sie uns"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Vertrauen über Grenzen hinweg aufbauen.",
+      "subtitle": "Ein Bau technologieunternehmen der neuen Generation mit globaler Reichweite und europäischem Erbe."
+    },
+    "who_we_are": {
+      "title": "Singapur-Hub. Globale Reichweite.",
+      "body": "ESGentics ist ein Bau technologieunternehmen der neuen Generation mit Hauptsitz in Singapur. Wir bedienen Kunden in Südostasien, Nordamerika, Europa und im Nahen Osten.",
+      "features": [
+        "Hauptsitz in Singapur",
+        "Globale Präsenz auf Schlüsselmärkten",
+        "Multilinguales Expertenteam",
+        "Lokales Wissen mit globaler Expertise"
+      ],
+      "map_title": "Globale Präsenzkarte",
+      "map_subtitle": "Hervorgehoben: SG/NA/EU/ME"
+    },
+    "heritage": {
+      "title": "Europäische Ingenieur-DNA.",
+      "body": "Gebacken von europäischem Kapital, erben wir eine Tradition der Präzision, Rationalität und langfristigen Denkens. Wir glauben an den Bau von Vermögenswerten, die Generationen überdauern, nicht nur Quartale.",
+      "features": [
+        "Europäische Präzisionsingenieurwesen",
+        "Langfristiges nachhaltiges Denken",
+        "Rationaler Ansatz zur Problemlösung",
+        "Fokus auf Qualität und Langlebigkeit"
+      ]
+    },
+    "values": {
+      "title": "Unsere Kerntwerte",
+      "body": "Leitprinzipien, die alles bestimmen, was wir tun.",
+      "items": [
+        {
+          "title": "Integrität",
+          "description": "Ehrlichkeit und Transparenz in allen unseren Geschäften."
+        },
+        {
+          "title": "Innovation",
+          "description": "Die Grenzen dessen, was mit KI möglich ist, erweitern."
+        },
+        {
+          "title": "Zusammenarbeit",
+          "description": "Gemeinsam arbeiten, um außergewöhnliche Ergebnisse zu erzielen."
+        },
+        {
+          "title": "Nachhaltigkeit",
+          "description": "Bauen für eine bessere Zukunft."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Bereit, mit uns zusammenzuarbeiten?",
+      "body": "Unser Expertenteam steht bereit, Ihnen zu helfen, Ihr intelligentes Bauprojekt zum Leben zu erwecken.",
+      "cta": "Kontakt aufnehmen"
+    }
+  },
+  "privacy_policy": {
+    "hero": {
+      "title": "Datenschutzrichtlinie",
+      "subtitle": "Unser Engagement zum Schutz Ihrer persönlichen Daten."
+    },
+    "sections": {
+      "introduction": {
+        "title": "Einführung",
+        "body": "ESGentics Pte. Ltd. (\"wir\", \"uns\", \"unser\") verpflichtet sich, die Privatsphäre unserer Website-Besucher und Kunden zu schützen. Diese Datenschutzrichtlinie erläutert, wie wir Ihre persönlichen Daten sammeln, verwenden, offenlegen und schützen, wenn Sie unsere Website besuchen oder unsere Dienste nutzen."
+      },
+      "data_collected": {
+        "title": "Die Daten, die wir sammeln",
+        "body": "Wir können folgende Arten von persönlichen Daten sammeln:",
+        "items": [
+          "Persönliche Informationen: Name, E-Mail-Adresse, Telefonnummer, Firmenname und Berufsbezeichnung",
+          "Nutzungsdaten: Informationen darüber, wie Sie unsere Website nutzen, einschließlich IP-Adresse, Browser-Typ und Zugriffszeiten",
+          "Cookies: kleine Textdateien, die auf Ihrem Gerät gespeichert werden, um Ihre Browsererfahrung zu verbessern"
+        ]
+      },
+      "data_usage": {
+        "title": "Wie wir Ihre Daten verwenden",
+        "body": "Wir verwenden Ihre persönlichen Daten zu folgenden Zwecken:",
+        "items": [
+          "Um auf Ihre Anfragen zu antworten und Kundensupport zu leisten",
+          "Um Ihre Anfragen nach unseren Dienstleistungen zu bearbeiten und zu erfüllen",
+          "Um unsere Website und unsere Dienstleistungen zu verbessern",
+          "Um Ihnen Marketingkommunikationen zu senden (mit Ihrer Zustimmung)",
+          "Um rechtlichen und regulatorischen Anforderungen nachzukommen"
+        ]
+      },
+      "data_sharing": {
+        "title": "Datenteilung",
+        "body": "Wir können Ihre persönlichen Daten mit folgenden Personen teilen:",
+        "items": [
+          "Unseren Mitarbeiter und Auftragnehmern, die Zugriff auf Ihre Daten benötigen, um ihre Aufgaben zu erfüllen",
+          "Drittanbietern, die uns bei der Betreibung unserer Website und der Bereitstellung unserer Dienstleistungen unterstützen",
+          "Rechtlichen Behörden, wenn dies gesetzlich erforderlich ist oder um unsere Rechte zu schützen"
+        ],
+        "note": "Wir verkaufen oder vermieten Ihre persönlichen Daten nicht an Dritte."
+      },
+      "data_security": {
+        "title": "Datensicherheit",
+        "body": "Wir implementieren angemessene technische und organisatorische Maßnahmen, um Ihre persönlichen Daten vor unbefugtem Zugriff, Offenlegung, Veränderung oder Zerstörung zu schützen. Diese Maßnahmen umfassen Verschlüsselung, Zugriffskontrollen und regelmäßige Sicherheitsbewertungen."
+      },
+      "data_residency": {
+        "title": "Datensitz",
+        "body": "Wir speichern Ihre persönlichen Daten auf sicheren Servern in Singapur, Europa und Nordamerika. Wir übertragen oder speichern keine Daten in Festlandchina."
+      },
+      "user_rights": {
+        "title": "Ihre Rechte",
+        "body": "Sie haben folgende Rechte hinsichtlich Ihrer persönlichen Daten:",
+        "items": [
+          "Zugang: Anfordern einer Kopie der persönlichen Daten, die wir über Sie gespeichert haben",
+          "Korrektur: Anfordern der Korrektur ungenauer oder unvollständiger persönlicher Daten",
+          "Löschung: Anfordern der Löschung Ihrer persönlichen Daten",
+          "Einschränkung: Anfordern der Einschränkung der Verarbeitung Ihrer persönlichen Daten",
+          "Portabilität: Anfordern der Übertragung Ihrer persönlichen Daten an eine andere Organisation",
+          "Widerspruch: Widerspruch gegen die Verarbeitung Ihrer persönlichen Daten zu Marketingzwecken"
+        ]
+      },
+      "cookies": {
+        "title": "Cookies",
+        "body": "Unsere Website verwendet Cookies, um Ihre Browsererfahrung zu verbessern. Sie können die Cookie-Einstellungen über Ihre Browserpräferenzen steuern."
+      },
+      "changes": {
+        "title": "Änderungen dieser Richtlinie",
+        "body": "Wir können diese Datenschutzrichtlinie von Zeit zu Zeit aktualisieren. Wir werden Sie über wesentliche Änderungen informieren, indem wir die aktualisierte Richtlinie auf unserer Website veröffentlichen."
+      },
+      "contact": {
+        "title": "Kontaktieren Sie uns",
+        "body": "Wenn Sie Fragen oder Bedenken hinsichtlich dieser Datenschutzrichtlinie oder unserer Datenverarbeitungspraktiken haben, kontaktieren Sie uns bitte unter:",
+        "email": "E-Mail: contact@esgentics.com",
+        "address": "Adresse: ESGentics Pte. Ltd., [Ihre Singapore-Büroadresse], Singapur"
+      }
+    },
+    "last_updated": "Letzte Aktualisierung:",
+    "last_updated_date": "26. Februar 2026"
+  },
+  "terms_of_service": {
+    "hero": {
+      "title": "Nutzungsbedingungen",
+      "subtitle": "Bedingungen für die Nutzung unserer Website und Dienstleistungen."
+    },
+    "sections": {
+      "introduction": {
+        "title": "Einführung",
+        "body": "Diese Nutzungsbedingungen (\"Bedingungen\") regeln Ihre Nutzung der Website ESGentics.com (\"Website\") und der von ESGentics Pte. Ltd. (\"wir\", \"uns\", \"unser\") angebotenen Dienstleistungen. Indem Sie auf unsere Website zugreifen oder unsere Dienstleistungen nutzen, erklären Sie sich mit diesen Bedingungen einverstanden. Wenn Sie mit diesen Bedingungen nicht einverstanden sind, verwenden Sie unsere Website oder unsere Dienstleistungen bitte nicht."
+      },
+      "use_of_website": {
+        "title": "Nutzung der Website",
+        "body": "Sie dürfen unsere Website nur für rechtmäßige Zwecke nutzen. Sie verpflichten sich, nicht:",
+        "items": [
+          "Die Website auf eine Weise zu nutzen, die geltende Gesetze oder Vorschriften verletzt",
+          "Versuche zu unternehmen, unbefugten Zugang zu einem Teil der Website oder zu unseren Systemen zu erhalten",
+          "Die Funktionsfähigkeit der Website zu stören oder zu beeinträchtigen",
+          "Die Website zur Verteilung von Schadsoftware oder anderem schädlichen Inhalt zu verwenden",
+          "Die Website für betrügerische oder irreführende Zwecke zu verwenden"
+        ]
+      },
+      "intellectual_property": {
+        "title": "Geistiges Eigentum",
+        "body": "Alle Inhalte der Website, einschließlich Text, Grafiken, Logos, Bilder und Software, sind Eigentum von ESGentics Pte. Ltd. oder deren Lizenzgebern und sind durch geistiges Eigentum geschützt. Sie dürfen Inhalte nicht reproduzieren, verteilen, ändern oder abgeleitete Werke erstellen, ohne unsere vorherige schriftliche Zustimmung."
+      },
+      "services": {
+        "title": "Dienstleistungen",
+        "body": "Wir bieten intelligente Bauleistungen wie auf unserer Website beschrieben. Die spezifischen Bedingungen für jede Dienstleistung werden in einem separaten Vertrag zwischen Ihnen und uns festgelegt."
+      },
+      "limitation_of_liability": {
+        "title": "Haftungsbegrenzung",
+        "body": "In dem vom Gesetz maximal zulässigen Umfang haften ESGentics Pte. Ltd. nicht für indirekte, zufällige, besondere, Folgen- oder Strafschadenersatzansprüche, die sich aus oder in Verbindung mit Ihrer Nutzung der Website oder unserer Dienstleistungen ergeben. Unsere gesamte Haftung für Ansprüche, die sich aus oder in Verbindung mit diesen Bedingungen ergeben, beträgt höchstens den Betrag, den Sie für unsere Dienstleistungen gezahlt haben, sofern vorhanden."
+      },
+      "disclaimer_of_warranties": {
+        "title": "Garantiehinweis",
+        "body": "Die Website und unsere Dienstleistungen werden \"wie besehen\" und \"wie verfügbar\" ohne jegliche Garantie jeglicher Art, ausdrücklich oder implizit, bereitgestellt. Wir gewährleisten nicht, dass die Website fehlerfrei oder unterbrechungsfrei funktioniert oder dass Fehler behoben werden."
+      },
+      "indemnification": {
+        "title": "Schadensersatz",
+        "body": "Sie verpflichten sich, ESGentics Pte. Ltd. und deren Geschäftsführer, Direktoren, Mitarbeiter und Vertreter von und gegen alle Ansprüche, Haftungen, Schäden, Verluste und Ausgaben freizustellen, die sich aus oder in Verbindung mit Ihrer Nutzung der Website oder unserer Dienstleistungen oder Ihrer Verletzung dieser Bedingungen ergeben."
+      },
+      "governing_law": {
+        "title": "Anwendbares Recht",
+        "body": "Diese Bedingungen unterliegen den Gesetzen Singapurs und werden entsprechend interpretiert. Alle Streitigkeiten, die sich aus oder in Verbindung mit diesen Bedingungen ergeben, unterliegen der ausschließlichen Gerichtsbarkeit der Gerichte Singapurs."
+      },
+      "changes": {
+        "title": "Änderungen dieser Bedingungen",
+        "body": "Wir können diese Bedingungen von Zeit zu Zeit aktualisieren. Wir werden Sie über wesentliche Änderungen informieren, indem wir die aktualisierten Bedingungen auf unserer Website veröffentlichen. Ihre fortgesetzte Nutzung der Website oder unserer Dienstleistungen nach solchen Änderungen stellt Ihre Annahme der aktualisierten Bedingungen dar."
+      },
+      "contact": {
+        "title": "Kontaktieren Sie uns",
+        "body": "Wenn Sie Fragen oder Bedenken hinsichtlich dieser Bedingungen haben, kontaktieren Sie uns bitte unter:",
+        "email": "E-Mail: contact@esgentics.com",
+        "address": "Adresse: ESGentics Pte. Ltd., [Ihre Singapore-Büroadresse], Singapur"
+      }
+    },
+    "last_updated": "Letzte Aktualisierung:",
+    "last_updated_date": "26. Februar 2026"
+  },
+  "data_sovereignty_statement": {
+    "hero": {
+      "title": "Datensouveränitätserklärung",
+      "subtitle": "Unser Engagement für Datensouveränität und Compliance."
+    },
+    "sections": {
+      "introduction": {
+        "title": "Einführung",
+        "body": "ESGentics Pte. Ltd. (\"wir\", \"uns\", \"unser\") verpflichtet sich, die Datensouveränität zu respektieren und sich an die geltenden Datenschutzgesetze in allen Regionen zu halten, in denen wir tätig sind. Diese Datensouveränitätserklärung erläutert unseren Ansatz zur Datenresidenz und -schutz."
+      },
+      "data_residency": {
+        "title": "Datenresidenz",
+        "body": "Wir speichern und verarbeiten personenbezogene Daten und Projektdaten auf sicheren Servern in den folgenden Regionen:",
+        "items": [
+          "Singapur (für Operationen in Südostasien)",
+          "Europa (für europäische Operationen)",
+          "Nordamerika (für nordamerikanische Operationen)"
+        ],
+        "important": "Wichtig:",
+        "note": "Wir übertragen oder speichern keine Daten in Festlandchina. Alle Datenverarbeitung und -speicherung erfolgt in den oben aufgeführten Regionen."
+      },
+      "compliance": {
+        "title": "Compliance mit regionalen Gesetzen",
+        "body": "Wir halten uns an die folgenden regionalen Datenschutzgesetze:",
+        "items": [
+          "Allgemeine Datenschutzverordnung (DSGVO) in der Europäischen Union",
+          "Personal Data Protection Act (PDPA) in Singapur",
+          "Relevante Datenschutzgesetze in Nordamerika und im Nahen Osten"
+        ]
+      },
+      "data_transfer": {
+        "title": "Datentransfer",
+        "body": "Bei der Übertragung von Daten zwischen Regionen stellen wir sicher, dass angemessene Schutzmaßnahmen zur Datenbeschutzung vorhanden sind. Diese Schutzmaßnahmen können Folgendes umfassen:",
+        "items": [
+          "Standardvertragsklauseln (SCC) für Übertragungen an Regionen außerhalb der EU",
+          "Verschlüsselung von Daten während des Transports",
+          "Zugriffskontrollen und Authentifizierungsmechanismen"
+        ]
+      },
+      "data_security": {
+        "title": "Datensicherheit",
+        "body": "Wir implementieren robuste Sicherheitsmaßnahmen zum Schutz Ihrer Daten, einschließlich:",
+        "items": [
+          "Verschlüsselung von Daten im Ruhezustand und während des Transports",
+          "Zugriffskontrollen und Benutzerauthentifizierung",
+          "Regelmäßige Sicherheitsbewertungen und -audits",
+          "Vorgänge zur Reaktion auf Vorfälle",
+          "Schulung von Mitarbeitern zum Datenschutz"
+        ]
+      },
+      "user_rights": {
+        "title": "Ihre Rechte",
+        "body": "Je nach Region können Sie folgende Rechte hinsichtlich Ihrer persönlichen Daten haben:",
+        "items": [
+          "Recht auf Zugriff auf Ihre persönlichen Daten",
+          "Recht auf Berichtigung ungenauer Daten",
+          "Recht auf Löschung Ihrer Daten",
+          "Recht auf Einschränkung der Verarbeitung",
+          "Recht auf Datenportabilität",
+          "Recht auf Widerspruch gegen die Verarbeitung"
+        ]
+      },
+      "contact": {
+        "title": "Kontaktieren Sie uns",
+        "body": "Wenn Sie Fragen oder Bedenken hinsichtlich unserer Datensouveränitätspraktiken haben, kontaktieren Sie uns bitte unter:",
+        "email": "E-Mail: contact@esgentics.com",
+        "address": "Adresse: ESGentics Pte. Ltd., [Ihre Singapore-Büroadresse], Singapur"
+      }
+    },
+    "last_updated": "Letzte Aktualisierung:",
+    "last_updated_date": "26. Februar 2026"
+  },
+  "languages": {
+    "en": "English",
+    "fr": "Français",
+    "ar": "العربية",
+    "de": "Deutsch"
+  }
+}

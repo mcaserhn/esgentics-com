@@ -1,0 +1,212 @@
+"use client";
+import Link from 'next/link';
+import { motion } from 'framer-motion';
+import { useLanguage } from './components/LanguageProvider';
+
+export default function Home() {
+  const { lang, translations } = useLanguage();
+  return (
+    <div className="min-h-screen">
+      {/* Hero Section */}
+      <section className="hero bg-deep-blue text-white py-20 md:py-32">
+        <div className="container mx-auto px-4">
+          <div className="relative w-full h-96 md:h-96 rounded-lg overflow-hidden">
+            {/* 3D 全球AI网络概念图 */}
+            <img 
+              src="/images/renders/esgentics_render_R01_hero_web_1024x1024_v1.png" 
+              alt="Global AI Network Concept" 
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-r from-deep-blue/80 to-transparent flex items-center">
+              <div className="px-6 md:px-10 lg:px-16 max-w-3xl">
+                <motion.h1 
+                  className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-white leading-tight"
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.6 }}
+                >
+                  {translations?.home?.hero?.title || 'Intelligent Construction. Sustainable Legacy.'}
+                </motion.h1>
+                <motion.p 
+                  className="text-lg md:text-xl mb-8 text-gray-100 max-w-xl leading-relaxed"
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.6, delay: 0.2 }}
+                >
+                  {translations?.home?.hero?.subtitle || 'AI-driven turnkey engineering solutions powered by NVIDIA hardware. From concept to operation, we deliver intelligent construction projects across Southeast Asia, Europe, North America, and the Middle East.'}
+                </motion.p>
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.6, delay: 0.4 }}
+                >
+                  <Link href={lang === 'en' ? '/solutions' : `/${lang}/solutions`} className="btn-primary inline-block">
+                    {translations?.home?.hero?.cta || 'Explore Solutions'}
+                  </Link>
+                </motion.div>
+              </div>
+            </div>
+            <div className="absolute bottom-4 right-4 text-white text-sm bg-black bg-opacity-50 px-3 py-1 rounded">
+              Conceptual Simulation
+            </div>
+          </div>
+          <div className="mt-12 flex justify-center">
+            <div className="bg-gray-800 bg-opacity-50 px-6 py-3 rounded-full flex items-center space-x-3">
+              <div className="w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-white">
+                  <path d="M18 3v4a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V3"></path>
+                  <path d="M3 11h18"></path>
+                  <path d="M3 16h18"></path>
+                  <path d="M10 21h4"></path>
+                </svg>
+              </div>
+              <span className="text-sm text-gray-300">Computing Partner: NVIDIA</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Value Proposition Section */}
+      <section className="py-20 bg-white">
+        <div className="container mx-auto px-4">
+          <motion.div 
+            className="text-center mb-16"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+          >
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">{translations?.home?.value_prop?.title || 'From Alpha to Omega, Powered by AI.'}</h2>
+            <p className="text-lg text-dark-gray max-w-3xl mx-auto">
+              {translations?.home?.value_prop?.body || 'ESGentics delivers turnkey intelligent construction services. We integrate advanced AI algorithms, edge hardware, and autonomous agents to manage your project from conception to long-term operation.'}
+            </p>
+          </motion.div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {
+              [
+                {
+                  icon: (
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-primary-red">
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                      <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                    </svg>
+                  ),
+                  title: translations?.home?.features?.ai_algorithms?.title || "AI Algorithms",
+                  description: translations?.home?.features?.ai_algorithms?.description || "Advanced machine learning models optimize every aspect of the construction process."
+                },
+                {
+                  icon: (
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-primary-red">
+                      <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                      <line x1="8" y1="21" x2="16" y2="21"></line>
+                      <line x1="12" y1="17" x2="12" y2="21"></line>
+                    </svg>
+                  ),
+                  title: translations?.home?.features?.edge_hardware?.title || "Edge Hardware",
+                  description: translations?.home?.features?.edge_hardware?.description || "NVIDIA-powered computing at the edge for real-time decision making."
+                },
+                {
+                  icon: (
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-primary-red">
+                      <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                      <circle cx="9" cy="7" r="4"></circle>
+                      <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                      <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                    </svg>
+                  ),
+                  title: translations?.home?.features?.autonomous_agents?.title || "Autonomous Agents",
+                  description: translations?.home?.features?.autonomous_agents?.description || "Intelligent agents monitor and optimize operations 24/7."
+                }
+              ].map((item, index) => (
+                <motion.div 
+                  key={index}
+                  className="card bg-light-gray p-8 rounded-lg shadow-sm"
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.6, delay: index * 0.2 }}
+                >
+                  <div className="mb-6">{item.icon}</div>
+                  <h3 className="text-xl font-bold mb-4">{item.title}</h3>
+                  <p className="text-dark-gray">{item.description}</p>
+                </motion.div>
+              ))
+            }
+          </div>
+        </div>
+      </section>
+
+      {/* Trust Section */}
+      <section className="py-14 bg-light-gray">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-col md:flex-row items-center justify-between">
+            <motion.div 
+              className="md:w-1/2 mb-10 md:mb-0"
+              initial={{ opacity: 0, x: -20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+            >
+              <h3 className="text-2xl md:text-3xl font-bold mb-6">{translations?.home?.trust?.title || 'Global Standards. European Heritage.'}</h3>
+              <p className="text-lg text-dark-gray mb-8">
+                {translations?.home?.trust?.body || 'Headquartered in Singapore, backed by European capital. We bring precision engineering and long-term ESG compliance to every project.'}
+              </p>
+              <Link href={lang === 'en' ? '/about' : `/${lang}/about`} className="btn-primary inline-block">
+                {translations?.navigation?.about || 'Learn More'}
+              </Link>
+            </motion.div>
+            <motion.div 
+              className="md:w-1/2"
+              initial={{ opacity: 0, x: 20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+            >
+              {/* 国际化团队素材图占位 */}
+              <div className="w-full h-64 md:h-80 bg-gray-300 rounded-lg flex items-center justify-center">
+                <div className="text-center">
+                  <div className="w-24 h-24 mx-auto mb-4 border-4 border-primary-red rounded-full flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-primary-red">
+                      <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                      <circle cx="9" cy="7" r="4"></circle>
+                      <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                      <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                    </svg>
+                  </div>
+                  <p className="text-dark-gray">Global Team</p>
+                </div>
+              </div>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="py-14 bg-deep-blue text-white">
+        <div className="container mx-auto px-4 text-center">
+          <motion.h2 
+              className="text-3xl md:text-4xl font-bold mb-8"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+            >
+              {translations?.home?.cta?.title || 'Ready to start your intelligent construction project?'}
+            </motion.h2>
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+            >
+              <Link href={lang === 'en' ? '/contact' : `/${lang}/contact`} className="btn-primary inline-block">
+                {translations?.home?.cta?.cta || 'Get in Touch'}
+              </Link>
+            </motion.div>
+        </div>
+      </section>
+    </div>
+  );
+}
