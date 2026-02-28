@@ -162,7 +162,7 @@ export default function Contact() {
                     className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-red ${errors.message ? 'border-red-500' : 'border-medium-gray'}`}
                     {...register('message', { required: translations?.contact?.form?.errors?.message || 'Message is required' })}
                   ></textarea>
-                  {errors.message && <p className="text-red-500 text-sm mt-1">{errors.message.message || errors.message}</p>}
+                  {errors.message && <p className="text-red-500 text-sm mt-1">{typeof errors.message === 'string' ? errors.message : errors.message.message}</p>}
                 </div>
 
                 <div className="flex items-start">
