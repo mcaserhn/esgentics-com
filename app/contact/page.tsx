@@ -81,6 +81,10 @@ export default function Contact() {
                   <p className="text-dark-gray">{translations?.contact?.contact_info?.address || '[Your Singapore Office Address], Singapore.'}</p>
                 </div>
                 <div>
+                  <h3 className="text-xl font-bold mb-2">European Office</h3>
+                  <p className="text-dark-gray">{translations?.contact?.contact_info?.europe_address || '[Your Paris Office Address], France.'}</p>
+                </div>
+                <div>
                   <h3 className="text-xl font-bold mb-2">{translations?.contact?.contact_info?.email || 'Email'}</h3>
                   <p className="text-dark-gray">contact@esgentics.com</p>
                 </div>

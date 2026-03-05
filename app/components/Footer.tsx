@@ -75,7 +75,10 @@ export default function Footer() {
                 {translations?.footer?.company_name || 'ESGentics Pte. Ltd.'}
               </li>
               <li className="text-gray-300">
-                {translations?.footer?.location || 'Singapore'}
+                {translations?.footer?.address || '9 Raffles Place, Republic Plaza, Singapore 048619'}
+              </li>
+              <li className="text-gray-300">
+                {translations?.footer?.europe_address || '8 Rue Lemercier, 75017 Paris, France'}
               </li>
               <li className="text-gray-300">
                 {translations?.footer?.email || 'contact@esgentics.com'}

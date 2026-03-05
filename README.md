@@ -16,10 +16,12 @@ ESGentics.com is a website for a next-generation construction technology company
 
 ### Backend
 - **API Routes**: Next.js API Routes
-- **Form Submission**: Email sending + data storage (optional)
+- **Form Submission**: Email sending with Nodemailer
+- **Data Validation**: Server-side validation
 
 ### Deployment
-- **Hosting**: Vercel or AWS Amplify
+- **Hosting**: Azure App Service
+- **Runtime**: Node.js 20 LTS
 - **CDN**: Cloudflare Global (excluding mainland China nodes)
 - **SSL**: Let's Encrypt or commercial certificate
 - **Analytics**: Google Analytics 4
@@ -46,19 +48,35 @@ esgentics.com/
 │   │   └── page.tsx             # Terms of Service page
 │   ├── data-sovereignty-statement/
 │   │   └── page.tsx             # Data Sovereignty Statement page
+│   ├── api/
+│   │   ├── contact/
+│   │   │   └── route.ts         # Contact form API
+│   │   └── test/
+│   │       └── route.ts         # Health check API
+│   ├── components/
+│   │   ├── Header.tsx           # Header component
+│   │   ├── Footer.tsx           # Footer component
+│   │   ├── LanguageProvider.tsx # Language context provider
+│   │   └── LanguageSwitcher.tsx  # Language switcher component
+│   ├── lib/
+│   │   └── i18n.ts              # Internationalization utilities
 │   ├── layout.tsx               # Global layout
-│   └── components/
-│       ├── Header.tsx           # Header component
-│       ├── Footer.tsx           # Footer component
+├── locales/
+│   ├── en.json                  # English translations
+│   ├── fr.json                  # French translations
+│   ├── ar.json                  # Arabic translations
+│   └── de.json                  # German translations
 ├── public/
-│   ├── images/                  # Image resources
-│   └── fonts/                   # Font resources
+│   ├── images/
+│   │   └── renders/             # 3D render images
 ├── styles/
 │   ├── globals.css              # Global styles
-├── lib/
-│   └── utils.ts                 # Utility functions
+├── .github/
+│   └── workflows/
+│       └── azure-deploy.yml     # GitHub Actions deployment workflow
 ├── package.json
-└── README.md
+├── README.md
+└── README_Handover.md           # Project handover documentation
 ```
 
 ## Installation
@@ -82,25 +100,44 @@ esgentics.com/
 
 ## Deployment
 
-### Vercel Deployment
-1. Sign up for a Vercel account
-2. Connect your GitHub repository to Vercel
-3. Configure the project settings:
-   - Framework: Next.js
-   - Build Command: `npm run build`
-   - Output Directory: `.next`
-4. Deploy the project
-5. Configure custom domain (esgentics.com)
+### Azure App Service Deployment
+1. **Create Azure App Service**:
+   - Sign in to Azure Portal
+   - Create a new App Service
+   - Runtime stack: Node.js 20 LTS
+   - Operating system: Linux
 
-### AWS Amplify Deployment
-1. Sign in to the AWS Management Console
-2. Navigate to AWS Amplify
-3. Create a new app and connect your GitHub repository
-4. Configure the build settings:
-   - Build command: `npm run build`
-   - Publish directory: `.next/static`
-5. Deploy the app
-6. Configure custom domain (esgentics.com)
+2. **Configure GitHub Actions**:
+   - The project includes a GitHub Actions workflow (`/.github/workflows/azure-deploy.yml`)
+   - This workflow automatically builds and deploys the app when code is pushed to the main branch
+
+3. **Configure Environment Variables**:
+   - In Azure Portal, navigate to your App Service → Configuration → Application settings
+   - Add the following environment variables:
+     - `SMTP_USER`: Your email address for sending contact form submissions
+     - `SMTP_PASS`: Your email password or app password
+     - `NODE_ENV`: `production`
+
+4. **Configure Custom Domain**:
+   - In Azure Portal, navigate to your App Service → Custom domains
+   - Add your custom domain (esgentics.com)
+   - Configure DNS records
+
+5. **SSL Certificate**:
+   - In Azure Portal, navigate to your App Service → TLS/SSL settings
+   - Configure SSL certificate (recommended: use Azure's free managed certificate)
+
+### Local Development
+1. **Prerequisites**:
+   - Node.js 18.0.0 or later
+   - npm 9.0.0 or later
+
+2. **Installation**:
+   - Clone the repository
+   - Navigate to the project directory
+   - Install dependencies: `npm install`
+   - Start the development server: `npm run dev`
+   - Open your browser and visit `http://localhost:3000`
 
 ## SEO Optimization
 
@@ -158,6 +195,27 @@ The website includes the following SEO optimizations:
 For questions or support, please contact:
 - Email: contact@esgentics.com
 - Address: ESGentics Pte. Ltd., [Your Singapore Office Address], Singapore
+
+## Project Status
+
+### Completed Features
+- ✅ Frontend development with Next.js 14
+- ✅ Multi-language support (English, French, Arabic, German)
+- ✅ Responsive design for all devices
+- ✅ Contact form with email sending functionality
+- ✅ API routes for form submission
+- ✅ GitHub Actions CI/CD pipeline
+- ✅ Azure App Service deployment
+- ✅ Animation and interactive elements
+- ✅ 3D render images integration
+
+### Pending Features
+- ⏳ Custom domain configuration
+- ⏳ SSL certificate setup
+- ⏳ Production SMTP email configuration
+- ⏳ Analytics integration
+- ⏳ Performance optimization
+- ⏳ Additional content pages
 
 ## License
 

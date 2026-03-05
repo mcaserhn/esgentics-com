@@ -141,7 +141,8 @@
     "contact_info": {
       "title": "Contact Information",
       "headquarters": "Headquarters",
-      "address": "[Your Singapore Office Address], Singapore.",
+      "address": "9 Raffles Place, Republic Plaza, Singapore 048619",
+      "europe_address": "8 Rue Lemercier, 75017 Paris, France",
       "email": "Email",
       "regions": "Regions",
       "regions_text": "Sales inquiries for NA, EU, ME, and SE Asia welcome.",
@@ -192,6 +193,8 @@
     "contact": "Contact",
     "company_name": "ESGentics Pte. Ltd.",
     "location": "Singapore",
+    "address": "9 Raffles Place, Republic Plaza, Singapore 048619",
+    "europe_address": "8 Rue Lemercier, 75017 Paris, France",
     "email": "contact@esgentics.com"
   },
   "compliance": {
@@ -360,7 +363,7 @@
         "title": "Contact Us",
         "body": "If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at:",
         "email": "Email: contact@esgentics.com",
-        "address": "Address: ESGentics Pte. Ltd., [Your Singapore Office Address], Singapore"
+        "address": "Address: ESGentics Pte. Ltd., 9 Raffles Place, Republic Plaza, Singapore 048619"
       }
     },
     "last_updated": "Last Updated:",
@@ -419,7 +422,7 @@
         "title": "Contact Us",
         "body": "If you have any questions or concerns about these Terms, please contact us at:",
         "email": "Email: contact@esgentics.com",
-        "address": "Address: ESGentics Pte. Ltd., [Your Singapore Office Address], Singapore"
+        "address": "Address: ESGentics Pte. Ltd., 9 Raffles Place, Republic Plaza, Singapore 048619"
       }
     },
     "last_updated": "Last Updated:",
@@ -491,7 +494,7 @@
         "title": "Contact Us",
         "body": "If you have any questions or concerns about our data sovereignty practices, please contact us at:",
         "email": "Email: contact@esgentics.com",
-        "address": "Address: ESGentics Pte. Ltd., [Your Singapore Office Address], Singapore"
+        "address": "Address: ESGentics Pte. Ltd., 9 Raffles Place, Republic Plaza, Singapore 048619"
       }
     },
     "last_updated": "Last Updated:",
