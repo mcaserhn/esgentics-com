@@ -1,0 +1,119 @@
+Aden SPG
+General introduction:
+Aden SPG is a next-generation construction technology company headquartered in Singapore Dedicated to managing, digitalizing, and optimizing the decarbonization of the built environment through its portfolio of AI digital twin platforms, building data solutions, and industrial real estate expertise. 
+We serve clients across Southeast Asia, North America, Europe, and the Middle East, spanning a diverse range of sectors including:
+Automotives & transportation | Commercial buildings | Data centers | Healthcare, pharma & medtech | Industrial parks | Mining, energy & infrastructure | New energies | Retail & entertainment | Semi-conductor manufacturing | Schools & campuses
+Supporting private sector modernization & net-zero in +80 cities.
+
+Future-proof your assets with AI-driven turnkey engineering
+From concept to operation, we integrate NVIDIA-powered hardware with intelligent digital twin platforms to deliver construction projects that are smarter, faster, and built for net-zero.
+How we get there:
+AI-native design & engineering – Leverage digital twins and generative AI from the earliest planning stages to optimize performance before breaking ground
+NVIDIA-powered intelligence – Deploy edge computing and real-time analytics for autonomous building operations and predictive maintenance
+Turnkey delivery, full accountability – One integrated team managing design, construction, and long-term operations across borders
+Resilient by design – Engineer for climate adaptation, energy regeneration, and future-ready virtual power plant integration
+
+Technology
+The Technology Behind Intelligent Assets
+Advanced AI agents and NVIDIA-powered hardware working together to revolutionize construction.
+Hardware Layer: NVIDIA-Powered Edge Intelligence
+We leverage NVIDIA's robust hardware ecosystem to ensure high-performance computing at the edge. Reliable, scalable, and built for harsh construction environments.
+•	High-performance edge computing – Real-time AI processing on-site
+•	Scalable architecture – From single sensors to enterprise-wide deployments
+•	Energy-efficient operation – Maximize intelligence while minimizing power consumption
+Platform Layer: Unified Real Estate Data OS
+Unlike siloed solutions that waste resources, our platform centralizes every layer of building and portfolio operations into a single source of truth.
+•	Hardware/network agnostic, one integrated stack
+•	Embedded GenAI that learns continuously
+•	Cross-data analysis & unified workflows
+Spatial Intelligence Layer: Built on OpenUSD + NVIDIA Omniverse
+Our 3D Engine creates a standard language for understanding buildings, equipment, and the space between them—enabling AI agents to navigate and act within physical environments.
+•	Lifetime modeling – Digital twins that evolve from design through decades of operation
+•	Spatial analytics – AI simulation of assets and human activity within them
+•	Seamless adaptation – Models update automatically, no recurring design fees
+•	AI Engine: Proprietary Algorithms for Autonomous Action
+AI Engine: Proprietary Algorithms for Autonomous Action
+Our AI layer is where data becomes intelligence, and intelligence becomes action.
+•	24/7 asset surveillance, anomaly detection, performance tracking
+•	Decision Agents	Real-time optimization of HVAC, lighting, and energy systems
+•	Failure forecasting, maintenance scheduling, risk assessment
+•	Dynamic allocation of labor, materials, and energy across sites
+
+Solutions
+AI-Driven Engineering Solutions for Every Asset Type
+From concept to operation, we deliver intelligent turnkey solutions across the entire built environment. Our sector-specific expertise ensures that every project—whether a logistics hub or a luxury hotel—is optimized for performance, sustainability, and ROI. 
+Tailored for every asset class
+Commercial Real Estate
+•	Portfolio-wide benchmarking
+•	24/7 asset performance monitoring
+•	Tenant comfort optimization
+Logistics & Warehousing
+•	PV management
+•	Indoor environmental quality monitoring
+•	HVAC optimization for large spaces
+Manufacturing
+•	Systems integration
+•	Energy monitoring
+•	CCTV and access control
+Retail
+•	Multi-site portfolio management
+•	Energy optimization across locations
+•	Consistent customer experience
+Hospitality
+•	Asset tracking
+•	Guest comfort optimization
+•	Operational efficiency
+Infrastructure
+•	Railway stations, R&D centers
+•	Full BMS integration
+•	Digitalized operation & maintenance
+Featured Client Success Stories
+IKEA (70 stores including 4 shopping malls) | 4.6 Million m²
+Energy monitoring and HVAC optimization across their retail portfolio.
+DB Schenker | 54,000 m²
+PV management, IEQ and energy monitoring, digitalized operation and management.
+The Standard High Line Hotel | 20,000 m²
+Asset tracking, digitalized operation & maintenance, HVAC optimization.
+Saint-Gobain R&D Center | 15,000 m²
+IAQ and energy monitoring, retrofit simulation, HVAC optimization.
+
+About
+Our Mission
+Digitalize, Optimize, and Future-Proof Buildings & Cities
+We believe the buildings of tomorrow must be:
+•	Intelligent: Learning and adapting in real-time
+•	Sustainable: Meeting net-zero targets without compromise
+•	Resilient: Maintaining value through regulatory and market changes
+•	Human-Centric: Optimizing comfort and well-being
+What Makes Us Different 
+Engineering + AI + NVIDIA Hardware
+Unlike pure software providers or traditional engineering firms, we bridge the gap between construction and intelligence.
+Our Technology Partner
+Powered by NVIDIA
+As a proud member of the NVIDIA Partner Network, we integrate the world's most advanced computing hardware into our engineering solutions.
+•	NVIDIA's edge computing and GPU technology enables:
+•	Real-time AI processing on-site
+•	Computer vision for construction monitoring
+•	Digital twin visualization
+•	Predictive analytics at scale
+The AI Platform for Sustainable Buildings
+Akila is our core digital twin and AI platform—a unified real estate data system that turns building data into the fuel for portfolio-level AI, automated control, and efficiency.
+Key Platform Features:
+•	Centralized Single Source of Truth
+•	Hardware/Network Agnostic
+•	Embedded GenAI
+•	Cross-Data Analysis & Cross-App Workflows
+•	Unified, User-Friendly UI/UX
+Deployed across 15 million square meters globally.
+Trusted By Industry Leaders (logo wall)
+Commercial: Brookfield Properties, REinvent Ventures, CCH Asset
+Retail: IKEA
+Manufacturing: Harman, Ariston, Gerflor
+Logistics: DB Schenker, CEVA Logistics
+Infrastructure: SNCF
+Hospitality: The Standard High Line
+Industrial: Saint-Gobain, Arkema
+
+
+
+

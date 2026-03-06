@@ -7,6 +7,7 @@
     "home": "Home",
     "technology": "Technology",
     "solutions": "Solutions",
+    "caseStudies": "Case Studies",
     "compliance": "Compliance",
     "about": "About Us",
     "contact": "Contact",
@@ -499,6 +500,17 @@
     },
     "last_updated": "Last Updated:",
     "last_updated_date": "February 26, 2026"
+  },
+  "caseStudies": {
+    "hero": {
+      "title": "Client Success Stories",
+      "subtitle": "Discover how our AI-driven solutions have transformed projects across different sectors."
+    },
+    "cta": {
+      "title": "Ready to transform your project?",
+      "body": "Our team of experts is ready to help you implement intelligent construction solutions tailored to your specific needs.",
+      "cta": "Get in Touch"
+    }
   },
   "languages": {
     "en": "English",

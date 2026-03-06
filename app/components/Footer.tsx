@@ -35,6 +35,11 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href={lang === 'en' ? '/case-studies' : `/${lang}/case-studies`} className="text-gray-300 hover:text-white transition-colors">
+                  {translations?.navigation?.caseStudies || 'Case Studies'}
+                </Link>
+              </li>
+              <li>
                 <Link href={lang === 'en' ? '/about' : `/${lang}/about`} className="text-gray-300 hover:text-white transition-colors">
                   {translations?.navigation?.about || 'About Us'}
                 </Link>

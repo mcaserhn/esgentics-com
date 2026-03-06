@@ -194,7 +194,8 @@ The website includes the following SEO optimizations:
 
 For questions or support, please contact:
 - Email: contact@esgentics.com
-- Address: ESGentics Pte. Ltd., [Your Singapore Office Address], Singapore
+- Singapore Office: ESGentics Pte. Ltd., 9 Raffles Place, Republic Plaza, Singapore 048619
+- European Office: 8 Rue Lemercier, 75017 Paris, France
 
 ## Project Status
 
