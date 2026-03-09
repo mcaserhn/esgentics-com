@@ -53,7 +53,10 @@ export default function Header() {
         <div className="flex justify-between items-center">
           {/* Logo 居左 */}
           <Link href={lang === 'en' ? '/' : `/${lang}/`} className="flex items-center flex-shrink-0 z-1001">
-            <span className="text-2xl font-bold">ESGentics</span>
+            <div>
+              <span className="text-2xl font-bold">adenexus</span>
+              <div className="text-xs text-gray-300 mt-1">owned by Aden SGP</div>
+            </div>
           </Link>
 
           {/* 中间导航菜单（绝对居中） */}
