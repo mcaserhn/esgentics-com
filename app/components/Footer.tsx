@@ -108,9 +108,6 @@ export default function Footer() {
               </a>
             </div>
           </div>
-          <p className="text-gray-400 text-sm mt-4">
-            {translations?.footer?.data_statement || 'Servers hosted in Singapore/AWS Global. No data residency in mainland China.'}
-          </p>
         </div>
       </div>
     </footer>
