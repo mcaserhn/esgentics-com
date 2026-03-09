@@ -66,7 +66,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Value Proposition Section */}
+      {/* Services Section */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <motion.div 
@@ -76,70 +76,78 @@ export default function Home() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">{translations?.home?.value_prop?.title || 'From Alpha to Omega, Powered by AI.'}</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">{translations?.home?.services?.title || 'Our Services'}</h2>
+            <p className="text-lg text-dark-gray max-w-3xl mx-auto mb-8">
+              {translations?.home?.services?.subtitle || 'We serve clients across Southeast Asia, North America, Europe, and the Middle East, spanning a diverse range of sectors:'}
+            </p>
+            <div className="flex flex-wrap justify-center gap-4">
+              {translations?.home?.services?.sectors?.map((sector, index) => (
+                <motion.span 
+                  key={index}
+                  className="bg-light-gray px-4 py-2 rounded-full text-sm font-medium"
+                  initial={{ opacity: 0, y: 10 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.4, delay: index * 0.1 }}
+                >
+                  {sector}
+                </motion.span>
+              ))}
+            </div>
+            <p className="text-lg text-dark-gray mt-8">
+              {translations?.home?.services?.cities || 'Supporting private sector modernization & net-zero in +80 cities.'}
+            </p>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Value Proposition Section */}
+      <section className="py-20 bg-light-gray">
+        <div className="container mx-auto px-4">
+          <motion.div 
+            className="text-center mb-16"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+          >
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">{translations?.home?.value_prop?.title || 'Future-proof your assets with AI-driven turnkey engineering'}</h2>
             <p className="text-lg text-dark-gray max-w-3xl mx-auto">
-              {translations?.home?.value_prop?.body || 'ESGentics delivers turnkey intelligent construction services. We integrate advanced AI algorithms, edge hardware, and autonomous agents to manage your project from conception to long-term operation.'}
+              {translations?.home?.value_prop?.body || 'From concept to operation, we integrate NVIDIA-powered hardware with intelligent digital twin platforms to deliver construction projects that are smarter, faster, and built for net-zero.'}
             </p>
           </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {
-              [
-                {
-                  icon: (
-                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-primary-red">
-                      <circle cx="12" cy="12" r="10"></circle>
-                      <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
-                      <line x1="12" y1="17" x2="12.01" y2="17"></line>
-                    </svg>
-                  ),
-                  title: translations?.home?.features?.ai_algorithms?.title || "AI Algorithms",
-                  description: translations?.home?.features?.ai_algorithms?.description || "Advanced machine learning models optimize every aspect of the construction process."
-                },
-                {
-                  icon: (
-                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-primary-red">
-                      <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
-                      <line x1="8" y1="21" x2="16" y2="21"></line>
-                      <line x1="12" y1="17" x2="12" y2="21"></line>
-                    </svg>
-                  ),
-                  title: translations?.home?.features?.edge_hardware?.title || "Edge Hardware",
-                  description: translations?.home?.features?.edge_hardware?.description || "NVIDIA-powered computing at the edge for real-time decision making."
-                },
-                {
-                  icon: (
-                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-primary-red">
-                      <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-                      <circle cx="9" cy="7" r="4"></circle>
-                      <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-                      <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-                    </svg>
-                  ),
-                  title: translations?.home?.features?.autonomous_agents?.title || "Autonomous Agents",
-                  description: translations?.home?.features?.autonomous_agents?.description || "Intelligent agents monitor and optimize operations 24/7."
-                }
-              ].map((item, index) => (
-                <motion.div 
+          <motion.div 
+            className="max-w-3xl mx-auto"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+          >
+            <h3 className="text-2xl font-bold mb-6">{translations?.home?.how_we_get_there?.title || 'How we get there:'}</h3>
+            <ul className="space-y-6">
+              {translations?.home?.how_we_get_there?.items?.map((item, index) => (
+                <motion.li 
                   key={index}
-                  className="card bg-light-gray p-8 rounded-lg shadow-sm"
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
+                  className="flex items-start"
+                  initial={{ opacity: 0, x: -20 }}
+                  whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
-                  transition={{ duration: 0.6, delay: index * 0.2 }}
+                  transition={{ duration: 0.4, delay: index * 0.1 }}
                 >
-                  <div className="mb-6">{item.icon}</div>
-                  <h3 className="text-xl font-bold mb-4">{item.title}</h3>
-                  <p className="text-dark-gray">{item.description}</p>
-                </motion.div>
-              ))
-            }
-          </div>
+                  <div className="flex-shrink-0 w-6 h-6 rounded-full bg-primary-red flex items-center justify-center text-white font-bold text-sm mr-4 mt-1">
+                    {index + 1}
+                  </div>
+                  <p className="text-dark-gray">{item}</p>
+                </motion.li>
+              ))}
+            </ul>
+          </motion.div>
         </div>
       </section>
 
       {/* Trust Section */}
-      <section className="py-14 bg-light-gray">
+      <section className="py-14 bg-white">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center justify-between">
             <motion.div 
