@@ -7,10 +7,22 @@
     "home": "Home",
     "technology": "Technologie",
     "solutions": "Lösungen",
+    "caseStudies": "Fallstudien",
     "compliance": "Compliance",
     "about": "Über Uns",
     "contact": "Kontakt",
     "cta_primary": "Lösungen erkunden"
+  },
+  "caseStudies": {
+    "hero": {
+      "title": "Erfolgsgeschichten",
+      "subtitle": "Entdecken Sie, wie unsere KI-gesteuerten Lösungen Projekte in verschiedenen Branchen transformiert haben."
+    },
+    "cta": {
+      "title": "Bereit, Ihr Projekt zu transformieren?",
+      "body": "Unser Expertenteam steht bereit, Ihnen zu helfen, intelligente Baulösungen zu implementieren, die auf Ihre spezifischen Bedürfnisse zugeschnitten sind.",
+      "cta": "Kontakt aufnehmen"
+    }
   },
   "home": {
     "hero": {

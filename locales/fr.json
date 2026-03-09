@@ -7,38 +7,62 @@
     "home": "Accueil",
     "technology": "Technologie",
     "solutions": "Solutions",
+    "caseStudies": "Études de Cas",
     "compliance": "Conformité",
     "about": "À Propos",
     "contact": "Contact",
     "cta_primary": "Explorer les Solutions"
   },
+  "caseStudies": {
+    "hero": {
+      "title": "Réussites Clients",
+      "subtitle": "Découvrez comment nos solutions pilotées par l'IA ont transformé des projets dans différents secteurs."
+    },
+    "cta": {
+      "title": "Prêt à transformer votre projet ?",
+      "body": "Notre équipe d'experts est prête à vous aider à mettre en place des solutions de construction intelligentes adaptées à vos besoins spécifiques.",
+      "cta": "Contactez-nous"
+    }
+  },
   "home": {
     "hero": {
-      "title": "Construction Intelligente. Héritage Durable.",
-      "subtitle": "Solutions d'ingénierie clé en main pilotées par l'IA, alimentées par le matériel NVIDIA. Du concept à l'exploitation, nous réalisons des projets de construction intelligents en Asie du Sud-Est, en Europe, en Amérique du Nord et au Moyen-Orient.",
+      "title": "Aden SPG",
+      "subtitle": "Une entreprise de technologie de construction de nouvelle génération dont le siège social est à Singapour, dédiée à la gestion, à la numérisation et à l'optimisation de la décarbonation de l'environnement bâti grâce à son portefeuille de plateformes de jumeaux numériques IA, de solutions de données de construction et d'expertise en immobilier industriel.",
       "cta": "Explorer les Solutions"
     },
-    "value_prop": {
-      "title": "De Alpha à Oméga, Propulsé par l'IA.",
-      "body": "ESGentics fournit des services de construction intelligente clés en main. Nous intégrons des algorithmes d'IA avancés, du matériel edge computing et des agents autonomes pour gérer votre projet de la conception à l'exploitation à long terme."
+    "services": {
+      "title": "Nos Services",
+      "subtitle": "Nous servons des clients en Asie du Sud-Est, en Amérique du Nord, en Europe et au Moyen-Orient, couvrant une gamme diversifiée de secteurs :",
+      "sectors": [
+        "Automobiles et transports",
+        "Bâtiments commerciaux",
+        "Centres de données",
+        "Santé, pharmacie et medtech",
+        "Parcs industriels",
+        "Mines, énergie et infrastructure",
+        "Nouvelles énergies",
+        "Retail et divertissement",
+        "Fabrication de semi-conducteurs",
+        "Écoles et campus"
+      ],
+      "cities": "Prise en charge de la modernisation du secteur privé et de l'objectif zéro net dans +80 villes."
     },
-    "features": {
-      "ai_algorithms": {
-        "title": "Algorithmes d'IA",
-        "description": "Des modèles d'apprentissage automatique avancés optimisent chaque aspect du processus de construction."
-      },
-      "edge_hardware": {
-        "title": "Matériel Edge",
-        "description": "Calcul au niveau de la périphérie alimenté par NVIDIA pour une prise de décision en temps réel."
-      },
-      "autonomous_agents": {
-        "title": "Agents Autonomes",
-        "description": "Des agents intelligents surveillent et optimisent les opérations 24h/24 et 7j/7."
-      }
+    "value_prop": {
+      "title": "Protégez vos actifs avec une ingénierie clé en main pilotée par l'IA",
+      "body": "Du concept à l'exploitation, nous intégrons du matériel alimenté par NVIDIA avec des plateformes de jumeaux numériques intelligentes pour fournir des projets de construction plus intelligents, plus rapides et construits pour l'objectif zéro net."
+    },
+    "how_we_get_there": {
+      "title": "Comment nous y arrivons :",
+      "items": [
+        "Conception et ingénierie native à l'IA – Tirer parti des jumeaux numériques et de l'IA générative dès les premières étapes de planification pour optimiser les performances avant de commencer les travaux",
+        "Intelligence alimentée par NVIDIA – Déployer l'informatique en périphérie et l'analyse en temps réel pour des opérations de bâtiment autonomes et une maintenance prédictive",
+        "Livraison clé en main, responsabilité totale – Une équipe intégrée gérant la conception, la construction et les opérations à long terme à travers les frontières",
+        "Résilience par conception – Ingénierie pour l'adaptation au climat, la régénération énergétique et l'intégration future de centrales électriques virtuelles"
+      ]
     },
     "trust": {
-      "title": "Normes Mondiales. Héritage Européen.",
-      "body": "Siège social à Singapour, soutenu par des capitaux européens. Nous apportons une ingénierie de précision et une conformité ESG à long terme à chaque projet."
+      "title": "Normes Mondiales. Hub à Singapour.",
+      "body": "Siège social à Singapour, nous apportons une ingénierie de précision et une conformité ESG à long terme à chaque projet."
     },
     "cta": {
       "title": "Prêt à démarrer votre projet de construction intelligente ?",
@@ -47,27 +71,44 @@
   },
   "technology": {
     "hero": {
-      "title": "La Technologie derrière la Construction.",
+      "title": "La Technologie derrière les Actifs Intelligents",
       "subtitle": "Des agents IA avancés et du matériel propulsé par NVIDIA travaillant ensemble pour révolutionner la construction."
     },
-    "ai_agents": {
-      "title": "Agents IA Autonomes.",
-      "body": "Nos algorithmes propriétaires déploient des agents intelligents qui surveillent, décident et optimisent les processus de construction en temps réel. Réduisant les erreurs humaines et maximisant l'efficacité.",
-      "features": [
-        "Surveillance et analyse en temps réel",
-        "Prise de décision autonome",
-        "Maintenance prédictive",
-        "Allocation optimisée des ressources"
-      ]
-    },
-    "hardware": {
-      "title": "Propulsé par l'Edge Computing NVIDIA.",
+    "hardware_layer": {
+      "title": "Couche Matérielle : Intelligence de Bord Propulsée par NVIDIA",
       "body": "Nous tirons parti de l'écosystème matériel robuste de NVIDIA pour garantir un calcul haute performance en périphérie. Fiable, évolutif et conçu pour les environnements de construction difficiles.",
       "features": [
-        "Calcul haute performance en périphérie",
-        "Rugosité pour les chantiers de construction",
-        "Architecture évolutive",
-        "Fonctionnement économe en énergie"
+        "Calcul haute performance en périphérie – Traitement IA en temps réel sur site",
+        "Architecture évolutive – De capteurs individuels à déploiements à l'échelle de l'entreprise",
+        "Fonctionnement économe en énergie – Maximiser l'intelligence tout en minimisant la consommation d'énergie"
+      ]
+    },
+    "platform_layer": {
+      "title": "Couche Plateforme : Système d'Exploitation Unifié pour les Données Immobilières",
+      "body": "Contrairement aux solutions cloisonnées qui gaspillent des ressources, notre plateforme centralise chaque couche des opérations de bâtiment et de portefeuille en une seule source de vérité.",
+      "features": [
+        "Indépendant du matériel et du réseau, une pile intégrée",
+        "GenAI intégré qui apprend continuellement",
+        "Analyse transversale des données et workflows unifiés"
+      ]
+    },
+    "spatial_intelligence_layer": {
+      "title": "Couche Intelligence Spatiale : Basée sur OpenUSD + NVIDIA Omniverse",
+      "body": "Notre moteur 3D crée un langage standard pour comprendre les bâtiments, l'équipement et l'espace qui les sépare — permettant aux agents IA de naviguer et d'agir dans des environnements physiques.",
+      "features": [
+        "Modélisation à vie – Jumeaux numériques qui évoluent de la conception à travers des décennies d'exploitation",
+        "Analytique spatiale – Simulation IA d'actifs et d'activités humaines au sein d'eux",
+        "Adaptation fluide – Les modèles se mettent à jour automatiquement, pas de frais de conception récurrents"
+      ]
+    },
+    "ai_engine": {
+      "title": "Moteur IA : Algorithmes Propriétaires pour une Action Autonome",
+      "body": "Notre couche IA est là où les données deviennent intelligence, et l'intelligence devient action.",
+      "features": [
+        "Surveillance 24/7 des actifs, détection d'anomalies, suivi des performances",
+        "Agents de décision Optimisation en temps réel des systèmes HVAC, d'éclairage et d'énergie",
+        "Prévision de défaillance, planification de maintenance, évaluation des risques",
+        "Allocation dynamique de main-d'œuvre, de matériaux et d'énergie sur plusieurs sites"
       ]
     },
     "nvidia_partner": {
@@ -82,50 +123,87 @@
   },
   "solutions": {
     "hero": {
-      "title": "Solutions Intelligentes de A à Z.",
-      "subtitle": "Du design à l'exploitation ESG à long terme, nous fournissons des solutions de construction intelligente clé en main."
+      "title": "Solutions d'Ingénierie Pilotées par l'IA pour Tous les Types d'Actifs",
+      "subtitle": "Du concept à l'exploitation, nous fournissons des solutions clé en main intelligentes à travers l'ensemble de l'environnement bâti. Notre expertise sectorielle garantit que chaque projet — qu'il s'agisse d'un centre logistique ou d'un hôtel de luxe — est optimisé pour les performances, la durabilité et le retour sur investissement."
     },
-    "turnkey": {
-      "title": "Ingénierie Clé en Main de A à Z.",
-      "body": "Nous nous occupons de tout. Design, approvisionnement, construction et mise en service. Un contrat, une responsabilité, zéro tracas.",
-      "features": [
-        "Conception et planification conceptuelle",
-        "Approvisionnement et gestion de la chaîne d'approvisionnement",
-        "Construction et installation",
-        "Mise en service et remise"
-      ]
-    },
-    "operations": {
-      "title": "Exploitation à Long Terme & ESG.",
-      "body": "La construction n'est que le début. Nos agents IA continuent de surveiller la santé du bâtiment, la consommation d'énergie et l'empreinte carbone tout au long du cycle de vie de l'actif.",
-      "features": [
-        "Surveillance en temps réel des performances du bâtiment",
-        "Optimisation de la consommation d'énergie",
-        "Suivi de l'empreinte carbone",
-        "Planification de maintenance prédictive"
-      ]
-    },
-    "conceptual_showcase": {
-      "title": "Présentation Conceptuelle.",
-      "body": "Découvrez nos conceptions conceptuelles qui démontrent les capacités de nos solutions de construction intelligente.",
-      "projects": [
+    "asset_classes": {
+      "title": "Adapté à chaque classe d'actifs",
+      "classes": [
         {
-          "title": "Smart Hub - Concept Asie du Sud-Est",
-          "description": "Centre commercial intelligent avec systèmes d'IA intégrés pour des opérations optimales.",
-          "region": "Asie du Sud-Est"
+          "name": "Immobilier Commercial",
+          "features": [
+            "Benchmarking à l'échelle du portefeuille",
+            "Surveillance 24/7 des performances des actifs",
+            "Optimisation du confort des locataires"
+          ]
         },
         {
-          "title": "Eco-Plant - Concept Norme Européenne",
-          "description": "Usine de fabrication durable avec empreinte carbone zéro et efficacité pilotée par l'IA.",
-          "region": "Européen"
+          "name": "Logistique et Entrepôts",
+          "features": [
+            "Gestion des panneaux solaires",
+            "Surveillance de la qualité environnementale intérieure",
+            "Optimisation HVAC pour les grands espaces"
+          ]
         },
         {
-          "title": "Data Nexus - Concept Moyen-Orient",
-          "description": "Centre de données de pointe avec systèmes avancés de refroidissement et de gestion de l'énergie.",
-          "region": "Moyen-Orient"
+          "name": "Fabrication",
+          "features": [
+            "Intégration des systèmes",
+            "Surveillance de l'énergie",
+            "CCTV et contrôle d'accès"
+          ]
+        },
+        {
+          "name": "Retail",
+          "features": [
+            "Gestion de portefeuille multi-sites",
+            "Optimisation énergétique à travers les lieux",
+            "Expérience client cohérente"
+          ]
+        },
+        {
+          "name": "Hôtellerie",
+          "features": [
+            "Suivi des actifs",
+            "Optimisation du confort des clients",
+            "Efficacité opérationnelle"
+          ]
+        },
+        {
+          "name": "Infrastructure",
+          "features": [
+            "Gares ferroviaires, centres de R&D",
+            "Intégration complète du BMS",
+            "Exploitation et maintenance digitalisées"
+          ]
         }
-      ],
-      "disclaimer": "*Toutes les visualisations sont des simulations conceptuelles pour la démonstration des capacités"
+      ]
+    },
+    "case_studies": {
+      "title": "Réussites Clients en Vedette",
+      "cases": [
+        {
+          "name": "IKEA",
+          "details": "70 magasins dont 4 centres commerciaux",
+          "size": "4,6 Millions de m²",
+          "description": "Surveillance de l'énergie et optimisation HVAC à travers leur portefeuille de vente au détail."
+        },
+        {
+          "name": "DB Schenker",
+          "size": "54 000 m²",
+          "description": "Gestion des panneaux solaires, surveillance IEQ et énergie, exploitation et gestion digitalisées."
+        },
+        {
+          "name": "The Standard High Line Hotel",
+          "size": "20 000 m²",
+          "description": "Suivi des actifs, exploitation et maintenance digitalisées, optimisation HVAC."
+        },
+        {
+          "name": "Saint-Gobain R&D Center",
+          "size": "15 000 m²",
+          "description": "Surveillance IAQ et énergie, simulation de rénovation, optimisation HVAC."
+        }
+      ]
     },
     "cta": {
       "title": "Prêt à transformer votre projet de construction ?",
@@ -235,50 +313,77 @@
   },
   "about": {
     "hero": {
-      "title": "Construire la Confiance au-delà des Frontières.",
-      "subtitle": "Une entreprise de technologie de construction de nouvelle génération avec une portée mondiale et un héritage européen."
+      "title": "À Propos d'Aden SPG",
+      "subtitle": "Une entreprise de technologie de construction de nouvelle génération dédiée à la gestion, à la numérisation et à l'optimisation de la décarbonation de l'environnement bâti."
     },
-    "who_we_are": {
-      "title": "Hub à Singapour. Portée Mondiale.",
-      "body": "ESGentics est une entreprise de technologie de construction de nouvelle génération dont le siège social est à Singapour. Nous servons des clients en Asie du Sud-Est, en Amérique du Nord, en Europe et au Moyen-Orient.",
-      "features": [
-        "Siège social à Singapour",
-        "Présence mondiale sur les marchés clés",
-        "Équipe multilingue d'experts",
-        "Connaissances locales avec expertise mondiale"
-      ],
-      "map_title": "Carte de Présence Mondiale",
-      "map_subtitle": "Mise en évidence : SG/NA/EU/ME"
-    },
-    "heritage": {
-      "title": "ADN de l'Ingénierie Européenne.",
-      "body": "Soutenue par des capitaux européens, nous héritons d'une tradition de précision, de rationalité et de pensée à long terme. Nous croyons en la construction d'actifs qui durent des générations, pas seulement des trimestres.",
-      "features": [
-        "Ingénierie de précision européenne",
-        "Pensée durable à long terme",
-        "Approche rationnelle de la résolution de problèmes",
-        "Focus sur la qualité et la durabilité"
+    "mission": {
+      "title": "Notre Mission",
+      "body": "Numériser, Optimiser et Préparer l'Avenir des Bâtiments et des Villes",
+      "beliefs": [
+        "Intelligent : Apprentissage et adaptation en temps réel",
+        "Durable : Atteindre les objectifs zéro net sans compromis",
+        "Résilient : Maintenir la valeur malgré les changements réglementaires et marchands",
+        "Centré sur l'Humain : Optimiser le confort et le bien-être"
       ]
     },
-    "values": {
-      "title": "Nos Valeurs Fondamentales",
-      "body": "Principes directeurs qui façonnent tout ce que nous faisons.",
-      "items": [
+    "differentiation": {
+      "title": "Ce qui nous distingue",
+      "body": "Ingénierie + IA + Matériel NVIDIA",
+      "description": "Contrairement aux simples fournisseurs de logiciels ou aux entreprises d'ingénierie traditionnelles, nous comblons le fossé entre la construction et l'intelligence."
+    },
+    "technology_partner": {
+      "title": "Notre Partenaire Technologique",
+      "body": "Propulsé par NVIDIA",
+      "description": "En tant que fier membre du réseau de partenaires NVIDIA, nous intégrons le matériel informatique le plus avancé au monde dans nos solutions d'ingénierie.",
+      "features": [
+        "Traitement IA en temps réel sur site",
+        "Vision par ordinateur pour la surveillance de la construction",
+        "Visualisation de jumeaux numériques",
+        "Analytique prédictive à grande échelle"
+      ]
+    },
+    "ai_platform": {
+      "title": "La Plateforme IA pour les Bâtiments Durables",
+      "body": "Akila est notre plateforme centrale de jumeaux numériques et d'IA — un système unifié de données immobilières qui transforme les données de bâtiment en carburant pour l'IA au niveau du portefeuille, le contrôle automatisé et l'efficacité.",
+      "features": [
+        "Source unique de vérité centralisée",
+        "Indépendant du matériel et du réseau",
+        "GenAI intégré",
+        "Analyse transversale des données et workflows inter-applications",
+        "Interface utilisateur unifiée et conviviale"
+      ],
+      "deployment": "Déployé sur 15 millions de mètres carrés dans le monde."
+    },
+    "trusted_by": {
+      "title": "Fait Confiance par les Leaders de l'Industrie",
+      "categories": [
         {
-          "title": "Intégrité",
-          "description": "Honneteté et transparence dans toutes nos transactions."
+          "name": "Commercial",
+          "companies": "Brookfield Properties, REinvent Ventures, CCH Asset"
         },
         {
-          "title": "Innovation",
-          "description": "Pousser les limites de ce qui est possible avec l'IA."
+          "name": "Retail",
+          "companies": "IKEA"
         },
         {
-          "title": "Collaboration",
-          "description": "Travailler ensemble pour obtenir des résultats exceptionnels."
+          "name": "Manufacturing",
+          "companies": "Harman, Ariston, Gerflor"
         },
         {
-          "title": "Durabilité",
-          "description": "Construire pour un avenir meilleur."
+          "name": "Logistics",
+          "companies": "DB Schenker, CEVA Logistics"
+        },
+        {
+          "name": "Infrastructure",
+          "companies": "SNCF"
+        },
+        {
+          "name": "Hospitality",
+          "companies": "The Standard High Line"
+        },
+        {
+          "name": "Industrial",
+          "companies": "Saint-Gobain, Arkema"
         }
       ]
     },
