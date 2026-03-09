@@ -1,7 +1,13 @@
-'use client';
-
 import React from 'react';
 import { useLanguage } from '../components/LanguageProvider';
+
+export function generateMetadata() {
+  return {
+    title: 'Case Studies - adenexus',
+  };
+}
+
+'use client';
 
 export default function CaseStudiesPage() {
   const { translations } = useLanguage();

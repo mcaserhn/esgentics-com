@@ -1,5 +1,3 @@
-'use client';
-
 import '../styles/globals.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -7,12 +5,22 @@ import { LanguageProvider } from './components/LanguageProvider';
 import { useLanguage } from './components/LanguageProvider';
 import { usePathname } from 'next/navigation';
 
+export function generateMetadata({ params, searchParams }: { params: { lang?: string }, searchParams: Record<string, string> }) {
+  // 这里可以根据路径生成标题，但由于需要访问路径参数，我们在客户端处理
+  return {
+    title: 'Home - adenexus',
+    description: 'Turnkey smart building solutions powered by AI agents & NVIDIA hardware. ESG-compliant, global delivery. Headquartered in Singapore.',
+    keywords: 'AI construction, intelligent building, ESG compliance, turnkey engineering, NVIDIA partner, Singapore tech',
+  };
+}
+
 function AppContent({ children }: { children: React.ReactNode }) {
   const { lang, direction } = useLanguage();
   const pathname = usePathname();
   
   // 根据路径生成页面标题
   const getPageTitle = () => {
+    if (!pathname) return 'Home';
     const path = pathname.replace(/^\//, '').replace(/^[a-z]{2}\/?/, '');
     switch (path) {
       case '':
