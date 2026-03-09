@@ -32,8 +32,8 @@ export async function POST(request: NextRequest) {
 
     // 邮件内容
     const mailOptions = {
-      from: 'contact@esgentics.com',
-      to: 'contact@esgentics.com',
+      from: 'contact@adenexus.com',
+      to: 'contact@adenexus.com',
       subject: `New Contact Inquiry from ${formData.name}`,
       html: `
         <h1>New Contact Inquiry</h1>
