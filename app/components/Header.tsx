@@ -13,11 +13,10 @@ export default function Header() {
   // 生成带语言前缀的导航链接
   const navLinks = [
     { name: translations?.navigation?.home || 'Home', href: lang === 'en' ? '/' : `/${lang}/` },
-    { name: translations?.navigation?.about || 'About Us', href: lang === 'en' ? '/about' : `/${lang}/about` },
-    { name: translations?.navigation?.solutions || 'Solutions', href: lang === 'en' ? '/solutions' : `/${lang}/solutions` },
     { name: translations?.navigation?.technology || 'Technology', href: lang === 'en' ? '/technology' : `/${lang}/technology` },
+    { name: translations?.navigation?.solutions || 'Solutions', href: lang === 'en' ? '/solutions' : `/${lang}/solutions` },
     { name: translations?.navigation?.caseStudies || 'Case Studies', href: lang === 'en' ? '/case-studies' : `/${lang}/case-studies` },
-    { name: translations?.navigation?.compliance || 'Compliance', href: lang === 'en' ? '/compliance' : `/${lang}/compliance` },
+    { name: translations?.navigation?.about || 'About Us', href: lang === 'en' ? '/about' : `/${lang}/about` },
   ];
 
   // 处理语言切换
