@@ -39,7 +39,10 @@ export default function Solutions() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">{translations?.solutions?.asset_classes?.title || 'Tailored for every asset class'}</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">{translations?.solutions?.asset_classes?.title || 'Tailored Solutions for Every Industry'}</h2>
+            <p className="text-lg text-dark-gray max-w-3xl mx-auto mb-8">
+              Our AI-driven engineering solutions are specifically designed to address the unique challenges and opportunities in each industry we serve.
+            </p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

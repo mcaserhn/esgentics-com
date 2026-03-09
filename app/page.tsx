@@ -20,21 +20,21 @@ export default function Home() {
             <div className="absolute inset-0 bg-gradient-to-r from-deep-blue/80 to-transparent flex items-center">
               <div className="px-6 md:px-10 lg:px-16 max-w-3xl">
                 <motion.h1 
-                  className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-white leading-tight"
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.6 }}
-                >
-                  {translations?.home?.hero?.title || 'Intelligent Construction. Sustainable Legacy.'}
-                </motion.h1>
-                <motion.p 
-                  className="text-lg md:text-xl mb-8 text-gray-100 max-w-xl leading-relaxed"
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.6, delay: 0.2 }}
-                >
-                  {translations?.home?.hero?.subtitle || 'AI-driven turnkey engineering solutions powered by NVIDIA hardware. From concept to operation, we deliver intelligent construction projects across Southeast Asia, Europe, North America, and the Middle East.'}
-                </motion.p>
+              className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-white leading-tight"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
+            >
+              {translations?.home?.hero?.title || 'AI-Driven Construction. Sustainable Future.'}
+            </motion.h1>
+            <motion.p 
+              className="text-lg md:text-xl mb-8 text-gray-100 max-w-xl leading-relaxed"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+            >
+              {translations?.home?.hero?.subtitle || 'Next-generation construction technology powered by NVIDIA. From concept to operation, we deliver intelligent, sustainable buildings across Southeast Asia, Europe, North America, and the Middle East.'}
+            </motion.p>
                 <motion.div
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}

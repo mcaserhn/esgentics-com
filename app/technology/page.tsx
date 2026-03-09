@@ -41,9 +41,9 @@ export default function Technology() {
               transition={{ duration: 0.6 }}
             >
               <h2 className="text-3xl md:text-4xl font-bold mb-6">{translations?.technology?.hardware_layer?.title || 'Hardware Layer: NVIDIA-Powered Edge Intelligence'}</h2>
-              <p className="text-lg text-dark-gray mb-8">
-                {translations?.technology?.hardware_layer?.body || 'We leverage NVIDIA\'s robust hardware ecosystem to ensure high-performance computing at the edge. Reliable, scalable, and built for harsh construction environments.'}
-              </p>
+            <p className="text-lg text-dark-gray mb-8">
+              {translations?.technology?.hardware_layer?.body || 'We leverage NVIDIA\'s cutting-edge hardware ecosystem to ensure high-performance computing at the edge. Our solutions are reliable, scalable, and specifically designed for the demanding conditions of construction environments.'}
+            </p>
               <div className="space-y-4">
                 {
                   (translations?.technology?.hardware_layer?.features || []).map((item, index) => (
@@ -119,7 +119,7 @@ export default function Technology() {
             >
               <h2 className="text-3xl md:text-4xl font-bold mb-6">{translations?.technology?.platform_layer?.title || 'Platform Layer: Unified Real Estate Data OS'}</h2>
               <p className="text-lg text-gray-200 mb-8">
-                {translations?.technology?.platform_layer?.body || 'Unlike siloed solutions that waste resources, our platform centralizes every layer of building and portfolio operations into a single source of truth.'}
+                {translations?.technology?.platform_layer?.body || 'Unlike traditional siloed solutions that waste resources, our platform centralizes every layer of building and portfolio operations into a single, unified source of truth, eliminating data fragmentation and improving operational efficiency.'}
               </p>
               <div className="space-y-4">
                 {
@@ -154,7 +154,7 @@ export default function Technology() {
             >
               <h2 className="text-3xl md:text-4xl font-bold mb-6">{translations?.technology?.spatial_intelligence_layer?.title || 'Spatial Intelligence Layer: Built on OpenUSD + NVIDIA Omniverse'}</h2>
               <p className="text-lg text-dark-gray mb-8">
-                {translations?.technology?.spatial_intelligence_layer?.body || 'Our 3D Engine creates a standard language for understanding buildings, equipment, and the space between them—enabling AI agents to navigate and act within physical environments.'}
+                {translations?.technology?.spatial_intelligence_layer?.body || 'Our advanced 3D Engine creates a standard language for understanding buildings, equipment, and the space between them—enabling AI agents to navigate and act within physical environments with unprecedented accuracy.'}
               </p>
               <div className="space-y-4">
                 {
@@ -231,7 +231,7 @@ export default function Technology() {
             >
               <h2 className="text-3xl md:text-4xl font-bold mb-6">{translations?.technology?.ai_engine?.title || 'AI Engine: Proprietary Algorithms for Autonomous Action'}</h2>
               <p className="text-lg text-gray-200 mb-8">
-                {translations?.technology?.ai_engine?.body || 'Our AI layer is where data becomes intelligence, and intelligence becomes action.'}
+                {translations?.technology?.ai_engine?.body || 'Our AI layer is where raw data transforms into actionable intelligence, enabling autonomous decision-making and intelligent automation across your entire building portfolio.'}
               </p>
               <div className="space-y-4">
                 {
