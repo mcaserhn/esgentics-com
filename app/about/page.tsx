@@ -1,3 +1,5 @@
+"use client";
+
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { useLanguage } from '../components/LanguageProvider';
@@ -7,8 +9,6 @@ export function generateMetadata() {
     title: 'About Us - adenexus',
   };
 }
-
-"use client";
 
 export default function About() {
   const { lang, translations } = useLanguage();

@@ -1,3 +1,5 @@
+"use client";
+
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { useForm } from 'react-hook-form';
@@ -8,8 +10,6 @@ export function generateMetadata() {
     title: 'Contact - adenexus',
   };
 }
-
-"use client";
 
 type FormData = {
   name: string;
@@ -36,7 +36,6 @@ export default function Contact() {
       const result = await response.json();
       if (result.success) {
         alert('Form submitted successfully!');
-        // 可以添加表单重置逻辑
       } else {
         alert('Error submitting form: ' + (result.error || 'Unknown error'));
       }
@@ -84,16 +83,16 @@ export default function Contact() {
               <div className="space-y-6">
                 <div>
                   <h3 className="text-xl font-bold mb-2">{translations?.contact?.contact_info?.headquarters || 'Headquarters'}</h3>
-                  <p className="text-dark-gray">ESGentics Pte. Ltd.</p>
-                  <p className="text-dark-gray">{translations?.contact?.contact_info?.address || '[Your Singapore Office Address], Singapore.'}</p>
+                  <p className="text-dark-gray">adenexus Pte. Ltd.</p>
+                  <p className="text-dark-gray">9 Raffles Place, Republic Plaza, Singapore 048619</p>
                 </div>
                 <div>
                   <h3 className="text-xl font-bold mb-2">European Office</h3>
-                  <p className="text-dark-gray">{translations?.contact?.contact_info?.europe_address || '[Your Paris Office Address], France.'}</p>
+                  <p className="text-dark-gray">8 Rue Lemercier, 75017 Paris, France</p>
                 </div>
                 <div>
                   <h3 className="text-xl font-bold mb-2">{translations?.contact?.contact_info?.email || 'Email'}</h3>
-                  <p className="text-dark-gray">contact@esgentics.com</p>
+                  <p className="text-dark-gray">contact@adenexus.com</p>
                 </div>
                 <div>
                   <h3 className="text-xl font-bold mb-2">{translations?.contact?.contact_info?.regions || 'Regions'}</h3>
