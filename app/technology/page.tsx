@@ -1,12 +1,8 @@
+'use client';
+
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { useLanguage } from '../components/LanguageProvider';
-
-export function generateMetadata() {
-  return {
-    title: 'Technology - adenexus',
-  };
-}
 
 export default function Technology() {
   const { lang, translations } = useLanguage();

@@ -1,13 +1,9 @@
+'use client';
+
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { useForm } from 'react-hook-form';
 import { useLanguage } from '../components/LanguageProvider';
-
-export function generateMetadata() {
-  return {
-    title: 'Contact - adenexus',
-  };
-}
 
 type FormData = {
   name: string;

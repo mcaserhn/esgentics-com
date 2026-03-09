@@ -5,10 +5,9 @@ import { LanguageProvider } from './components/LanguageProvider';
 import { useLanguage } from './components/LanguageProvider';
 import { usePathname } from 'next/navigation';
 
-export function generateMetadata({ params, searchParams }: { params: { lang?: string }, searchParams: Record<string, string> }) {
-  // 这里可以根据路径生成标题，但由于需要访问路径参数，我们在客户端处理
+export function generateMetadata() {
   return {
-    title: 'Home - adenexus',
+    title: 'adenexus',
     description: 'Turnkey smart building solutions powered by AI agents & NVIDIA hardware. ESG-compliant, global delivery. Headquartered in Singapore.',
     keywords: 'AI construction, intelligent building, ESG compliance, turnkey engineering, NVIDIA partner, Singapore tech',
   };
