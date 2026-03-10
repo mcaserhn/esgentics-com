@@ -33,8 +33,8 @@
   },
   "home": {
     "hero": {
-      "title": "AI-Driven Construction. Sustainable Future.",
-      "subtitle": "Next-generation construction technology powered by NVIDIA. From concept to operation, we deliver intelligent, sustainable buildings across Southeast Asia, Europe, North America, and the Middle East.",
+      "title": "adenexus",
+      "subtitle": "A next-generation construction technology company headquartered in Singapore Dedicated to managing, digitalizing, and optimizing the decarbonization of the built environment through its portfolio of AI digital twin platforms, building data solutions, and industrial real estate expertise.",
       "cta": "Explore Solutions"
     },
     "services": {
@@ -83,7 +83,7 @@
     },
     "hardware_layer": {
       "title": "Hardware Layer: NVIDIA-Powered Edge Intelligence",
-      "body": "We leverage NVIDIA's cutting-edge hardware ecosystem to ensure high-performance computing at the edge. Our solutions are reliable, scalable, and specifically designed for the demanding conditions of construction environments.",
+      "body": "We leverage NVIDIA's robust hardware ecosystem to ensure high-performance computing at the edge. Reliable, scalable, and built for harsh construction environments.",
       "features": [
         "High-performance edge computing – Real-time AI processing on-site",
         "Scalable architecture – From single sensors to enterprise-wide deployments",
@@ -92,7 +92,7 @@
     },
     "platform_layer": {
       "title": "Platform Layer: Unified Real Estate Data OS",
-      "body": "Unlike traditional siloed solutions that waste resources, our platform centralizes every layer of building and portfolio operations into a single, unified source of truth, eliminating data fragmentation and improving operational efficiency.",
+      "body": "Unlike siloed solutions that waste resources, our platform centralizes every layer of building and portfolio operations into a single source of truth.",
       "features": [
         "Hardware/network agnostic, one integrated stack",
         "Embedded GenAI that learns continuously",
@@ -101,7 +101,7 @@
     },
     "spatial_intelligence_layer": {
       "title": "Spatial Intelligence Layer: Built on OpenUSD + NVIDIA Omniverse",
-      "body": "Our advanced 3D Engine creates a standard language for understanding buildings, equipment, and the space between them—enabling AI agents to navigate and act within physical environments with unprecedented accuracy.",
+      "body": "Our 3D Engine creates a standard language for understanding buildings, equipment, and the space between them—enabling AI agents to navigate and act within physical environments.",
       "features": [
         "Lifetime modeling – Digital twins that evolve from design through decades of operation",
         "Spatial analytics – AI simulation of assets and human activity within them",
@@ -110,7 +110,7 @@
     },
     "ai_engine": {
       "title": "AI Engine: Proprietary Algorithms for Autonomous Action",
-      "body": "Our AI layer is where raw data transforms into actionable intelligence, enabling autonomous decision-making and intelligent automation across your entire building portfolio.",
+      "body": "Our AI layer is where data becomes intelligence, and intelligence becomes action.",
       "features": [
         "24/7 asset surveillance, anomaly detection, performance tracking",
         "Decision Agents Real-time optimization of HVAC, lighting, and energy systems",
@@ -134,7 +134,7 @@
       "subtitle": "From concept to operation, we deliver intelligent turnkey solutions across the entire built environment. Our sector-specific expertise ensures that every project—whether a logistics hub or a luxury hotel—is optimized for performance, sustainability, and ROI."
     },
     "asset_classes": {
-      "title": "Tailored Solutions for Every Industry",
+      "title": "Tailored for every asset class",
       "classes": [
         {
           "name": "Commercial Real Estate",
@@ -201,9 +201,9 @@
           "description": "PV management, IEQ and energy monitoring, digitalized operation and management."
         },
         {
-          "name": "The Standard High Line Hotel",
+          "name": "Ariston",
           "size": "20,000 m²",
-          "description": "Asset tracking, digitalized operation & maintenance, HVAC optimization."
+          "description": "Smart Factory Intelligence with Real-Time Production Line Analytics."
         },
         {
           "name": "Saint-Gobain R&D Center",
@@ -323,8 +323,8 @@
   },
   "about": {
     "hero": {
-      "title": "About Aden SPG",
-      "subtitle": "A next-generation construction technology company dedicated to managing, digitalizing, and optimizing the decarbonization of the built environment."
+      "title": "adenexus",
+      "subtitle": "A next-generation construction technology company headquartered in Singapore Dedicated to managing, digitalizing, and optimizing the decarbonization of the built environment through its portfolio of AI digital twin platforms, building data solutions, and industrial real estate expertise."
     },
     "mission": {
       "title": "Our Mission",

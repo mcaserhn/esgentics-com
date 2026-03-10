@@ -54,7 +54,6 @@ export default function Header() {
           <Link href={lang === 'en' ? '/' : `/${lang}/`} className="flex items-center flex-shrink-0 z-1001">
             <div>
               <span className="text-2xl font-bold">adenexus</span>
-              <div className="text-xs text-gray-300 mt-1">owned by Aden SGP</div>
             </div>
           </Link>
 

@@ -26,13 +26,39 @@
   },
   "home": {
     "hero": {
-      "title": "Intelligentes Bauen. Nachhaltiges Erbe.",
-      "subtitle": "KI-gesteuerte Schlüsselfertig-Lösungen, angetrieben durch NVIDIA-Hardware. Von der Konzeption bis zum Betrieb liefern wir intelligente Bauprojekte in Südostasien, Europa, Nordamerika und im Nahen Osten.",
+      "title": "adenexus",
+      "subtitle": "Ein Bau technologieunternehmen der neuen Generation mit Hauptsitz in Singapur, das sich der Verwaltung, Digitalisierung und Optimierung der Dekarbonisierung des gebauten Umfelds widmet, insbesondere durch seine Palette an KI-Digital-Twin-Plattformen, Gebäudedatenlösungen und Branchenimmobilienexpertise.",
       "cta": "Lösungen erkunden"
     },
     "value_prop": {
-      "title": "Von Alpha bis Omega, angetrieben von KI.",
-      "body": "ESGentics bietet schlüsselfertige intelligente Bauleistungen. Wir integrieren fortschrittliche KI-Algorithmen, Edge-Hardware und autonome Agenten, um Ihr Projekt von der Konzeption bis zum langfristigen Betrieb zu verwalten."
+      "title": "Zukunftssichere Vermögenswerte mit KI-gesteuerter Schlüsselfertig-Ingenieurleistung.",
+      "body": "Von der Konzeption bis zum Betrieb integrieren wir NVIDIA-basierte Hardware mit intelligenten Digital-Twin-Plattformen, um Bauprojekte zu liefern, die intelligenter, schneller und für Netto-Null gebaut sind."
+    },
+    "services": {
+      "title": "Unsere Dienstleistungen",
+      "subtitle": "Wir bedienen Kunden in Südostasien, Nordamerika, Europa und im Nahen Osten, mit einer vielfältigen Palette von Branchen:",
+      "sectors": [
+        "Automobil und Transport",
+        "Gewerbliche Gebäude",
+        "Rechenzentren",
+        "Gesundheit, Pharma und MedTech",
+        "Industrieparks",
+        "Bergbau, Energie und Infrastruktur",
+        "Neue Energien",
+        "Retail und Unterhaltung",
+        "Halbleiterproduktion",
+        "Schulen und Campus"
+      ],
+      "cities": "Unterstützung der Modernisierung des privaten Sektors und Netto-Null in +80 Städten."
+    },
+    "how_we_get_there": {
+      "title": "Wie wir dorthin kommen:",
+      "items": [
+        "KI-native Konzeption und Ingenieurwesen – Nutzen Sie digitale Zwillinge und generative KI von den frühesten Planungsstufen an, um die Leistung zu optimieren, bevor der erste Spatenstich erfolgt",
+        "NVIDIA-basierte Intelligenz – Bereitstellung von Edge-Computing und Echtzeit-Analytik für autonome Gebäudebetriebe und vorhersehbare Wartung",
+        "Schlüsselfertige Lieferung, volle Verantwortung – Ein integriertes Team, das Design, Bau und langfristige Betrieb über Grenzen hinweg verwaltet",
+        "Resilient durch Design – Ingenieurbau für Klimaanpassung, Energieerzeugung und zukunftsfähige Integration virtueller Kraftwerke"
+      ]
     },
     "features": {
       "ai_algorithms": {
@@ -59,27 +85,44 @@
   },
   "technology": {
     "hero": {
-      "title": "Die Technologie hinter dem Bau.",
+      "title": "Die Technologie hinter intelligenten Vermögenswerten",
       "subtitle": "Fortgeschrittene KI-Agenten und NVIDIA-basierte Hardware arbeiten zusammen, um den Bau zu revolutionieren."
     },
-    "ai_agents": {
-      "title": "Autonome KI-Agenten.",
-      "body": "Unsere proprietären Algorithmen stellen intelligente Agenten bereit, die Bauprozesse in Echtzeit überwachen, entscheiden und optimieren. Dadurch werden menschliche Fehler reduziert und die Effizienz maximiert.",
-      "features": [
-        "Echtzeitüberwachung und -analyse",
-        "Autonome Entscheidungsfindung",
-        "Vorhersehbare Wartung",
-        "Optimierte Ressourcenallokation"
-      ]
-    },
-    "hardware": {
-      "title": "Angetrieben durch NVIDIA Edge Computing.",
+    "hardware_layer": {
+      "title": "Hardware-Schicht: NVIDIA-basierte Edge-Intelligenz",
       "body": "Wir nutzen das robuste Hardware-Ökosystem von NVIDIA, um eine Hochleistungsrechnung am Rand zu gewährleisten. Zuverlässig, skalierbar und für harte Baumaschinenumgebungen gebaut.",
       "features": [
-        "Hochleistungs-Edge-Computing",
-        "Robuste Bauplatzausrüstung",
-        "Skalierbare Architektur",
-        "Energieeffizienter Betrieb"
+        "Hochleistungs-Edge-Computing – Echtzeit-KI-Verarbeitung vor Ort",
+        "Skalierbare Architektur – Von einzelnen Sensoren bis zu unternehmensweiten Bereitstellungen",
+        "Energieeffizienter Betrieb – Maximale Intelligenz bei minimalem Stromverbrauch"
+      ]
+    },
+    "platform_layer": {
+      "title": "Plattformschicht: Einheitliches Immobilien-Daten-OS",
+      "body": "Im Gegensatz zu siloartigen Lösungen, die Ressourcen verschwenden, zentralisiert unsere Plattform jede Schicht von Gebäuden und Portfoliobetrieb in einer einzigen Quelle der Wahrheit.",
+      "features": [
+        "Hardware/Netzwerk-unabhängig, eine integrierte Stack",
+        "Integrierte GenAI, die kontinuierlich lernt",
+        "Queranalytik und einheitliche Workflows"
+      ]
+    },
+    "spatial_intelligence_layer": {
+      "title": "Spatiale Intelligenzschicht: Auf OpenUSD + NVIDIA Omniverse aufgebaut",
+      "body": "Unser 3D-Motor schafft eine Standardsprache zum Verständnis von Gebäuden, Ausrüstung und dem Raum dazwischen – ermöglicht KI-Agenten, in physischen Umgebungen zu navigieren und zu handeln.",
+      "features": [
+        "Lebenszeitmodellierung – Digitale Zwillinge, die sich von der Konzeption bis zu jahrzehntelangem Betrieb weiterentwickeln",
+        "Spatiale Analytik – KI-Simulation von Vermögenswerten und menschlicher Aktivität darin",
+        "Nahtlose Anpassung – Modelle aktualisieren sich automatisch, keine wiederkehrenden Entwurfsgebühren"
+      ]
+    },
+    "ai_engine": {
+      "title": "KI-Motor: Proprietäre Algorithmen für autonome Aktionen",
+      "body": "Unsere KI-Schicht ist der Ort, an dem Daten zu Intelligenz werden und Intelligenz zu Aktion.",
+      "features": [
+        "24/7-Vermögensüberwachung, Anomalieerkennung, Leistungsnachverfolgung",
+        "Entscheidungs-Agenten Echtzeit-Optimierung von HVAC, Beleuchtung und Energiesystemen",
+        "Ausfallvorhersage, Wartungsplanung, Risikobewertung",
+        "Dynamische Zuweisung von Arbeit, Materialien und Energie über Standorte hinweg"
       ]
     },
     "nvidia_partner": {
@@ -94,50 +137,87 @@
   },
   "solutions": {
     "hero": {
-      "title": "End-to-End intelligente Lösungen.",
-      "subtitle": "Von der Planung bis zum langfristigen ESG-Betrieb bieten wir schlüsselfertige intelligente Baulösungen."
+      "title": "KI-gesteuerte Ingenieurlösungen für alle Vermögenswertearten",
+      "subtitle": "Von der Konzeption bis zum Betrieb liefern wir intelligente Schlüsselfertiglösungen für das gesamte gebaute Umfeld. Unsere branchenspezifische Expertise gewährleistet, dass jedes Projekt – ob Logistikzentrum oder Luxushotel – für Leistung, Nachhaltigkeit und ROI optimiert ist."
     },
-    "turnkey": {
-      "title": "Schlüsselfertige Ingenieurleistungen von A bis Z.",
-      "body": "Wir kümmern uns um alles. Planung, Beschaffung, Bau und Inbetriebnahme. Ein Vertrag, eine Verantwortung, null Stress.",
-      "features": [
-        "Konzeptdesign und Planung",
-        "Beschaffung und Lieferkettenmanagement",
-        "Bau und Installation",
-        "Inbetriebnahme und Übergabe"
-      ]
-    },
-    "operations": {
-      "title": "Langfristiger Betrieb & ESG.",
-      "body": "Der Bau ist nur der Anfang. Unsere KI-Agenten überwachen kontinuierlich die Gebäude Gesundheit, den Energieverbrauch und den CO2-Fußabdruck während des gesamten Lebenszyklus des Vermögens.",
-      "features": [
-        "Echtzeit-Überwachung der Gebäudeleistung",
-        "Energieverbrauchsoptimierung",
-        "CO2-Fußabdruckverfolgung",
-        "Vorhersehbare Wartungsplanung"
-      ]
-    },
-    "conceptual_showcase": {
-      "title": "Konzeptionelle Präsentation.",
-      "body": "Entdecken Sie unsere konzeptionellen Designs, die die Fähigkeiten unserer intelligenten Baulösungen demonstrieren.",
-      "projects": [
+    "asset_classes": {
+      "title": "Auf jede Vermögensklasse zugeschnitten",
+      "classes": [
         {
-          "title": "Smart Hub - Südostasien Konzept",
-          "description": "Intelligentes Geschäftszentrum mit integrierten KI-Systemen für optimale Betriebsabläufe.",
-          "region": "Südostasien"
+          "name": "Gewerbliche Immobilien",
+          "features": [
+            "Portfoliogleiches Benchmarking",
+            "24/7-Vermögensleistungsüberwachung",
+            "Mieterkomfortoptimierung"
+          ]
         },
         {
-          "title": "Eco-Plant - Europäisches Standardkonzept",
-          "description": "Nachhaltige Produktionsanlage mit null CO2-Fußabdruck und KI-gesteuerter Effizienz.",
-          "region": "Europäisch"
+          "name": "Logistik und Lagerung",
+          "features": [
+            "PV-Management",
+            "Überwachung der inneren Umweltqualität",
+            "HVAC-Optimierung für große Räume"
+          ]
         },
         {
-          "title": "Data Nexus - Naher Osten Konzept",
-          "description": "Modernstes Rechenzentrum mit fortschrittlichen Kühl- und Energiemanagementsystemen.",
-          "region": "Naher Osten"
+          "name": "Herstellung",
+          "features": [
+            "Systemintegration",
+            "Energieüberwachung",
+            "CCTV und Zugangskontrolle"
+          ]
+        },
+        {
+          "name": "Retail",
+          "features": [
+            "Multi-Site-Portfoliomanagement",
+            "Energieoptimierung über Orte hinweg",
+            "Konsistente Kundenexperience"
+          ]
+        },
+        {
+          "name": "Gastgewerbe",
+          "features": [
+            "Vermögensverfolgung",
+            "Gastkomfortoptimierung",
+            "Betriebseffizienz"
+          ]
+        },
+        {
+          "name": "Infrastruktur",
+          "features": [
+            "Bahnhöfe, Forschungszentren",
+            "Vollständige BMS-Integration",
+            "Digitalisierter Betrieb und Wartung"
+          ]
         }
-      ],
-      "disclaimer": "*Alle Visualisierungen sind konzeptionelle Simulationen zur Demonstration der Fähigkeiten"
+      ]
+    },
+    "case_studies": {
+      "title": "Ausgewählte Kunden-Erfolgsgeschichten",
+      "cases": [
+        {
+          "name": "IKEA",
+          "details": "70 Geschäfte inklusive 4 Einkaufszentren",
+          "size": "4,6 Millionen m²",
+          "description": "Energieüberwachung und HVAC-Optimierung über ihr Retail-Portfolio."
+        },
+        {
+          "name": "DB Schenker",
+          "size": "54.000 m²",
+          "description": "PV-Management, IEQ- und Energieüberwachung, digitalisierter Betrieb und Management."
+        },
+        {
+          "name": "Ariston",
+          "size": "20.000 m²",
+          "description": "Smart Factory Intelligence mit Echtzeit-Produktionslinienanalyse."
+        },
+        {
+          "name": "Saint-Gobain Forschungszentrum",
+          "size": "15.000 m²",
+          "description": "IAQ- und Energieüberwachung, Sanierungssimulation, HVAC-Optimierung."
+        }
+      ]
     },
     "cta": {
       "title": "Bereit, Ihr Bauprojekt zu transformieren?",
@@ -247,50 +327,77 @@
   },
   "about": {
     "hero": {
-      "title": "Vertrauen über Grenzen hinweg aufbauen.",
-      "subtitle": "Ein Bau technologieunternehmen der neuen Generation mit globaler Reichweite und europäischem Erbe."
+      "title": "adenexus",
+      "subtitle": "Ein Bau technologieunternehmen der neuen Generation mit Hauptsitz in Singapur, das sich der Verwaltung, Digitalisierung und Optimierung der Dekarbonisierung des gebauten Umfelds widmet, insbesondere durch seine Palette an KI-Digital-Twin-Plattformen, Gebäudedatenlösungen und Branchenimmobilienexpertise."
     },
-    "who_we_are": {
-      "title": "Singapur-Hub. Globale Reichweite.",
-      "body": "ESGentics ist ein Bau technologieunternehmen der neuen Generation mit Hauptsitz in Singapur. Wir bedienen Kunden in Südostasien, Nordamerika, Europa und im Nahen Osten.",
-      "features": [
-        "Hauptsitz in Singapur",
-        "Globale Präsenz auf Schlüsselmärkten",
-        "Multilinguales Expertenteam",
-        "Lokales Wissen mit globaler Expertise"
-      ],
-      "map_title": "Globale Präsenzkarte",
-      "map_subtitle": "Hervorgehoben: SG/NA/EU/ME"
-    },
-    "heritage": {
-      "title": "Europäische Ingenieur-DNA.",
-      "body": "Gebacken von europäischem Kapital, erben wir eine Tradition der Präzision, Rationalität und langfristigen Denkens. Wir glauben an den Bau von Vermögenswerten, die Generationen überdauern, nicht nur Quartale.",
-      "features": [
-        "Europäische Präzisionsingenieurwesen",
-        "Langfristiges nachhaltiges Denken",
-        "Rationaler Ansatz zur Problemlösung",
-        "Fokus auf Qualität und Langlebigkeit"
+    "mission": {
+      "title": "Unsere Mission",
+      "body": "Digitalisieren, Optimieren und Zukunftssichern von Gebäuden und Städten",
+      "beliefs": [
+        "Intelligent: Lernen und Anpassen in Echtzeit",
+        "Nachhaltig: Netto-Null-Ziele ohne Kompromisse erreichen",
+        "Resilient: Wert bei regulatorischen und marktlichen Veränderungen bewahren",
+        "Menschzentriert: Komfort und Wohlbefinden optimieren"
       ]
     },
-    "values": {
-      "title": "Unsere Kerntwerte",
-      "body": "Leitprinzipien, die alles bestimmen, was wir tun.",
-      "items": [
+    "differentiation": {
+      "title": "Was uns unterscheidet",
+      "body": "Ingenieurwesen + KI + NVIDIA-Hardware",
+      "description": "Im Gegensatz zu reinen Softwareanbietern oder traditionellen Ingenieurfirmen schließen wir die Lücke zwischen Bau und Intelligenz."
+    },
+    "technology_partner": {
+      "title": "Unser Technologiepartner",
+      "body": "Angetrieben von NVIDIA",
+      "description": "Als stolzes Mitglied des NVIDIA Partner Network integrieren wir die fortschrittlichste Computing-Hardware der Welt in unsere Ingenieurlösungen.",
+      "features": [
+        "Echtzeit-KI-Verarbeitung vor Ort",
+        "Computervision zur Bauberwachung",
+        "Digital-Twin-Visualisierung",
+        "Vorhersehbare Analytik im großen Maßstab"
+      ]
+    },
+    "ai_platform": {
+      "title": "Die KI-Plattform für nachhaltige Gebäude",
+      "body": "Akila ist unsere zentrale Digital-Twin- und KI-Plattform – ein einheitliches Immobilien-Datensystem, das Gebäudedaten in Treibstoff für Portfoliogleiche KI, automatische Steuerung und Effizienz umwandelt.",
+      "features": [
+        "Zentralisierte einzige Quelle der Wahrheit",
+        "Hardware/Netzwerk-unabhängig",
+        "Integrierte GenAI",
+        "Queranalytik und Cross-App-Workflows",
+        "Einheitliche, benutzerfreundliche UI/UX"
+      ],
+      "deployment": "In 15 Millionen Quadratmetern weltweit implementiert."
+    },
+    "trusted_by": {
+      "title": "Vertraut von Branchenführern",
+      "categories": [
         {
-          "title": "Integrität",
-          "description": "Ehrlichkeit und Transparenz in allen unseren Geschäften."
+          "name": "Commercial",
+          "companies": "Brookfield Properties, REinvent Ventures, CCH Asset"
         },
         {
-          "title": "Innovation",
-          "description": "Die Grenzen dessen, was mit KI möglich ist, erweitern."
+          "name": "Retail",
+          "companies": "IKEA"
         },
         {
-          "title": "Zusammenarbeit",
-          "description": "Gemeinsam arbeiten, um außergewöhnliche Ergebnisse zu erzielen."
+          "name": "Manufacturing",
+          "companies": "Harman, Ariston, Gerflor"
         },
         {
-          "title": "Nachhaltigkeit",
-          "description": "Bauen für eine bessere Zukunft."
+          "name": "Logistics",
+          "companies": "DB Schenker, CEVA Logistics"
+        },
+        {
+          "name": "Infrastructure",
+          "companies": "SNCF"
+        },
+        {
+          "name": "Hospitality",
+          "companies": "The Standard High Line"
+        },
+        {
+          "name": "Industrial",
+          "companies": "Saint-Gobain, Arkema"
         }
       ]
     },

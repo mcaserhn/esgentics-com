@@ -26,7 +26,7 @@
   },
   "home": {
     "hero": {
-      "title": "Aden SPG",
+      "title": "adenexus",
       "subtitle": "Une entreprise de technologie de construction de nouvelle génération dont le siège social est à Singapour, dédiée à la gestion, à la numérisation et à l'optimisation de la décarbonation de l'environnement bâti grâce à son portefeuille de plateformes de jumeaux numériques IA, de solutions de données de construction et d'expertise en immobilier industriel.",
       "cta": "Explorer les Solutions"
     },
@@ -194,9 +194,9 @@
           "description": "Gestion des panneaux solaires, surveillance IEQ et énergie, exploitation et gestion digitalisées."
         },
         {
-          "name": "The Standard High Line Hotel",
+          "name": "Ariston",
           "size": "20 000 m²",
-          "description": "Suivi des actifs, exploitation et maintenance digitalisées, optimisation HVAC."
+          "description": "Intelligence d'usine intelligente avec analyse en temps réel de la ligne de production."
         },
         {
           "name": "Saint-Gobain R&D Center",
@@ -313,7 +313,7 @@
   },
   "about": {
     "hero": {
-      "title": "À Propos d'Aden SPG",
+      "title": "À Propos d'adenexus",
       "subtitle": "Une entreprise de technologie de construction de nouvelle génération dédiée à la gestion, à la numérisation et à l'optimisation de la décarbonation de l'environnement bâti."
     },
     "mission": {

@@ -1,0 +1,154 @@
+Case study
+1. Saint-Gobain
+Saint-Gobain: AI-Driven Energy Transformation Across R&D and Manufacturing
+From one R&D center to multiple industrial hubs—scaling intelligence across a global portfolio.
+Starting in 2022, Saint-Gobain partnered with Akila to accelerate its decarbonization roadmap. What began as a pilot at Saint-Gobain Research Shanghai has expanded to multiple industrial sites, including Performance Plastics and Sekurit factories.
+________________________________________
+The Challenge
+Saint-Gobain’s R&D center faced a familiar problem: disparate building systems, siloed data, and high energy loads required for precision-controlled laboratory conditions. Manual data aggregation slowed reporting and hindered strategic decision-making.
+•	Fragmented HVAC, BMS, and EMS systems
+•	No centralized visibility across sites
+•	Manual carbon reporting—slow and error-prone
+________________________________________
+The Solution
+Akila deployed its Energy Suite, Carbon Suite, and 3D Engine to unify data and optimize operations across the portfolio.
+HVAC Optimization & Predictive Control
+•	AI-powered optimization of chillers, heat pumps, and cleanroom facilities
+•	Winter freeze prevention protocols protected system efficiency during seasonal transitions
+•	Real-time indoor air quality monitoring ensured compliance with lab-grade environmental thresholds
+Automated Carbon Tracking
+•	Scope 1 and Scope 2 emissions tracked automatically
+•	Scope 3 integration in progress
+•	Power BI integration delivered instant access to KPIs
+Scalable Digital Foundation
+•	IoT sensors and AI models replicated across multiple factories
+•	Maintenance Suite improved equipment health and reduced unplanned outages
+•	Decarbonization cockpit dashboards now inform investment-grade sustainability decisions
+________________________________________
+The Results
+Metric	Achievement
+Overall energy savings	16.8% (2024 vs. 2021 baseline)
+Cleanroom energy savings	35%
+Manual reporting time reduction	70%
+Energy savings from HVAC optimization alone	15%
+Operating cost reduction	18%
+________________________________________
+What the Client Says
+*“We want to reduce by 1/3 our own emissions in 2030 compared to 2017. We think that Akila, knowing better how we use energy in buildings, will be a key ingredient to achieve this transformation of the industry.”*
+— Ludovic Weber, CEO of Saint-Gobain Asia Pacific
+________________________________________
+The Foundation for Global ESG Transformation
+With Akila, Saint-Gobain now has a scalable, data-driven platform to digitalize its ESG strategy across facilities worldwide—turning energy efficiency from a one-off project into a continuous, AI-powered process.
+
+2. IKEA
+IKEA: Scaling Net-Zero Across a Global Retail Portfolio
+70+ sites. 4.6 million sqm. One unified data platform.
+IKEA partnered with Akila to solve one of the most complex challenges in retail real estate: how to manage energy and carbon across a decentralized, franchise-owned global portfolio with uneven digital maturity.
+________________________________________
+The Challenge
+•	Decentralized ownership – Different franchise owners made portfolio-wide ESG reporting complex
+•	Uneven digital maturity – Stores operated at different levels of data readiness
+•	Fragmented systems – Multiple BMS, HVAC, lighting, and energy systems across regions
+•	Inconsistent ESG data – No common structure or baseline for energy and carbon
+•	Hard to scale best practices – Sustainability successes were difficult to replicate
+________________________________________
+The Solution
+Akila deployed a franchise-ready, system-of-systems layer that sits above existing infrastructure—independent of geography, system age, or complexity.
+A Consistent ESG & Energy Data Foundation
+•	Unified energy, carbon, and operational data into a single global reporting framework
+•	Ensured data reliability for internal targets and external disclosure
+•	Enabled portfolio-wide benchmarking without costly infrastructure upgrades
+A Global Framework for Continuous Improvement
+•	Identified best-performing stores and transferable practices
+•	Executed rollout of proven strategies across the portfolio
+•	Moved ESG from reporting to repeatable execution
+A Long-Term Decarbonization Partnership
+•	Supports IKEA’s net-zero roadmap with continuous AI-driven optimization
+•	Partners with best-in-class technology providers to test and scale solutions
+________________________________________
+The Results
+Metric	Achievement
+Portfolio coverage	70+ sites across 4.6 million sqm
+Average energy savings	22% across sites
+Carbon reduced	2,500+ tons
+Different BMS types unified	16
+Energy meters installed	600+
+________________________________________
+Why IKEA Chose Akila
+Akila provided what no single vendor could: a vendor-agnostic, scalable layer that works with any system, any franchise, anywhere in the world. No rip-and-replace. No infrastructure upgrades. Just visibility, intelligence, and action—at portfolio scale.
+
+3.DB Schenker
+DB Schenker: Centralizing Warehouse Operations for Portfolio-Wide Efficiency
+54,000 sqm. 4 siloed systems unified. 10% estimated energy savings.
+DB Schenker needed to streamline operations across multiple warehouse sites. Fragmented systems created redundant work, limited visibility, and hid efficiency opportunities. Akila delivered a single platform that centralizes everything.
+________________________________________
+The Challenge
+•	Siloed systems – Multiple disconnected platforms for energy, maintenance, and operations
+•	High operator workload – Manual processes across different tools
+•	No portfolio visibility – Unable to benchmark or optimize across sites
+•	Hidden energy waste – No AI-driven analysis of HVAC or equipment performance
+________________________________________
+The Solution
+Akila deployed a centralized portfolio management platform integrating Energy Suite, Maintenance Suite, and 3D Engine.
+Systems Integration
+•	Unified 4 siloed systems onto a single platform
+•	Centralized energy, maintenance, and environmental data
+•	Enabled portfolio-wide comparisons and benchmarking
+Environment Management
+•	Real-time monitoring of indoor environmental quality
+•	HVAC optimization across all sites
+•	Customized dashboards for facility managers and leadership
+AI-Driven HVAC Optimization
+•	Automated control strategies for warehouse spaces
+•	Estimated 10% energy savings from optimization alone
+________________________________________
+The Results
+Metric	Achievement
+Warehouse space managed	54,000 sqm
+Siloed systems unified	4
+Estimated energy savings	10%
+________________________________________
+Why DB Schenker Chose Akila
+DB Schenker needed a platform that could unify the fragmented and optimize the complex. Akila delivered a single source of truth across the portfolio—reducing operator workload and unlocking energy savings at scale.
+
+
+4.Ariston
+Ariston: Smart Factory Intelligence with Real-Time Production Line Analytics
+18 cameras. 2 production lines. $100K+ energy savings from one PV project.
+Ariston partnered with Akila to digitalize its smart factory operations, integrating video feeds, energy data, and production metrics into a single platform—delivering real-time visibility and automated alerts.
+________________________________________
+The Challenge
+•	No centralized visibility – Production line performance and energy data were siloed
+•	Manual reporting – Energy consumption reports required manual compilation
+•	Reactive operations – No real-time alerts for asset status or anomalies
+•	Untapped optimization potential – No AI-driven analysis of production line efficiency
+________________________________________
+The Solution
+Akila deployed its Energy Suite, Carbon Suite, and 3D Engine, with custom development for production line integration.
+Systems Integration
+•	Integrated 8 systems including video input from production lines
+•	18 cameras feed real-time monitoring into the platform
+•	Custom-developed real-time asset status alerts
+Automated Energy Management
+•	Automated energy consumption reports for 2 production lines
+•	Real-time monitoring of energy use by equipment and process
+•	Carbon tracking integrated with production data
+AI-Driven Optimization
+•	Compressed air analysis identified efficiency opportunities
+•	Predictive analytics for production line equipment
+•	One PV project delivered $100K+ in energy savings
+________________________________________
+The Results
+Metric	Achievement
+Energy savings from one PV project	$100K+ USD
+Cameras integrated	18
+Production lines with automated reporting	2
+Systems integrated	8
+________________________________________
+Why Ariston Chose Akila
+Ariston needed more than energy monitoring—they needed production intelligence. Akila delivered a platform that connects energy, carbon, and production line data, enabling real-time decisions and measurable savings.
+
+
+
+
+

@@ -1,11 +1,47 @@
 'use client';
 
 import Link from 'next/link';
+import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { useLanguage } from '../components/LanguageProvider';
 
 export default function Solutions() {
   const { lang, translations } = useLanguage();
+  const [selectedIndustry, setSelectedIndustry] = useState('all');
+  
+  const industries = [
+    { value: 'all', label: 'All Industries' },
+    { value: 'commercial', label: 'Commercial Real Estate' },
+    { value: 'logistics', label: 'Logistics & Warehousing' },
+    { value: 'manufacturing', label: 'Manufacturing' },
+    { value: 'retail', label: 'Retail' },
+    { value: 'hospitality', label: 'Hospitality' },
+    { value: 'infrastructure', label: 'Infrastructure' }
+  ];
+  
+  const filterAssetClasses = () => {
+    if (selectedIndustry === 'all') {
+      return translations?.solutions?.asset_classes?.classes || [];
+    }
+    return (translations?.solutions?.asset_classes?.classes || []).filter(assetClass => {
+      switch(selectedIndustry) {
+        case 'commercial':
+          return assetClass.name === 'Commercial Real Estate';
+        case 'logistics':
+          return assetClass.name === 'Logistics & Warehousing';
+        case 'manufacturing':
+          return assetClass.name === 'Manufacturing';
+        case 'retail':
+          return assetClass.name === 'Retail';
+        case 'hospitality':
+          return assetClass.name === 'Hospitality';
+        case 'infrastructure':
+          return assetClass.name === 'Infrastructure';
+        default:
+          return true;
+      }
+    });
+  };
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
@@ -46,9 +82,28 @@ export default function Solutions() {
             </p>
           </motion.div>
 
+          {/* Industry Filter */}
+          <motion.div 
+            className="flex flex-wrap justify-center gap-4 mb-12"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+          >
+            {industries.map((industry) => (
+              <button
+                key={industry.value}
+                onClick={() => setSelectedIndustry(industry.value)}
+                className={`px-6 py-3 rounded-full text-sm font-medium transition-all ${selectedIndustry === industry.value ? 'bg-primary-red text-white' : 'bg-light-gray text-dark-gray hover:bg-gray-200'}`}
+              >
+                {industry.label}
+              </button>
+            ))}
+          </motion.div>
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {
-              (translations?.solutions?.asset_classes?.classes || []).map((assetClass, index) => (
+              filterAssetClasses().map((assetClass, index) => (
                 <motion.div 
                   key={index}
                   className="bg-light-gray rounded-lg p-8 shadow-sm"

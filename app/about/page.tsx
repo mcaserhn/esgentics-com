@@ -17,7 +17,7 @@ export default function About() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            {translations?.about?.hero?.title || 'Building Trust Across Borders.'}
+            {translations?.about?.hero?.title || 'adenexus'}
           </motion.h1>
           <motion.p 
             className="text-xl text-gray-200 max-w-3xl"
@@ -25,7 +25,7 @@ export default function About() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            {translations?.about?.hero?.subtitle || 'A next-generation construction technology company with a global reach and European heritage.'}
+            {translations?.about?.hero?.subtitle || 'A next-generation construction technology company headquartered in Singapore Dedicated to managing, digitalizing, and optimizing the decarbonization of the built environment through its portfolio of AI digital twin platforms, building data solutions, and industrial real estate expertise.'}
           </motion.p>
         </div>
       </section>
@@ -187,36 +187,7 @@ export default function About() {
         </div>
       </section>
 
-      {/* Trusted By Section */}
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-4">
-          <motion.div 
-            className="text-center mb-16"
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-          >
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">{translations?.about?.trusted_by?.title || 'Trusted By Industry Leaders'}</h2>
-          </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {translations?.about?.trusted_by?.categories?.map((category, index) => (
-              <motion.div 
-                key={index}
-                className="bg-light-gray rounded-lg p-8 shadow-sm"
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-              >
-                <h3 className="text-lg font-bold mb-4">{category.name}</h3>
-                <p className="text-dark-gray">{category.companies}</p>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* CTA Section */}
       <section className="py-20 bg-deep-blue text-white">
