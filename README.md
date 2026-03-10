@@ -36,6 +36,8 @@ esgentics.com/
 │   │   └── page.tsx             # Technology page
 │   ├── solutions/
 │   │   └── page.tsx             # Solutions page
+│   ├── case-studies/
+│   │   └── page.tsx             # Case Studies page
 │   ├── compliance/
 │   │   └── page.tsx             # Compliance page
 │   ├── about/
@@ -209,6 +211,7 @@ For questions or support, please contact:
 - ✅ Azure App Service deployment
 - ✅ Animation and interactive elements
 - ✅ 3D render images integration
+- ✅ Case Studies page implementation
 
 ### Pending Features
 - ⏳ Custom domain configuration

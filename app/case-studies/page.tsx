@@ -17,28 +17,28 @@ export default function CaseStudiesPage() {
       description: 'Energy monitoring and HVAC optimization across their retail portfolio.',
       size: '4.6 Million m²',
       details: '70 stores including 4 shopping malls',
-      image: '/images/renders/esgentics_render_R02_seasia_solution_web_1024x1024_v1.png',
+      image: '/images/renders/adenexus-com_render_R02_seasia_solution_web_1024x1024_v1.png',
       category: 'retail',
     },
     {
       title: 'DB Schenker',
       description: 'PV management, IEQ and energy monitoring, digitalized operation and management.',
       size: '54,000 m²',
-      image: '/images/renders/esgentics_render_R03_eu_ecoplant_web_1024x1024_v1.png',
+      image: '/images/renders/adenexus-com_render_R03_eu_ecoplant_web_1024x1024_v1.png',
       category: 'logistics',
     },
     {
       title: 'Ariston',
       description: 'Smart Factory Intelligence with Real-Time Production Line Analytics.',
       size: '20,000 m²',
-      image: '/images/renders/esgentics_render_R04_me_datanexus_web_1024x1024_v1.png',
+      image: '/images/renders/adenexus-com_render_R04_me_datanexus_web_1024x1024_v1.png',
       category: 'manufacturing',
     },
     {
       title: 'Saint-Gobain R&D Center',
       description: 'IAQ and energy monitoring, retrofit simulation, HVAC optimization.',
       size: '15,000 m²',
-      image: '/images/renders/esgentics_render_R01_hero_web_1024x1024_v1.png',
+      image: '/images/renders/adenexus-com_render_R01_hero_web_1024x1024_v1.png',
       category: 'industrial',
     }
   ];

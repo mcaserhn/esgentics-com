@@ -134,8 +134,8 @@ export default function PrivacyPolicy() {
                 {translations?.privacy_policy?.sections?.contact?.body || 'If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at:'}
               </p>
               <p className="text-aden-dark-gray font-body">
-                {translations?.privacy_policy?.sections?.contact?.email || 'Email: contact@esgentics.com'}<br />
-                {translations?.privacy_policy?.sections?.contact?.address || 'Address: ESGentics Pte. Ltd., [Your Singapore Office Address], Singapore'}
+                {translations?.privacy_policy?.sections?.contact?.email || 'Email: contact@adenexus.com'}<br />
+                {translations?.privacy_policy?.sections?.contact?.address || 'Address: adenexus Pte. Ltd., [Your Singapore Office Address], Singapore'}
               </p>
             </div>
 

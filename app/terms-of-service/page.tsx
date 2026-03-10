@@ -113,8 +113,8 @@ export default function TermsOfService() {
                 {translations?.terms_of_service?.sections?.contact?.body || 'If you have any questions or concerns about these Terms, please contact us at:'}
               </p>
               <p className="text-aden-dark-gray font-body">
-                {translations?.terms_of_service?.sections?.contact?.email || 'Email: contact@esgentics.com'}<br />
-                {translations?.terms_of_service?.sections?.contact?.address || 'Address: ESGentics Pte. Ltd., [Your Singapore Office Address], Singapore'}
+                {translations?.terms_of_service?.sections?.contact?.email || 'Email: contact@adenexus.com'}<br />
+                {translations?.terms_of_service?.sections?.contact?.address || 'Address: adenexus Pte. Ltd., [Your Singapore Office Address], Singapore'}
               </p>
             </div>
 

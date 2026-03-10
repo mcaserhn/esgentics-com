@@ -77,7 +77,7 @@ export default function Footer() {
             <h4 className="font-bold mb-4">{translations?.footer?.contact || 'Contact'}</h4>
             <ul className="space-y-2">
               <li className="text-gray-300">
-                {translations?.footer?.company_name || 'ESGentics Pte. Ltd.'}
+                {translations?.footer?.company_name || 'adenexus Pte. Ltd.'}
               </li>
               <li className="text-gray-300">
                 {translations?.footer?.address || '9 Raffles Place, Republic Plaza, Singapore 048619'}
@@ -86,7 +86,7 @@ export default function Footer() {
                 {translations?.footer?.europe_address || '8 Rue Lemercier, 75017 Paris, France'}
               </li>
               <li className="text-gray-300">
-                {translations?.footer?.email || 'contact@esgentics.com'}
+                {translations?.footer?.email || 'contact@adenexus.com'}
               </li>
             </ul>
           </div>
@@ -95,7 +95,7 @@ export default function Footer() {
         <div className="border-t border-gray-700 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-300 mb-4 md:mb-0">
-              {translations?.footer?.copyright || '© 2026 ESGentics Pte. Ltd. Singapore. All Rights Reserved.'}
+              {translations?.footer?.copyright || '© 2026 adenexus Pte. Ltd. Singapore. All Rights Reserved.'}
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-300 hover:text-white transition-colors">

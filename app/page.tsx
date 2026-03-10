@@ -15,7 +15,7 @@ export default function Home() {
           <div className="relative w-full h-96 md:h-96 rounded-lg overflow-hidden">
             {/* 3D 全球AI网络概念图 */}
             <img 
-              src="/images/renders/esgentics_render_R01_hero_web_1024x1024_v1.png" 
+              src="/images/renders/adenexus-com_render_R01_hero_web_1024x1024_v1.png" 
               alt="Global AI Network Concept" 
               className="w-full h-full object-cover"
             />

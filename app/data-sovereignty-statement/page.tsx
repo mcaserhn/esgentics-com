@@ -118,8 +118,8 @@ export default function DataSovereigntyStatement() {
                 {translations?.data_sovereignty_statement?.sections?.contact?.body || 'If you have any questions or concerns about our data sovereignty practices, please contact us at:'}
               </p>
               <p className="text-aden-dark-gray font-body">
-                {translations?.data_sovereignty_statement?.sections?.contact?.email || 'Email: contact@esgentics.com'}<br />
-                {translations?.data_sovereignty_statement?.sections?.contact?.address || 'Address: ESGentics Pte. Ltd., [Your Singapore Office Address], Singapore'}
+                {translations?.data_sovereignty_statement?.sections?.contact?.email || 'Email: contact@adenexus.com'}<br />
+                {translations?.data_sovereignty_statement?.sections?.contact?.address || 'Address: adenexus Pte. Ltd., [Your Singapore Office Address], Singapore'}
               </p>
             </div>
 
