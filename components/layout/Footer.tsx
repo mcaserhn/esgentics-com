@@ -1,13 +1,13 @@
 'use client';
 
 import Link from 'next/link';
-import { useLanguage } from './LanguageProvider';
+import { useLanguage } from '../ui/LanguageProvider';
 
 export default function Footer() {
   const { lang, translations } = useLanguage();
   return (
-    <footer className="bg-deep-blue text-white py-12">
-      <div className="container mx-auto px-4">
+    <footer className="bg-aden-dark-blue text-white py-12">
+      <div className="container-content">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <h3 className="text-xl font-bold mb-2">adenexus</h3>

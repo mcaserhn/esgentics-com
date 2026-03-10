@@ -2,15 +2,16 @@
 
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { useLanguage } from './components/LanguageProvider';
+import { useLanguage } from '../components/ui/LanguageProvider';
+import Button from '../components/ui/Button';
 
 export default function Home() {
   const { lang, translations } = useLanguage();
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="hero bg-deep-blue text-white py-20 md:py-32">
-        <div className="container mx-auto px-4">
+      <section className="hero bg-aden-dark-blue text-white py-20 md:py-32">
+        <div className="container-content">
           <div className="relative w-full h-96 md:h-96 rounded-lg overflow-hidden">
             {/* 3D 全球AI网络概念图 */}
             <img 
@@ -18,7 +19,7 @@ export default function Home() {
               alt="Global AI Network Concept" 
               className="w-full h-full object-cover"
             />
-            <div className="absolute inset-0 bg-gradient-to-r from-deep-blue/80 to-transparent flex items-center">
+            <div className="absolute inset-0 bg-gradient-to-r from-aden-dark-blue/80 to-transparent flex items-center">
               <div className="px-6 md:px-10 lg:px-16 max-w-3xl">
                 <motion.h1 
               className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-white leading-tight"
@@ -41,8 +42,10 @@ export default function Home() {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.6, delay: 0.4 }}
                 >
-                  <Link href={lang === 'en' ? '/solutions' : `/${lang}/solutions`} className="btn-primary inline-block">
-                    {translations?.home?.hero?.cta || 'Explore Solutions'}
+                  <Link href={lang === 'en' ? '/solutions' : `/${lang}/solutions`} passHref>
+                    <Button variant="primary">
+                      {translations?.home?.hero?.cta || 'Explore Solutions'}
+                    </Button>
                   </Link>
                 </motion.div>
               </div>
@@ -69,7 +72,7 @@ export default function Home() {
 
       {/* Services Section */}
       <section className="py-20 bg-white">
-        <div className="container mx-auto px-4">
+        <div className="container-content">
           <motion.div 
             className="text-center mb-16"
             initial={{ opacity: 0, y: 20 }}
@@ -77,15 +80,15 @@ export default function Home() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">{translations?.home?.services?.title || 'Our Services'}</h2>
-            <p className="text-lg text-dark-gray max-w-3xl mx-auto mb-8">
+            <h2 className="text-3xl md:text-4xl font-title font-bold mb-6">{translations?.home?.services?.title || 'Our Services'}</h2>
+            <p className="text-lg text-aden-dark-gray max-w-3xl mx-auto mb-8 font-body">
               {translations?.home?.services?.subtitle || 'We serve clients across Southeast Asia, North America, Europe, and the Middle East, spanning a diverse range of sectors:'}
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               {translations?.home?.services?.sectors?.map((sector, index) => (
                 <motion.span 
                   key={index}
-                  className="bg-light-gray px-4 py-2 rounded-full text-sm font-medium"
+                  className="bg-aden-light-gray px-4 py-2 rounded-full text-sm font-medium"
                   initial={{ opacity: 0, y: 10 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
@@ -95,7 +98,7 @@ export default function Home() {
                 </motion.span>
               ))}
             </div>
-            <p className="text-lg text-dark-gray mt-8">
+            <p className="text-lg text-aden-dark-gray mt-8 font-body">
               {translations?.home?.services?.cities || 'Supporting private sector modernization & net-zero in +80 cities.'}
             </p>
           </motion.div>
@@ -103,8 +106,8 @@ export default function Home() {
       </section>
 
       {/* Value Proposition Section */}
-      <section className="py-20 bg-light-gray">
-        <div className="container mx-auto px-4">
+      <section className="py-20 bg-aden-light-gray">
+        <div className="container-content">
           <motion.div 
             className="text-center mb-16"
             initial={{ opacity: 0, y: 20 }}
@@ -112,8 +115,8 @@ export default function Home() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">{translations?.home?.value_prop?.title || 'Future-proof your assets with AI-driven turnkey engineering'}</h2>
-            <p className="text-lg text-dark-gray max-w-3xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-title font-bold mb-6">{translations?.home?.value_prop?.title || 'Future-proof your assets with AI-driven turnkey engineering'}</h2>
+            <p className="text-lg text-aden-dark-gray max-w-3xl mx-auto font-body">
               {translations?.home?.value_prop?.body || 'From concept to operation, we integrate NVIDIA-powered hardware with intelligent digital twin platforms to deliver construction projects that are smarter, faster, and built for net-zero.'}
             </p>
           </motion.div>
@@ -125,7 +128,7 @@ export default function Home() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h3 className="text-2xl font-bold mb-6">{translations?.home?.how_we_get_there?.title || 'How we get there:'}</h3>
+            <h3 className="text-2xl font-title font-bold mb-6">{translations?.home?.how_we_get_there?.title || 'How we get there:'}</h3>
             <ul className="space-y-6">
               {translations?.home?.how_we_get_there?.items?.map((item, index) => (
                 <motion.li 
@@ -136,10 +139,10 @@ export default function Home() {
                   viewport={{ once: true }}
                   transition={{ duration: 0.4, delay: index * 0.1 }}
                 >
-                  <div className="flex-shrink-0 w-6 h-6 rounded-full bg-primary-red flex items-center justify-center text-white font-bold text-sm mr-4 mt-1">
+                  <div className="flex-shrink-0 w-6 h-6 rounded-full bg-aden-orange flex items-center justify-center text-white font-bold text-sm mr-4 mt-1">
                     {index + 1}
                   </div>
-                  <p className="text-dark-gray">{item}</p>
+                  <p className="text-aden-dark-gray font-body">{item}</p>
                 </motion.li>
               ))}
             </ul>
@@ -149,7 +152,7 @@ export default function Home() {
 
       {/* Trust Section */}
       <section className="py-14 bg-white">
-        <div className="container mx-auto px-4">
+        <div className="container-content">
           <div className="flex flex-col md:flex-row items-center justify-between">
             <motion.div 
               className="md:w-1/2 mb-10 md:mb-0"
@@ -158,12 +161,14 @@ export default function Home() {
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
-              <h3 className="text-2xl md:text-3xl font-bold mb-6">{translations?.home?.trust?.title || 'Global Standards. European Heritage.'}</h3>
-              <p className="text-lg text-dark-gray mb-8">
+              <h3 className="text-2xl md:text-3xl font-title font-bold mb-6">{translations?.home?.trust?.title || 'Global Standards. European Heritage.'}</h3>
+              <p className="text-lg text-aden-dark-gray mb-8 font-body">
                 {translations?.home?.trust?.body || 'Headquartered in Singapore, backed by European capital. We bring precision engineering and long-term ESG compliance to every project.'}
               </p>
-              <Link href={lang === 'en' ? '/about' : `/${lang}/about`} className="btn-primary inline-block">
-                {translations?.navigation?.about || 'Learn More'}
+              <Link href={lang === 'en' ? '/about' : `/${lang}/about`} passHref>
+                <Button variant="primary">
+                  {translations?.navigation?.about || 'Learn More'}
+                </Button>
               </Link>
             </motion.div>
             <motion.div 
@@ -176,15 +181,15 @@ export default function Home() {
               {/* 国际化团队素材图占位 */}
               <div className="w-full h-64 md:h-80 bg-gray-300 rounded-lg flex items-center justify-center">
                 <div className="text-center">
-                  <div className="w-24 h-24 mx-auto mb-4 border-4 border-primary-red rounded-full flex items-center justify-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-primary-red">
+                  <div className="w-24 h-24 mx-auto mb-4 border-4 border-aden-orange rounded-full flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-aden-orange">
                       <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
                       <circle cx="9" cy="7" r="4"></circle>
                       <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
                       <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
                     </svg>
                   </div>
-                  <p className="text-dark-gray">Global Team</p>
+                  <p className="text-aden-dark-gray font-body">Global Team</p>
                 </div>
               </div>
             </motion.div>
@@ -193,10 +198,10 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-14 bg-deep-blue text-white">
-        <div className="container mx-auto px-4 text-center">
+      <section className="py-14 bg-aden-dark-blue text-white">
+        <div className="container-content text-center">
           <motion.h2 
-              className="text-3xl md:text-4xl font-bold mb-8"
+              className="text-3xl md:text-4xl font-title font-bold mb-8"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -210,8 +215,10 @@ export default function Home() {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-              <Link href={lang === 'en' ? '/contact' : `/${lang}/contact`} className="btn-primary inline-block">
-                {translations?.home?.cta?.cta || 'Get in Touch'}
+              <Link href={lang === 'en' ? '/contact' : `/${lang}/contact`} passHref>
+                <Button variant="primary">
+                  {translations?.home?.cta?.cta || 'Get in Touch'}
+                </Button>
               </Link>
             </motion.div>
         </div>

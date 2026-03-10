@@ -87,7 +87,7 @@ const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({ currentLang, onLang
           {languages.map((lang) => (
             <button
               key={lang.code}
-              className={`lang-item flex items-center gap-3 p-3 text-gray-800 text-sm rounded-md transition-all hover:bg-gray-100 hover:text-primary-red ${currentLang === lang.code ? 'bg-gray-100 text-primary-red font-semibold' : ''}`}
+              className={`lang-item flex items-center gap-3 p-3 text-gray-800 text-sm rounded-md transition-all hover:bg-gray-100 hover:text-aden-orange ${currentLang === lang.code ? 'bg-gray-100 text-aden-orange font-semibold' : ''}`}
               onClick={() => handleLanguageSelect(lang.code)}
               role="menuitem"
               style={{ direction: (lang.dir || 'ltr') as 'ltr' | 'rtl' }}
@@ -96,7 +96,7 @@ const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({ currentLang, onLang
                 {lang.name}
               </span>
               {currentLang === lang.code && (
-                <span className="lang-check text-primary-red font-bold flex-shrink-0">✓</span>
+                <span className="lang-check text-aden-orange font-bold flex-shrink-0">✓</span>
               )}
             </button>
           ))}

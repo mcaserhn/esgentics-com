@@ -2,7 +2,7 @@
 
 import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 import { usePathname } from 'next/navigation';
-import { supportedLanguages, defaultLanguage, loadLanguage, detectLanguage, getLanguageDirection } from '../lib/i18n';
+import { supportedLanguages, defaultLanguage, loadLanguage, detectLanguage, getLanguageDirection } from '../../lib/i18n';
 
 interface LanguageContextType {
   lang: string;

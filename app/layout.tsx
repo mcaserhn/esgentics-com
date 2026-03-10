@@ -1,10 +1,10 @@
 import { Metadata } from 'next';
 import '../styles/globals.css';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import { LanguageProvider } from './components/LanguageProvider';
-import { SITE_NAME } from './lib/metadata.config';
-import { loadLanguage } from './lib/i18n';
+import Header from '../components/layout/Header';
+import Footer from '../components/layout/Footer';
+import { LanguageProvider } from '../components/ui/LanguageProvider';
+import { SITE_NAME } from '../lib/metadata.config';
+import { loadLanguage } from '../lib/i18n';
 
 // 全局 Metadata
 export async function generateMetadata({ params }: { params?: { locale: string } }) {

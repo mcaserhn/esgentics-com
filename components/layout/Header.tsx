@@ -2,8 +2,9 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import LanguageSwitcher from './LanguageSwitcher';
-import { useLanguage } from './LanguageProvider';
+import LanguageSwitcher from '../ui/LanguageSwitcher';
+import { useLanguage } from '../ui/LanguageProvider';
+import Button from '../ui/Button';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -47,8 +48,8 @@ export default function Header() {
   };
 
   return (
-    <header className="bg-deep-blue text-white shadow-sm sticky top-0 z-50">
-      <div className="container mx-auto px-4 py-4 relative">
+    <header className="bg-aden-dark-blue text-white shadow-sm sticky top-0 z-50">
+      <div className="container-content py-4 relative">
         <div className="flex justify-between items-center">
           {/* Logo 居左 */}
           <Link href={lang === 'en' ? '/' : `/${lang}/`} className="flex items-center flex-shrink-0 z-1001">
@@ -64,10 +65,10 @@ export default function Header() {
                 <Link
                   key={link.href}
                   href={link.href}
-                  className="text-white hover:text-primary-red font-medium transition-colors relative group"
+                  className="text-white hover:text-aden-orange font-medium transition-colors relative group"
                 >
                   {link.name}
-                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-red transition-all group-hover:w-full"></span>
+                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-aden-orange transition-all group-hover:w-full"></span>
                 </Link>
               ))}
             </div>
@@ -79,8 +80,10 @@ export default function Header() {
               currentLang={lang} 
               onLanguageChange={handleLanguageChange} 
             />
-            <Link href={lang === 'en' ? '/contact' : `/${lang}/contact`} className="hidden md:block bg-primary-red hover:bg-red-700 text-white px-4 py-2 rounded-md font-medium transition-colors">
-              {translations?.navigation?.contact || 'Contact'}
+            <Link href={lang === 'en' ? '/contact' : `/${lang}/contact`} passHref className="hidden md:block">
+              <Button variant="primary">
+                {translations?.navigation?.contact || 'Contact'}
+              </Button>
             </Link>
             {/* Mobile Menu Button */}
             <button
@@ -122,7 +125,7 @@ export default function Header() {
                 <Link
                   key={link.href}
                   href={link.href}
-                  className="text-white hover:text-primary-red font-medium transition-colors"
+                  className="text-white hover:text-aden-orange font-medium transition-colors"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {link.name}

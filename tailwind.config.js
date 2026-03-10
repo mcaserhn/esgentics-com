@@ -8,17 +8,30 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'primary-red': '#ed4f18',
-        'deep-blue': '#283948',
-        'bold-text': '#3a3941',
-        'dark-gray': '#333333',
-        'medium-gray': '#d1d1d1',
-        'light-gray': '#f8f8f8',
+        'aden-orange': '#ed4f18',
+        'aden-dark-blue': '#283948',
+        'aden-bold-text': '#3a3941',
+        'aden-dark-gray': '#333333',
+        'aden-mid-grey': '#d1d1d1',
+        'aden-light-gray': '#f8f8f8',
       },
       fontFamily: {
-        'catamaran': ['Catamaran', 'sans-serif'],
+        'body': ['Catamaran', 'sans-serif'],
+        'title': ['Catamaran', 'sans-serif'],
+        'cn': ['Catamaran', 'sans-serif'],
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function({ addUtilities }) {
+      addUtilities({
+        '.container-content': {
+          'width': '100%',
+          'max-width': '1200px',
+          'margin': '0 auto',
+          'padding': '0 1rem',
+        },
+      });
+    },
+  ],
 }

@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { useForm } from 'react-hook-form';
-import { useLanguage } from '../components/LanguageProvider';
+import { useLanguage } from '../../components/ui/LanguageProvider';
 
 type FormData = {
   name: string;
