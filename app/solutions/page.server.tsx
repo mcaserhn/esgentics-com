@@ -1,6 +1,5 @@
-export function generateMetadata() {
-  return {
-    title: 'Solutions - adenexus',
-    description: 'End-to-End Intelligent Solutions. From design to long-term ESG operations, we provide turnkey intelligent construction solutions.',
-  };
+import { generatePageMetadata } from '../lib/page-metadata-helper';
+
+export async function generateMetadata({ params }: { params?: { locale: string } }) {
+  return generatePageMetadata("solutions", params?.locale || 'en');
 }

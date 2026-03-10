@@ -1,6 +1,5 @@
-export function generateMetadata() {
-  return {
-    title: 'About Us - adenexus',
-    description: 'Building Trust Across Borders. A next-generation construction technology company with a global reach and European heritage.',
-  };
+import { generatePageMetadata } from '../lib/page-metadata-helper';
+
+export async function generateMetadata({ params }: { params?: { locale: string } }) {
+  return generatePageMetadata("about", params?.locale || 'en');
 }

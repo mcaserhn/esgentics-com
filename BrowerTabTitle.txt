@@ -1,0 +1,201 @@
+基于你提供的 **Next.js 14.1 + App Router + Server Components + i18n** 技术栈，最合理、最符合最佳实践的方案是使用 **Next.js 原生的 Metadata API**。
+
+不需要引入 `react-helmet` 等第三方库，因为 Next.js 14 的 Metadata API 天生支持服务端渲染（SSR）、静态生成（SSG），并且能完美解决 SEO 和 hydration 问题。
+
+以下是具体的实施方案：
+
+### 1. 核心策略
+*   **使用 `generateMetadata`**：由于你有 **i18n (国际化)** 需求，页面标题需要根据语言动态生成，因此使用异步的 `generateMetadata` 函数比静态 `export const metadata` 更灵活。
+*   **统一配置管理**：创建一个配置文件管理路由与标题的映射，避免硬编码。
+*   **全局后缀**：在根 `layout.tsx` 中定义品牌名，子页面只定义当前页名称。
+
+### 2. 目录结构建议
+假设你的 i18n 结构是 `[locale]/`（例如 `/en/about`, `/zh/about`）：
+
+```text
+app/
+├── [locale]/
+│   ├── layout.tsx          // 全局布局，定义默认 Title 后缀
+│   ├── page.tsx            // Home 页
+│   ├── technology/
+│   │   └── page.tsx        // Technology 页
+│   ├── privacy-policy/
+│   │   └── page.tsx        // Privacy 页
+│   └── ...
+├── lib/
+│   ├── metadata.config.ts  // 标题映射配置
+│   └── i18n.ts             // 你的国际化获取函数
+```
+
+### 3. 具体代码实现
+
+#### 第一步：定义标题映射配置 (`lib/metadata.config.ts`)
+将 URL 路径映射为友好的显示名称，并关联国际化 Key。
+
+```typescript
+// lib/metadata.config.ts
+
+export const SITE_NAME = "YourBrandName"; // 你的品牌名
+
+// 定义路由与标题 Key 的映射
+export const PAGE_TITLE_MAP: Record<string, string> = {
+  "": "nav.home", // Home 页通常是空路径
+  "technology": "nav.technology",
+  "solutions": "nav.solutions",
+  "case-studies": "nav.caseStudies",
+  "about-us": "nav.aboutUs",
+  "contact": "nav.contact",
+  "privacy-policy": "legal.privacyPolicy", // 特殊处理连字符
+  "terms-of-service": "legal.termsOfService",
+  "data-sovereignty-statement": "legal.dataSovereignty", // 简化显示
+  "compliance": "legal.compliance",
+};
+```
+
+#### 第二步：配置根布局 (`app/[locale]/layout.tsx`)
+在这里设置默认的 `metadata`，确保所有页面都带上品牌名后缀。
+
+```tsx
+// app/[locale]/layout.tsx
+import { SITE_NAME } from '@/lib/metadata.config';
+import { getDictionary } from '@/lib/i18n'; // 假设你有这个获取翻译的函数
+
+export async function generateMetadata({ params }: { params: { locale: string } }) {
+  // 获取当前语言的品牌名（如果品牌名也需要翻译）
+  const dict = await getDictionary(params.locale); 
+  
+  return {
+    title: {
+      default: dict.common.siteName || SITE_NAME,
+      template: `%s | ${dict.common.siteName || SITE_NAME}`, // 子页面格式：Page Name | Brand
+    },
+    description: dict.common.siteDescription,
+  };
+}
+
+export default function RootLayout({ children, params }: { children: React.ReactNode, params: { locale: string } }) {
+  return (
+    <html lang={params.locale}>
+      <body>{children}</body>
+    </html>
+  );
+}
+```
+
+#### 第三步：实现具体页面 (`app/[locale]/technology/page.tsx`)
+在每个页面组件中，使用 `generateMetadata` 结合配置和翻译。
+
+```tsx
+// app/[locale]/technology/page.tsx
+import { generateMetadata as generatePageMetadata } from '@/lib/page-metadata-helper'; // 见下方封装
+import TechnologyView from './TechnologyView';
+
+// 1. 定义当前页面的路径标识
+const PAGE_ID = "technology";
+
+// 2. 使用 Next.js Metadata API
+export async function generateMetadata({ params }: { params: { locale: string } }) {
+  return generatePageMetadata(PAGE_ID, params.locale);
+}
+
+export default function Page() {
+  return <TechnologyView />;
+}
+```
+
+#### 第四步：封装 Metadata 生成逻辑 (`lib/page-metadata-helper.ts`)
+为了不让每个页面都写重复逻辑，封装一个通用函数。
+
+```typescript
+// lib/page-metadata-helper.ts
+import { PAGE_TITLE_MAP, SITE_NAME } from './metadata.config';
+import { getDictionary } from './i18n'; // 你的国际化库
+
+export async function generatePageMetadata(pageId: string, locale: string) {
+  const dict = await getDictionary(locale);
+  
+  // 从字典中获取翻译后的标题，如果没有则 fallback 到英文或 ID
+  const rawTitleKey = PAGE_TITLE_MAP[pageId];
+  const pageTitle = rawTitleKey 
+    ? (dict as any)[rawTitleKey] || pageId 
+    : SITE_NAME;
+
+  return {
+    title: pageTitle, 
+    // 注意：这里不需要加品牌后缀，因为 layout.tsx 的 template 会自动处理
+    // 但如果是 Home 页，可能需要特殊处理，或者依赖 layout 的 default
+  };
+}
+```
+
+#### 第五步：处理 Home 页 (`app/[locale]/page.tsx`)
+
+```tsx
+// app/[locale]/page.tsx
+import { generatePageMetadata } from '@/lib/page-metadata-helper';
+
+export async function generateMetadata({ params }: { params: { locale: string } }) {
+  // Home 页的 ID 通常对应配置中的空字符串 ""
+  return generatePageMetadata("", params.locale); 
+}
+
+export default function Home() {
+  return <div>Home Content</div>;
+}
+```
+
+### 4. 国际化字典示例 (`messages/en.json` & `messages/zh.json`)
+为了配合上述代码，你的翻译文件应该这样组织：
+
+```json
+// messages/en.json
+{
+  "nav": {
+    "home": "Home",
+    "technology": "Technology Solutions",
+    "solutions": "Our Solutions",
+    "aboutUs": "About Us"
+  },
+  "legal": {
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "dataSovereignty": "Data Sovereignty",
+    "compliance": "Compliance"
+  },
+  "common": {
+    "siteName": "MyCompany Inc."
+  }
+}
+```
+
+### 5. 为什么这是最合理的方案？
+
+1.  **SEO 友好 (Server-Side)**：
+    *   Next.js Metadata API 直接在服务端生成 HTML 的 `<title>` 标签。搜索引擎爬虫（Google/Baidu）能直接读取到正确的标题，而无需执行 JavaScript。
+    *   相比之下，`useEffect` 修改 `document.title` 是客户端行为，对 SEO 不友好。
+
+2.  **性能最优 (No Hydration Mismatch)**：
+    *   服务端渲染的标题与客户端一致，避免了 React Hydration 警告。
+    *   不需要加载额外的第三方库（如 `react-helmet`），减少 Bundle 大小。
+
+3.  **类型安全 (TypeScript)**：
+    *   利用 TS 类型定义 `PAGE_TITLE_MAP`，如果路由变更或 Key 拼写错误，编译时会报错。
+
+4.  **维护性强**：
+    *   所有标题映射集中在 `metadata.config.ts`。
+    *   品牌名变更只需修改一处。
+    *   支持 i18n，不同语言用户看到不同语言的 Tab 标题。
+
+5.  **符合 Next.js 14 规范**：
+    *   充分利用了 App Router 的特性，代码更简洁，符合官方推荐模式。
+
+### 6. 特殊注意事项
+
+*   **Data Sovereignty 标题优化**：
+    在配置中，我将 `data-sovereignty-statement` 映射为 `legal.dataSovereignty`。翻译时建议译为 "Data Sovereignty" 而不是完整的 "Data Sovereignty Statement"，因为浏览器 Tab 宽度有限，过长的标题会被截断（显示为 `Data Sovereig...`）。
+*   **Open Graph (社交分享)**：
+    Next.js Metadata API 同时支持 Open Graph 配置。你可以在 `generateMetadata` 中一并返回 `openGraph: { title: ..., images: [...] }`，这样分享到微信/LinkedIn 时也能显示正确的标题。
+*   **动态参数**：
+    如果 `Case Studies` 页面有动态路由（如 `/case-studies/[slug]`），在 `generateMetadata` 中可以通过 `params.slug` 获取具体案例名称，动态生成标题，例如：`"Project Alpha | Case Studies | Brand"`。
+
+这个方案充分利用了你技术栈中 **Next.js 14** 和 **Server Components** 的优势，是目前 React 生态中最标准、最高效的实现方式。

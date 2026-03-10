@@ -3,6 +3,24 @@
     "lang": "en",
     "dir": "ltr"
   },
+  "nav": {
+    "home": "Home",
+    "technology": "Technology",
+    "solutions": "Solutions",
+    "caseStudies": "Case Studies",
+    "aboutUs": "About Us",
+    "contact": "Contact"
+  },
+  "legal": {
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "dataSovereignty": "Data Sovereignty",
+    "compliance": "Compliance"
+  },
+  "common": {
+    "siteName": "adenexus",
+    "siteDescription": "AI-Driven Construction. Sustainable Future. Next-generation construction technology powered by NVIDIA."
+  },
   "navigation": {
     "home": "Home",
     "technology": "Technology",

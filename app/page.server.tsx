@@ -1,6 +1,5 @@
-export function generateMetadata() {
-  return {
-    title: 'Home - adenexus',
-    description: 'AI-Driven Construction. Sustainable Future. Next-generation construction technology powered by NVIDIA.',
-  };
+import { generatePageMetadata } from './lib/page-metadata-helper';
+
+export async function generateMetadata({ params }: { params?: { locale: string } }) {
+  return generatePageMetadata("", params?.locale || 'en');
 }
