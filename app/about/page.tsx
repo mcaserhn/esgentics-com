@@ -81,7 +81,7 @@ export default function About() {
             <p className="text-2xl font-body font-medium text-aden-dark-blue mb-8 text-center">
               {translations?.about?.differentiation?.body || 'Engineering + AI + NVIDIA Hardware'}
             </p>
-            <p className="text-lg text-aden-dark-gray max-w-3xl mx-auto font-body text-center">
+            <p className="text-lg text-aden-dark-gray max-w-3xl mx-auto font-body text-left">
               {translations?.about?.differentiation?.description || 'Unlike pure software providers or traditional engineering firms, we bridge the gap between construction and intelligence.'}
             </p>
           </motion.div>
