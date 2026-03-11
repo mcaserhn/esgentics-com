@@ -40,7 +40,7 @@ export default function DataSovereigntyStatement() {
             <div className="mb-12">
               <h2 className="text-2xl font-title font-bold mb-4">{translations?.data_sovereignty_statement?.sections?.introduction?.title || 'Introduction'}</h2>
               <p className="text-aden-dark-gray font-body mb-4">
-                {translations?.data_sovereignty_statement?.sections?.introduction?.body || 'ESGentics Pte. Ltd. ("we", "us", or "our") is committed to respecting data sovereignty and complying with applicable data protection laws in all regions where we operate. This Data Sovereignty Statement explains our approach to data residency and protection.'}
+                {translations?.data_sovereignty_statement?.sections?.introduction?.body || 'adenexus Pte. Ltd. ("we", "us", or "our") is committed to respecting data sovereignty and complying with applicable data protection laws in all regions where we operate. This Data Sovereignty Statement explains our approach to data residency and protection.'}
               </p>
             </div>
 

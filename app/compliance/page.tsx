@@ -50,7 +50,7 @@ export default function Compliance() {
               <h2 className="text-3xl md:text-4xl font-title font-bold">{translations?.compliance?.legal_entity?.title || 'Registered in Singapore.'}</h2>
             </div>
             <p className="text-lg text-aden-dark-gray font-body max-w-3xl">
-              {translations?.compliance?.legal_entity?.body || 'ESGentics Pte. Ltd. is incorporated under the laws of Singapore. All contracts are governed by Singapore International Arbitration Centre (SIAC) rules.'}
+              {translations?.compliance?.legal_entity?.body || 'adenexus Pte. Ltd. is incorporated under the laws of Singapore. All contracts are governed by Singapore International Arbitration Centre (SIAC) rules.'}
             </p>
           </motion.div>
 

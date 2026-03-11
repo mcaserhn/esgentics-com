@@ -40,7 +40,7 @@ export default function TermsOfService() {
             <div className="mb-12">
               <h2 className="text-2xl font-title font-bold mb-4">{translations?.terms_of_service?.sections?.introduction?.title || 'Introduction'}</h2>
               <p className="text-aden-dark-gray font-body mb-4">
-                {translations?.terms_of_service?.sections?.introduction?.body || 'These Terms of Service ("Terms") govern your use of the ESGentics.com website ("Website") and the services provided by ESGentics Pte. Ltd. ("we", "us", or "our"). By accessing or using our Website or services, you agree to be bound by these Terms. If you do not agree to these Terms, please do not use our Website or services.'}
+                {translations?.terms_of_service?.sections?.introduction?.body || 'These Terms of Service ("Terms") govern your use of the adenexus.com website ("Website") and the services provided by adenexus Pte. Ltd. ("we", "us", or "our"). By accessing or using our Website or services, you agree to be bound by these Terms. If you do not agree to these Terms, please do not use our Website or services.'}
               </p>
             </div>
 
@@ -61,7 +61,7 @@ export default function TermsOfService() {
             <div className="mb-12">
               <h2 className="text-2xl font-title font-bold mb-4">{translations?.terms_of_service?.sections?.intellectual_property?.title || 'Intellectual Property'}</h2>
               <p className="text-aden-dark-gray font-body mb-4">
-                {translations?.terms_of_service?.sections?.intellectual_property?.body || 'All content on the Website, including text, graphics, logos, images, and software, is the property of ESGentics Pte. Ltd. or its licensors and is protected by intellectual property laws. You may not reproduce, distribute, modify, or create derivative works of any content without our prior written consent.'}
+                {translations?.terms_of_service?.sections?.intellectual_property?.body || 'All content on the Website, including text, graphics, logos, images, and software, is the property of adenexus Pte. Ltd. or its licensors and is protected by intellectual property laws. You may not reproduce, distribute, modify, or create derivative works of any content without our prior written consent.'}
               </p>
             </div>
 
@@ -75,7 +75,7 @@ export default function TermsOfService() {
             <div className="mb-12">
               <h2 className="text-2xl font-title font-bold mb-4">{translations?.terms_of_service?.sections?.limitation_of_liability?.title || 'Limitation of Liability'}</h2>
               <p className="text-aden-dark-gray font-body mb-4">
-                {translations?.terms_of_service?.sections?.limitation_of_liability?.body || 'To the maximum extent permitted by law, ESGentics Pte. Ltd. shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising out of or in connection with your use of the Website or our services. Our total liability for any claim arising out of or in connection with these Terms shall not exceed the amount paid by you for our services, if any.'}
+                {translations?.terms_of_service?.sections?.limitation_of_liability?.body || 'To the maximum extent permitted by law, adenexus Pte. Ltd. shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising out of or in connection with your use of the Website or our services. Our total liability for any claim arising out of or in connection with these Terms shall not exceed the amount paid by you for our services, if any.'}
               </p>
             </div>
 
@@ -89,7 +89,7 @@ export default function TermsOfService() {
             <div className="mb-12">
               <h2 className="text-2xl font-title font-bold mb-4">{translations?.terms_of_service?.sections?.indemnification?.title || 'Indemnification'}</h2>
               <p className="text-aden-dark-gray font-body mb-4">
-                {translations?.terms_of_service?.sections?.indemnification?.body || 'You agree to indemnify, defend, and hold harmless ESGentics Pte. Ltd. and its officers, directors, employees, and agents from and against any claims, liabilities, damages, losses, and expenses arising out of or in connection with your use of the Website or our services, or your violation of these Terms.'}
+                {translations?.terms_of_service?.sections?.indemnification?.body || 'You agree to indemnify, defend, and hold harmless adenexus Pte. Ltd. and its officers, directors, employees, and agents from and against any claims, liabilities, damages, losses, and expenses arising out of or in connection with your use of the Website or our services, or your violation of these Terms.'}
               </p>
             </div>
 

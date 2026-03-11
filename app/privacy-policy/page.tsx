@@ -40,7 +40,7 @@ export default function PrivacyPolicy() {
             <div className="mb-12">
               <h2 className="text-2xl font-title font-bold mb-4">{translations?.privacy_policy?.sections?.introduction?.title || 'Introduction'}</h2>
               <p className="text-aden-dark-gray font-body mb-4">
-                {translations?.privacy_policy?.sections?.introduction?.body || 'ESGentics Pte. Ltd. ("we", "us", or "our") is committed to protecting the privacy of our website visitors and clients. This Privacy Policy explains how we collect, use, disclose, and protect your personal data when you visit our website or use our services.'}
+                {translations?.privacy_policy?.sections?.introduction?.body || 'adenexus Pte. Ltd. ("we", "us", or "our") is committed to protecting the privacy of our website visitors and clients. This Privacy Policy explains how we collect, use, disclose, and protect your personal data when you visit our website or use our services.'}
               </p>
             </div>
 
