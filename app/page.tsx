@@ -65,10 +65,10 @@ export default function Home() {
         <Container>
           <div className="text-center">
             <FadeIn>
-              <SectionHeader 
-                title={translations?.home?.services?.title || 'Our Services'}
-                description={translations?.home?.services?.subtitle || 'We serve clients across Southeast Asia, North America, Europe, and the Middle East, spanning a diverse range of sectors:'}
-              />
+              <div className="max-w-4xl mx-auto">
+                <h2 className="font-title text-2xl md:text-3xl lg:text-4xl font-bold mb-6 whitespace-nowrap">{translations?.home?.services?.title || 'Our Services'}</h2>
+                <p className="text-lg text-aden-dark-gray mt-4 max-w-prose mx-auto font-body text-left">{translations?.home?.services?.subtitle || 'We serve clients across Southeast Asia, North America, Europe, and the Middle East, spanning a diverse range of sectors:'}</p>
+              </div>
             </FadeIn>
             <div className="mt-10 flex flex-wrap justify-center gap-4">
               {translations?.home?.services?.sectors?.map((sector, index) => (
@@ -93,10 +93,10 @@ export default function Home() {
         <Container>
           <div className="text-center">
             <FadeIn>
-              <SectionHeader 
-                title={translations?.home?.value_prop?.title || 'Future-proof your assets with AI-driven turnkey engineering'}
-                description={translations?.home?.value_prop?.body || 'From concept to operation, we integrate NVIDIA-powered hardware with intelligent digital twin platforms to deliver construction projects that are smarter, faster, and built for net-zero.'}
-              />
+              <div className="max-w-4xl mx-auto">
+                <h2 className="font-title text-2xl md:text-3xl lg:text-4xl font-bold mb-6 whitespace-nowrap">{translations?.home?.value_prop?.title || 'Future-proof your assets with AI-driven turnkey engineering'}</h2>
+                <p className="text-lg text-aden-dark-gray mt-4 max-w-prose mx-auto font-body text-left">{translations?.home?.value_prop?.body || 'From concept to operation, we integrate NVIDIA-powered hardware with intelligent digital twin platforms to deliver construction projects that are smarter, faster, and built for net-zero.'}</p>
+              </div>
             </FadeIn>
             <div className="mt-10 max-w-3xl mx-auto">
               <FadeIn delay={0.2}>
@@ -125,7 +125,7 @@ export default function Home() {
           <div className="text-center max-w-3xl mx-auto">
             <FadeIn>
               <h3 className="text-2xl md:text-3xl font-title font-bold mb-6">{translations?.home?.trust?.title || 'Global Standards. European Heritage.'}</h3>
-              <p className="text-lg text-aden-dark-gray mb-10 font-body text-center">
+              <p className="text-lg text-aden-dark-gray mb-10 font-body text-left">
                 {translations?.home?.trust?.body || 'Headquartered in Singapore, we bring precision engineering and long-term ESG compliance to every project. Our team combines global expertise with local insights to deliver sustainable, intelligent construction solutions.'}
               </p>
             </FadeIn>
