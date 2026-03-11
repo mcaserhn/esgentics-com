@@ -1,6 +1,6 @@
-# ESGentics.com 网站设计文档 (完整版 v1.0)
+# adenexus.com 网站设计文档 (完整版 v1.0)
 
-> **项目**: esgentics.com  
+> **项目**: adenexus.com  
 > **版本**: v1.0 Complete  
 > **日期**: 2026-02-26  
 > **最后更新**: 2026-02-26  
@@ -30,10 +30,10 @@
 
 | 项目 | 内容 |
 |------|------|
-| **域名** | esgentics.com |
+| **域名** | adenexus.com |
 | **品牌标语** | "Intelligent Construction. Sustainable Legacy." |
 | **核心价值** | AI 算法 + AI 硬件 + AI 智能体，实现智能建造 A-Z 交钥匙工程，对标 ESG 规范下的长期运营服务 |
-| **公司注册** | 新加坡 (ESGentics Pte. Ltd.) |
+| **公司注册** | 新加坡 (adenexus Pte. Ltd.) |
 | **资本背景** | 法国资本（通过设计风格和文案暗示，不直接披露） |
 | **目标市场** | 东南亚、北美、欧洲、中东（**严格排除中国大陆**） |
 | **技术背书** | NVIDIA 合作伙伴（硬件层） |
@@ -139,7 +139,7 @@ CTA: Explore Solutions
 
 Section - Value Prop:
 H2: From Alpha to Omega, Powered by AI.
-Body: ESGentics delivers turnkey intelligent construction services. We integrate advanced AI algorithms, edge hardware, and autonomous agents to manage your project from conception to long-term operation.
+Body: adenexus delivers turnkey intelligent construction services. We integrate advanced AI algorithms, edge hardware, and autonomous agents to manage your project from conception to long-term operation.
 
 Section - Trust:
 H3: Global Standards. European Heritage.
@@ -232,7 +232,7 @@ H1: Global Compliance & Data Sovereignty.
 
 Section - Legal Entity:
 H2: Registered in Singapore.
-Body: ESGentics Pte. Ltd. is incorporated under the laws of Singapore. All contracts are governed by Singapore International Arbitration Centre (SIAC) rules.
+Body: adenexus Pte. Ltd. is incorporated under the laws of Singapore. All contracts are governed by Singapore International Arbitration Centre (SIAC) rules.
 
 Section - Data Sovereignty:
 H2: Data Residency Guarantee.
@@ -255,7 +255,7 @@ H1: Building Trust Across Borders.
 
 Section - Who We Are:
 H2: Singapore Hub. Global Reach.
-Body: ESGentics is a next-generation construction technology company headquartered in Singapore. We serve clients across Southeast Asia, North America, Europe, and the Middle East.
+Body: adenexus is a next-generation construction technology company headquartered in Singapore. We serve clients across Southeast Asia, North America, Europe, and the Middle East.
 
 Section - Heritage:
 H2: European Engineering DNA.
@@ -276,9 +276,9 @@ H1: Start Your Project.
 Body: Get in touch with our team to discuss your intelligent construction needs.
 
 Contact Info:
-• Headquarters: ESGentics Pte. Ltd.
+• Headquarters: adenexus Pte. Ltd.
 • Address: [Your Singapore Office Address], Singapore.
-• Email: contact@esgentics.com
+• Email: contact@adenexus.com
 • Regions: Sales inquiries for NA, EU, ME, and SE Asia welcome.
 
 Form Fields:
@@ -297,7 +297,7 @@ CTA: Contact Us Now
 ### 4.7 全局页脚 (Footer)
 
 ```
-© 2026 ESGentics Pte. Ltd. Singapore. All Rights Reserved.
+© 2026 adenexus Pte. Ltd. Singapore. All Rights Reserved.
 
 Links: Privacy Policy | Terms of Service | Data Sovereignty Statement | Compliance
 
@@ -525,7 +525,7 @@ strong {
 ### 全局默认 Meta
 
 ```html
-<title>ESGentics | AI-Powered Intelligent Construction from Singapore</title>
+<title>adenexus | AI-Powered Intelligent Construction from Singapore</title>
 <meta name="description" content="Turnkey smart building solutions powered by AI agents & NVIDIA hardware. ESG-compliant, global delivery. Headquartered in Singapore.">
 <meta name="keywords" content="AI construction, intelligent building, ESG compliance, turnkey engineering, NVIDIA partner, Singapore tech">
 <meta name="robots" content="index, follow">
@@ -537,10 +537,10 @@ strong {
 
 | 页面 | Title (≤60 字) | Description (≤155 字) |
 |------|---------------|----------------------|
-| Home | `ESGentics \| AI Intelligent Construction from Singapore` | `Turnkey smart building solutions powered by AI agents & NVIDIA hardware. ESG-compliant, global delivery.` |
-| Technology | `AI Technology \| NVIDIA-Powered Construction AI - ESGentics` | `Proprietary AI agents + NVIDIA edge computing for intelligent construction. Predictive analytics, global compliance.` |
-| Solutions | `Turnkey Solutions \| A-Z Intelligent Construction - ESGentics` | `From design to long-term ESG operations. AI-driven turnkey engineering for SE Asia, Europe, NA, Middle East.` |
-| Compliance | `Global Compliance \| Data Sovereignty & ESG - ESGentics` | `Singapore-registered. GDPR/PDPA compliant. Data residency guarantee. No data in mainland China.` |
+| Home | `adenexus \| AI Intelligent Construction from Singapore` | `Turnkey smart building solutions powered by AI agents & NVIDIA hardware. ESG-compliant, global delivery.` |
+| Technology | `AI Technology \| NVIDIA-Powered Construction AI - adenexus` | `Proprietary AI agents + NVIDIA edge computing for intelligent construction. Predictive analytics, global compliance.` |
+| Solutions | `Turnkey Solutions \| A-Z Intelligent Construction - adenexus` | `From design to long-term ESG operations. AI-driven turnkey engineering for SE Asia, Europe, NA, Middle East.` |
+| Compliance | `Global Compliance \| Data Sovereignty & ESG - adenexus` | `Singapore-registered. GDPR/PDPA compliant. Data residency guarantee. No data in mainland China.` |
 
 **SEO 关键约束**:
 
@@ -558,7 +558,7 @@ strong {
 
 - [ ] 页脚显示 "No data residency in mainland China"
 - [ ] 所有表单含 Privacy Policy 链接 + 同意复选框
-- [ ] Footer 版权："© ESGentics Pte. Ltd. Singapore"
+- [ ] Footer 版权："© adenexus Pte. Ltd. Singapore"
 - [ ] 全站无 `China/CN/Chinese` 等词汇（正则扫描 + 人工复核）
 - [ ] NVIDIA Logo 使用符合官方品牌指南
 
@@ -566,7 +566,7 @@ strong {
 
 - [ ] Catamaran 字体加载正常，fallback 有效
 - [ ] 所有色值使用 CSS 变量，无硬编码
-- [ ] 网站 IP 归属地：新加坡/欧美（`ping esgentics.com` 验证）
+- [ ] 网站 IP 归属地：新加坡/欧美（`ping adenexus.com` 验证）
 - [ ] HTTPS 强制跳转，SSL 证书有效
 - [ ] 移动端兼容：iOS Safari / Android Chrome 测试通过
 
@@ -612,7 +612,7 @@ esgentics_web_spec_v1.0/
 | 优先级 | 行动 | 负责人 | 状态 |
 |--------|------|--------|------|
 | P0 | 确认本设计文档终稿 | 客户 | ⬜ |
-| P0 | 注册 `esgentics.com` 并配置 DNS | 运维 | ⬜ |
+| P0 | 注册 `adenexus.com` 并配置 DNS | 运维 | ⬜ |
 | P1 | 启动 3D 概念渲染图制作（5 张） | 设计团队 | ⬜ |
 | P1 | 申请 NVIDIA Partner Logo 使用授权 | 市场 | ⬜ |
 | P1 | 法务审核 Privacy Policy 初稿 | 法务 | ⬜ |
@@ -623,9 +623,9 @@ esgentics_web_spec_v1.0/
 
 | Version | Date | Changes | Author |
 |---------|------|---------|--------|
-| v1.2 | 2026-02-26 | Updated page content and structure to match actual implementation: added detailed sections for Home, Technology, Solutions, and Contact pages; updated spacing guidelines; integrated Tailwind CSS configuration | ESGentics Team |
-| v1.1 | 2026-02-26 | Added spacing guidelines: increased text-image spacing, reduced page bottom spacing | ESGentics Team |
-| v1.0 | 2026-02-26 | Initial complete spec + Privacy Policy draft | ESGentics Team |
+| v1.2 | 2026-02-26 | Updated page content and structure to match actual implementation: added detailed sections for Home, Technology, Solutions, and Contact pages; updated spacing guidelines; integrated Tailwind CSS configuration | adenexus Team |
+| v1.1 | 2026-02-26 | Added spacing guidelines: increased text-image spacing, reduced page bottom spacing | adenexus Team |
+| v1.0 | 2026-02-26 | Initial complete spec + Privacy Policy draft | adenexus Team |
 
 ---
 
@@ -639,7 +639,7 @@ esgentics_web_spec_v1.0/
 
 ---
 
-> **文档结束** | Version 1.0 Complete | ESGentics Pte. Ltd. | Last Updated: 2026-02-26
+> **文档结束** | Version 1.0 Complete | adenexus Pte. Ltd. | Last Updated: 2026-02-26
 
 ---
 
