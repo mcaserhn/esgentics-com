@@ -41,11 +41,11 @@ export default function About() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-3xl md:text-4xl font-title font-bold mb-6">{translations?.about?.mission?.title || 'Our Mission'}</h2>
-            <p className="text-2xl font-body font-medium text-aden-dark-blue mb-8">
+            <h2 className="text-3xl md:text-4xl font-title font-bold mb-6 text-center">{translations?.about?.mission?.title || 'Our Mission'}</h2>
+            <p className="text-2xl font-body font-medium text-aden-dark-blue mb-8 text-center">
               {translations?.about?.mission?.body || 'Digitalize, Optimize, and Future-Proof Buildings & Cities'}
             </p>
-            <p className="text-lg text-aden-dark-gray max-w-3xl mx-auto mb-12 font-body">
+            <p className="text-lg text-aden-dark-gray max-w-3xl mx-auto mb-12 font-body text-center">
               We believe the buildings of tomorrow must be:
             </p>
           </motion.div>
@@ -77,11 +77,11 @@ export default function About() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-3xl md:text-4xl font-title font-bold mb-6">{translations?.about?.differentiation?.title || 'What Makes Us Different'}</h2>
-            <p className="text-2xl font-body font-medium text-aden-dark-blue mb-8">
+            <h2 className="text-3xl md:text-4xl font-title font-bold mb-6 text-center">{translations?.about?.differentiation?.title || 'What Makes Us Different'}</h2>
+            <p className="text-2xl font-body font-medium text-aden-dark-blue mb-8 text-center">
               {translations?.about?.differentiation?.body || 'Engineering + AI + NVIDIA Hardware'}
             </p>
-            <p className="text-lg text-aden-dark-gray max-w-3xl mx-auto font-body">
+            <p className="text-lg text-aden-dark-gray max-w-3xl mx-auto font-body text-center">
               {translations?.about?.differentiation?.description || 'Unlike pure software providers or traditional engineering firms, we bridge the gap between construction and intelligence.'}
             </p>
           </motion.div>
