@@ -1,113 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400;600;800&display=swap');
 
-:root {
-  --primary-red: #ed4f18;
-  --deep-blue: #283948;
-  --bold-text: #3a3941;
-  --dark-gray: #333333;
-  --medium-gray: #d1d1d1;
-  --light-gray: #f8f8f8;
-  --font-main: 'Catamaran', sans-serif;
-}
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-body {
-  font-family: var(--font-main);
-  color: var(--dark-gray);
-  background-color: var(--light-gray);
-  line-height: 1.6;
-}
-
-h1, h2, h3 {
-  color: var(--deep-blue);
-  font-weight: 800;
-}
-
-strong {
-  color: var(--bold-text);
-  font-weight: 600;
-}
-
-.btn-primary {
-  background-color: var(--primary-red);
-  color: #ffffff;
-  padding: 12px 24px;
-  border-radius: 4px;
-  font-weight: 600;
-  border: none;
-  text-transform: uppercase;
-  transition: background 0.3s ease;
-}
-
-.btn-primary:hover {
-  background-color: #d14010;
-}
-
-.container {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-@media (max-width: 768px) {
-  .hero {
-    text-align: center;
-    padding: 60px 0;
+@layer base {
+  /* 全站默认字体 */
+  html {
+    font-family: Catamaran, Arial, sans-serif;
   }
-  .hero h1 {
-    font-size: 28px !important;
+
+  /* 品牌排版：禁止 justify，统一左对齐 */
+  p {
+    text-align: left;
   }
-  .btn-primary {
-    width: 100%;
-  }
-}
-
-.card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 24px rgba(40,57,72,0.16);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.input-field:focus {
-  border-color: var(--primary-red);
-  box-shadow: 0 0 0 3px rgba(237, 79, 24, 0.1);
-}
-
-.input-field.error {
-  border-color: #dc3545;
-}
-
-.badge {
-  background: var(--primary-red);
-  color: #fff;
-  padding: 4px 8px;
-  border-radius: 12px;
-  font-size: 12px;
-  font-weight: 600;
-}
-
-.section-divider {
-  height: 1px;
-  background: var(--medium-gray);
-  margin: 48px 0;
-}
-
-.breadcrumb {
-  font-size: 14px;
-  color: #666;
-}
-
-.breadcrumb a {
-  color: var(--primary-red);
-}
-
-.toast {
-  background: var(--deep-blue);
-  color: #fff;
-  padding: 12px 20px;
-  border-left: 4px solid var(--primary-red);
 }

@@ -1,40 +1,56 @@
-import React from 'react';
+import * as React from "react";
 
-export interface CardProps extends React.HTMLAttributes<HTMLDivElement> {
+export type CardProps = React.HTMLAttributes<HTMLDivElement> & {
+  variant?: "default" | "soft" | "dark";
   children: React.ReactNode;
-  className?: string;
-}
+};
 
-export default function Card({ children, className = '', ...props }: CardProps) {
-  const baseClasses = 'bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-1';
+const variants: Record<NonNullable<CardProps["variant"]>, string> = {
+  default: "bg-aden-white border border-aden-mid-grey",
+  soft: "bg-aden-light-gray border border-aden-mid-grey",
+  dark: "bg-aden-dark-blue border border-aden-dark-blue text-aden-white",
+};
 
+export default function Card({
+  className = "",
+  variant = "default",
+  children,
+  ...props
+}: CardProps) {
   return (
-    <div className={`${baseClasses} ${className}`} {...props}>
+    <div
+      className={[
+        "rounded-2xl p-6 md:p-8",
+        variants[variant],
+        className,
+      ].join(" ")}
+      {...props}
+    >
       {children}
     </div>
   );
 }
 
-export function CardHeader({ children, className = '' }: { children: React.ReactNode; className?: string }) {
+export function CardTitle({
+  className = "",
+  ...props
+}: React.HTMLAttributes<HTMLHeadingElement>) {
   return (
-    <div className={`p-6 border-b border-aden-mid-grey ${className}`}>
-      {children}
-    </div>
+    <h3
+      className={["font-title text-xl text-aden-dark-blue", className].join(" ")}
+      {...props}
+    />
   );
 }
 
-export function CardBody({ children, className = '' }: { children: React.ReactNode; className?: string }) {
+export function CardText({
+  className = "",
+  ...props
+}: React.HTMLAttributes<HTMLParagraphElement>) {
   return (
-    <div className={`p-6 ${className}`}>
-      {children}
-    </div>
-  );
-}
-
-export function CardFooter({ children, className = '' }: { children: React.ReactNode; className?: string }) {
-  return (
-    <div className={`p-6 border-t border-aden-mid-grey ${className}`}>
-      {children}
-    </div>
+    <p
+      className={["mt-2 text-aden-dark-gray", className].join(" ")}
+      {...props}
+    />
   );
 }

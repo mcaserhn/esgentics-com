@@ -10,15 +10,19 @@ module.exports = {
       colors: {
         'aden-orange': '#ed4f18',
         'aden-dark-blue': '#283948',
-        'aden-bold-text': '#3a3941',
+        'aden-digital-blue': '#1EE6FF',
         'aden-dark-gray': '#333333',
         'aden-mid-grey': '#d1d1d1',
         'aden-light-gray': '#f8f8f8',
+        'aden-white': '#FFFFFF',
       },
       fontFamily: {
         'body': ['Catamaran', 'sans-serif'],
         'title': ['Catamaran', 'sans-serif'],
         'cn': ['Catamaran', 'sans-serif'],
+      },
+      maxWidth: {
+        'content': '1200px',
       },
     },
   },
