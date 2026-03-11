@@ -14,12 +14,12 @@
 
 **Last Updated**: [Date]  
 **Effective Date**: [Date]  
-**Data Controller**: ESGentics Pte. Ltd. (UEN: [Your UEN])  
+**Data Controller**: adenexus Pte. Ltd. (UEN: [Your UEN])  
 **Registered Address**: [Your Singapore Office Address], Singapore  
 
 ## 1. Introduction
 
-ESGentics Pte. Ltd. ("we", "us", or "our") is committed to protecting your privacy and ensuring the security of your personal data. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website esgentics.com (the "Site") or engage with our intelligent construction services.
+adenexus Pte. Ltd. ("we", "us", or "our") is committed to protecting your privacy and ensuring the security of your personal data. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website adenexus.com (the "Site") or engage with our intelligent construction services.
 
 We are headquartered in Singapore and serve clients globally. **We do not store, process, or transfer personal data to mainland China.** Our infrastructure is deployed in Singapore, Europe, and North America to ensure compliance with regional data protection laws.
 
@@ -85,7 +85,7 @@ Depending on your location, you may have the following rights:
 
 | Right | GDPR (EU) | PDPA (SG) | CCPA (CA) | How to Exercise |
 |-------|-----------|-----------|-----------|----------------|
-| Access | ✅ | ✅ | ✅ | Email contact@esgentics.com |
+| Access | ✅ | ✅ | ✅ | Email contact@adenexus.com |
 | Correction | ✅ | ✅ | ✅ | Same as above |
 | Deletion ("Right to be Forgotten") | ✅ | ⚠️ (with exceptions) | ✅ | Written request + identity verification |
 | Portability | ✅ | ❌ | ✅ | Machine-readable format upon request |
@@ -93,7 +93,7 @@ Depending on your location, you may have the following rights:
 | Withdraw Consent | ✅ | ✅ | ✅ | Update preferences or unsubscribe |
 | Lodge Complaint | Supervisory Authority | PDPC | California AG | Contact details provided upon request |
 
-To exercise any right, contact us at **privacy@esgentics.com** with subject line "Privacy Request". We will respond within 30 days (or as required by applicable law).
+To exercise any right, contact us at **privacy@adenexus.com** with subject line "Privacy Request". We will respond within 30 days (or as required by applicable law).
 
 ## 7. Data Retention
 
@@ -154,11 +154,11 @@ Continued use of our Site/services after changes constitutes acceptance.
 For privacy-related inquiries, data requests, or complaints:
 
 **Data Protection Officer**  
-ESGentics Pte. Ltd.  
+adenexus Pte. Ltd.  
 [Your Singapore Office Address]  
 Singapore  
-📧 privacy@esgentics.com  
-🌐 https://esgentics.com/contact  
+📧 privacy@adenexus.com  
+🌐 https://adenexus.com/contact  
 
 **Singapore PDPC Contact** (for local complaints):  
 https://www.pdpc.gov.sg  
@@ -186,4 +186,4 @@ https://www.pdpc.gov.sg
 
 ---
 
-> **Disclaimer**: This Privacy Policy draft is for internal review and client discussion purposes only. It must be reviewed and finalized by a qualified Singapore legal practitioner before publication. ESGentics Pte. Ltd. assumes no liability for reliance on this draft without proper legal counsel.
+> **Disclaimer**: This Privacy Policy draft is for internal review and client discussion purposes only. It must be reviewed and finalized by a qualified Singapore legal practitioner before publication. adenexus Pte. Ltd. assumes no liability for reliance on this draft without proper legal counsel.
