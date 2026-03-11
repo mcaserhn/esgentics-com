@@ -1,6 +1,6 @@
-# ESGentics.com 联系表单后端技术方案
+# adenexus.com 联系表单后端技术方案
 
-> **项目**: esgentics.com 联系表单后端实现  
+> **项目**: adenexus.com 联系表单后端实现  
 > **目标**: 安全、合规、可靠地接收全球客户咨询  
 > **合规框架**: Singapore PDPA + EU GDPR + 数据主权要求  
 > **版本**: v1.0  
@@ -20,7 +20,7 @@
 | **前端验证** | 必填字段实时校验，邮箱格式校验，Region 自动检测（基于时区，可手动覆盖） |
 | **后端验证** | 二次校验 + 防注入 + 防 XSS + 防垃圾提交（honeypot + rate limit） |
 | **数据流向** | 用户提交 → API Gateway → Lambda 验证 → 区域路由存储 + 邮件通知 → 脱敏响应 |
-| **通知机制** | 提交成功后，自动发送通知邮件至 `contact@esgentics.com`，含摘要信息（脱敏） |
+| **通知机制** | 提交成功后，自动发送通知邮件至 `contact@adenexus.com`，含摘要信息（脱敏） |
 | **用户反馈** | 提交成功重定向至 `/thank-you` 页，失败返回友好错误提示（无技术细节泄露） |
 
 ### 1.2 合规与安全需求
@@ -82,7 +82,7 @@ Lambda (Node.js 18.x)
 | 优势 | 说明 |
 |------|------|
 | ✅ 完全合规可控 | 数据区域可精确配置，符合 PDPA/GDPR 数据主权要求 |
-| ✅ 架构一致性 | 与 ESGentics 主站 AWS Singapore 部署架构无缝集成 |
+| ✅ 架构一致性 | 与 adenexus 主站 AWS Singapore 部署架构无缝集成 |
 | ✅ 成本极低 | 按量付费，初期 <10K 请求/月 成本 ≈ $1-2/月 |
 | ✅ 原生安全 | IAM 最小权限 + VPC 可选 + 加密默认开启 |
 | ✅ 易于扩展 | 后续可增加 webhook、CRM 集成、AI 垃圾检测等模块 |
@@ -96,7 +96,7 @@ const crypto = require('crypto');
 
 // 配置 (建议从 SSM Parameter Store 读取)
 const CONFIG = {
-    notifyEmail: process.env.NOTIFY_EMAIL || 'contact@esgentics.com',
+    notifyEmail: process.env.NOTIFY_EMAIL || 'contact@adenexus.com',
     regionEndpoints: JSON.parse(process.env.DB_REGIONS || '{}'),
     defaultRegion: 'ap-southeast-1',
     rateLimitWindow: 24 * 60 * 60 * 1000, // 24 小时
@@ -323,9 +323,9 @@ resource "aws_cloudwatch_metric_alarm" "lambda_errors" {
   </label>
   
   <!-- 隐藏配置 -->
-  <input type="hidden" name="_subject" value="New Inquiry from esgentics.com">
-  <input type="hidden" name="_next" value="https://esgentics.com/thank-you">
-  <input type="hidden" name="_cc" value="contact@esgentics.com">
+  <input type="hidden" name="_subject" value="New Inquiry from adenexus.com">
+  <input type="hidden" name="_next" value="https://adenexus.com/thank-you">
+  <input type="hidden" name="_cc" value="contact@adenexus.com">
   
   <button type="submit" class="btn-primary">Send Inquiry</button>
   
@@ -720,7 +720,7 @@ aws sns publish \
 
 ---
 
-> **备注**: 本方案为技术建议，最终实现需经 ESGentics 技术负责人 + 法务联合审核。所有数据处理活动需记录于 RoPA (Record of Processing Activities)，并定期审计。
+> **备注**: 本方案为技术建议，最终实现需经 adenexus 技术负责人 + 法务联合审核。所有数据处理活动需记录于 RoPA (Record of Processing Activities)，并定期审计。
 
-**文档结束** | Version 1.0 | ESGentics Pte. Ltd. | Last Updated: 2026-02-26
+**文档结束** | Version 1.0 | adenexus Pte. Ltd. | Last Updated: 2026-02-26
 ```

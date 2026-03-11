@@ -32,7 +32,7 @@
 
 | 项目 | 内容 |
 |------|------|
-| **域名** | esgentics.com |
+| **域名** | adenexus.com |
 | **品牌标语** | "Intelligent Construction. Sustainable Legacy." |
 | **核心价值** | AI 算法 + AI 硬件 + AI 智能体，实现智能建造 A-Z 交钥匙工程，对标 ESG 规范下的长期运营服务 |
 | **公司注册** | 新加坡 (adenexus Pte. Ltd.) |
@@ -267,7 +267,7 @@ Contact Info:
 • Headquarters: adenexus Pte. Ltd.
 • Singapore Address: [Your Singapore Office Address], Singapore.
 • European Office: [Your Paris Office Address], Paris, France.
-• Email: contact@esgentics.com
+• Email: contact@adenexus.com
 • Regions: Sales inquiries for NA, EU, ME, and SE Asia welcome.
 
 Form Fields:
@@ -1081,7 +1081,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 - [ ] Catamaran 字体加载正常，fallback 有效
 - [ ] 所有色值使用 CSS 变量，无硬编码
-- [ ] 网站 IP 归属地：新加坡/欧美（`ping esgentics.com` 验证）
+- [ ] 网站 IP 归属地：新加坡/欧美（`ping adenexus.com` 验证）
 - [ ] HTTPS 强制跳转，SSL 证书有效
 - [ ] 移动端兼容：iOS Safari / Android Chrome 测试通过
 - [ ] GitHub Actions 自动化部署配置正确
@@ -1123,8 +1123,8 @@ Date: ______
 | **北美 (NA)** | English (en) | Español (es) | P3 | Phase 3 |
 
 **核心原则**：
-- ✅ 英文（en）始终为默认语言，URL 不带前缀（`https://esgentics.com/`）
-- ✅ 其他语言通过 URL 路径前缀访问（`https://esgentics.com/fr/`）
+- ✅ 英文（en）始终为默认语言，URL 不带前缀（`https://adenexus.com/`）
+- ✅ 其他语言通过 URL 路径前缀访问（`https://adenexus.com/fr/`）
 - ✅ 语言切换器保留用户当前页面路径
 - ✅ 所有语言版本共享同一代码库，内容通过 JSON/Markdown 分离
 
@@ -1133,11 +1133,11 @@ Date: ______
 #### 方案：URL 路径前缀（推荐）
 
 ```
-https://esgentics.com/              → English (default)
-https://esgentics.com/fr/           → Français
-https://esgentics.com/ar/           → العربية (RTL layout)
-https://esgentics.com/de/           → Deutsch
-https://esgentics.com/id/           → Bahasa Indonesia
+https://adenexus.com/              → English (default)
+https://adenexus.com/fr/           → Français
+https://adenexus.com/ar/           → العربية (RTL layout)
+https://adenexus.com/de/           → Deutsch
+https://adenexus.com/id/           → Bahasa Indonesia
 ```
 
 **技术实现**：
@@ -1338,23 +1338,23 @@ locales/
 
 ```html
 <!-- English (default) -->
-<link rel="alternate" hreflang="en" href="https://esgentics.com/" />
-<link rel="alternate" hreflang="en-sg" href="https://esgentics.com/" />
+<link rel="alternate" hreflang="en" href="https://adenexus.com/" />
+<link rel="alternate" hreflang="en-sg" href="https://adenexus.com/" />
 
 <!-- Français -->
-<link rel="alternate" hreflang="fr" href="https://esgentics.com/fr/" />
-<link rel="alternate" hreflang="fr-fr" href="https://esgentics.com/fr/" />
+<link rel="alternate" hreflang="fr" href="https://adenexus.com/fr/" />
+<link rel="alternate" hreflang="fr-fr" href="https://adenexus.com/fr/" />
 
 <!-- العربية -->
-<link rel="alternate" hreflang="ar" href="https://esgentics.com/ar/" />
-<link rel="alternate" hreflang="ar-sa" href="https://esgentics.com/ar/" />
+<link rel="alternate" hreflang="ar" href="https://adenexus.com/ar/" />
+<link rel="alternate" hreflang="ar-sa" href="https://adenexus.com/ar/" />
 
 <!-- Deutsch -->
-<link rel="alternate" hreflang="de" href="https://esgentics.com/de/" />
-<link rel="alternate" hreflang="de-de" href="https://esgentics.com/de/" />
+<link rel="alternate" hreflang="de" href="https://adenexus.com/de/" />
+<link rel="alternate" hreflang="de-de" href="https://adenexus.com/de/" />
 
 <!-- x-default（自动检测） -->
-<link rel="alternate" hreflang="x-default" href="https://esgentics.com/" />
+<link rel="alternate" hreflang="x-default" href="https://adenexus.com/" />
 ```
 
 #### 多语言 sitemap.xml
@@ -1366,38 +1366,38 @@ locales/
   
   <!-- Homepage -->
   <url>
-    <loc>https://esgentics.com/</loc>
+    <loc>https://adenexus.com/</loc>
     <lastmod>2026-03-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://esgentics.com/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://esgentics.com/fr/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://esgentics.com/ar/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://esgentics.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://adenexus.com/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://adenexus.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://adenexus.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://adenexus.com/de/"/>
   </url>
   
   <!-- Technology Page -->
   <url>
-    <loc>https://esgentics.com/technology</loc>
+    <loc>https://adenexus.com/technology</loc>
     <lastmod>2026-03-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://esgentics.com/technology"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://esgentics.com/fr/technology"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://esgentics.com/ar/technology"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://esgentics.com/de/technology"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://adenexus.com/technology"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://adenexus.com/fr/technology"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://adenexus.com/ar/technology"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://adenexus.com/de/technology"/>
   </url>
   
   <!-- Case Studies Page -->
   <url>
-    <loc>https://esgentics.com/case-studies</loc>
+    <loc>https://adenexus.com/case-studies</loc>
     <lastmod>2026-03-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://esgentics.com/case-studies"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://esgentics.com/fr/case-studies"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://esgentics.com/ar/case-studies"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://esgentics.com/de/case-studies"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://adenexus.com/case-studies"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://adenexus.com/fr/case-studies"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://adenexus.com/ar/case-studies"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://adenexus.com/de/case-studies"/>
   </url>
   
   <!-- 其他页面同理 -->
@@ -1408,7 +1408,7 @@ locales/
 #### Google Search Console 配置
 
 ```
-1. 验证 esgentics.com 域名
+1. 验证 adenexus.com 域名
 2. 提交 sitemap.xml（包含所有语言版本）
 3. 在 "International Targeting" 中：
    - 不设置特定国家（面向全球）
@@ -1488,7 +1488,7 @@ graph TD
 - [ ] 语言切换器在所有页面可见且功能正常
 - [ ] 切换语言后保持当前页面路径（/solutions → /fr/solutions）
 - [ ] localStorage 正确记住用户语言偏好
-- [ ] 英语版本 URL 无前缀（esgentics.com/ 而非 /en/）
+- [ ] 英语版本 URL 无前缀（adenexus.com/ 而非 /en/）
 - [ ] 所有翻译文本无遗漏（JSON 键值完整）
 - [ ] 阿拉伯语版本 RTL 布局正确（文字从右到左）
 - [ ] 所有图片 alt 文本已翻译
@@ -1605,7 +1605,7 @@ esgentics_web_spec_v2.0/
 | 优先级 | 行动 | 负责人 | 状态 |
 |--------|------|--------|------|
 | P0 | 确认本设计文档终稿 | 客户 | ⬜ |
-| P0 | 注册 `esgentics.com` 并配置 DNS | 运维 | ⬜ |
+| P0 | 注册 `adenexus.com` 并配置 DNS | 运维 | ⬜ |
 | P1 | 启动 3D 概念渲染图制作（5 张） | 设计团队 | ⬜ |
 | P1 | 申请 NVIDIA Partner Logo 使用授权 | 市场 | ⬜ |
 | P1 | 法务审核 Privacy Policy 初稿 | 法务 | ⬜ |

@@ -1,8 +1,8 @@
-# ESGentics.com 项目交接文档
+# adenexus.com 项目交接文档
 
 ## 项目概述
 
-ESGentics.com 是一个面向下一代建筑技术公司的网站，利用AI和NVIDIA硬件提供智能建筑解决方案。网站旨在展示公司的服务、技术和全球影响力。
+adenexus.com 是一个面向下一代建筑技术公司的网站，利用AI和NVIDIA硬件提供智能建筑解决方案。网站旨在展示公司的服务、技术和全球影响力。
 
 ## 项目完成情况
 
@@ -66,7 +66,7 @@ ESGentics.com 是一个面向下一代建筑技术公司的网站，利用AI和N
 
 #### 域名与安全
 - ⏳ **域名配置**：
-  - 自定义域名绑定（esgentics.com）
+  - 自定义域名绑定（adenexus.com）
   - DNS 记录配置
   - SSL 证书配置
 - ⏳ **安全设置**：
@@ -125,7 +125,7 @@ ESGentics.com 是一个面向下一代建筑技术公司的网站，利用AI和N
 
 ### 项目结构
 ```
-esgentics.com/
+adenexus.com/
 ├── app/                 # Next.js App Router
 │   ├── api/            # API routes
 │   ├── components/     # React components
@@ -148,7 +148,7 @@ esgentics.com/
      - `NODE_ENV`：`production`
 
 2. **域名配置**：
-   - 添加自定义域名（esgentics.com）
+   - 添加自定义域名（adenexus.com）
    - 配置 DNS 记录
    - 设置 SSL 证书
 
@@ -177,8 +177,8 @@ esgentics.com/
 
 ### 技术支持
 - **联系信息**：
-  - 电子邮件：contact@esgentics.com
-  - 地址：ESGentics Pte. Ltd., [Your Singapore Office Address], Singapore
+  - 电子邮件：contact@adenexus.com
+  - 地址：adenexus Pte. Ltd., [Your Singapore Office Address], Singapore
 
 ## 后续发展建议
 
@@ -204,7 +204,7 @@ esgentics.com/
 
 ## 总结
 
-ESGentics.com 项目已经完成了核心功能的开发和部署，包括前端展示、多语言支持、联系表单和后端 API 功能。项目采用了现代化的技术栈，具备良好的扩展性和可维护性。
+adenexus.com 项目已经完成了核心功能的开发和部署，包括前端展示、多语言支持、联系表单和后端 API 功能。项目采用了现代化的技术栈，具备良好的扩展性和可维护性。
 
 通过 Azure App Service 的部署，网站已经可以访问，后续只需完成域名配置、SSL 证书设置和生产环境配置，即可正式上线运营。
 

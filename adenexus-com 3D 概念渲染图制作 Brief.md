@@ -1,7 +1,7 @@
 ```markdown
-# ESGentics.com 3D 概念渲染图制作 Brief
+# adenexus.com 3D 概念渲染图制作 Brief
 
-> **项目**: esgentics.com 概念视觉素材  
+> **项目**: adenexus.com 概念视觉素材  
 > **用途**: 网站首页/解决方案页展示（无实拍案例替代方案）  
 > **交付格式**: PNG (Web) + TIFF (Archive) + 源文件 (可选)  
 > **保密级别**: Internal Use Only  
@@ -13,7 +13,7 @@
 
 ## 1. 项目背景
 
-ESGentics 是一家注册于新加坡的智能建造科技公司，面向东南亚、北美、欧洲、中东市场提供 AI 驱动的 A-Z 交钥匙工程服务。由于公司处于早期阶段，暂无可公开的实拍项目案例，需通过 **高质量 3D 概念渲染图** 展示技术能力与品牌调性。
+adenexus 是一家注册于新加坡的智能建造科技公司，面向东南亚、北美、欧洲、中东市场提供 AI 驱动的 A-Z 交钥匙工程服务。由于公司处于早期阶段，暂无可公开的实拍项目案例，需通过 **高质量 3D 概念渲染图** 展示技术能力与品牌调性。
 
 ### 1.1 核心目标
 
@@ -192,7 +192,7 @@ esgentics_renders_v1.0/
 | **Material Review** | 材质/色彩初稿（带品牌色，PNG 小图） | T+5 工作日 | 色彩应用符合 CSS 规范，取色器验证通过 | 设计方 → 客户 |
 | **Final Render** | 5 张高清成品 + 源文件 (如约定) | T+10 工作日 | 无禁止内容，技术规格达标，QA 清单 100% 通过 | 设计方 → 客户 |
 | **Web Optimization** | 压缩后 Web 版本 + 移动端裁剪 + 使用指南 | T+12 工作日 | 单张 ≤500KB，加载测试 <1s (4G)，开发集成无障碍 | 设计方 → 开发团队 |
-| **Sign-off** | 最终验收确认 + 版权转移 | T+14 工作日 | 客户书面签字，素材版权归 ESGentics Pte. Ltd. | 客户 |
+| **Sign-off** | 最终验收确认 + 版权转移 | T+14 工作日 | 客户书面签字，素材版权归 adenexus Pte. Ltd. | 客户 |
 
 > 💡 建议预留 2 个工作日缓冲期应对修改需求。
 
@@ -247,16 +247,16 @@ esgentics_renders_v1.0/
 ## 8. 版权与授权声明
 
 ```
-© 2026 ESGentics Pte. Ltd. All Rights Reserved.
+© 2026 adenexus Pte. Ltd. All Rights Reserved.
 
-本 Brief 及最终交付的所有 3D 渲染素材（含源文件）的完整知识产权归 ESGentics Pte. Ltd. 所有。
-设计方仅保留作品集展示权（需经 ESGentics 书面同意，且不得披露未公开项目细节）。
-未经 ESGentics 书面授权，设计方不得将素材用于其他项目或第三方交付。
+本 Brief 及最终交付的所有 3D 渲染素材（含源文件）的完整知识产权归 adenexus Pte. Ltd. 所有。
+设计方仅保留作品集展示权（需经 adenexus 书面同意，且不得披露未公开项目细节）。
+未经 adenexus 书面授权，设计方不得将素材用于其他项目或第三方交付。
 ```
 
 ---
 
-> **备注**: 本 Brief 为概念渲染指导，最终视觉需经 ESGentics 品牌团队书面确认。如有修改需求，请通过版本控制记录 (v1.0 → v1.1)。
+> **备注**: 本 Brief 为概念渲染指导，最终视觉需经 adenexus 品牌团队书面确认。如有修改需求，请通过版本控制记录 (v1.0 → v1.1)。
 
-**文档结束** | Version 1.0 | ESGentics Pte. Ltd. | Last Updated: 2026-02-26
+**文档结束** | Version 1.0 | adenexus Pte. Ltd. | Last Updated: 2026-02-26
 ```

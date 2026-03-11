@@ -1,8 +1,8 @@
-# ESGentics.com Website
+# adenexus.com Website
 
 ## Project Overview
 
-ESGentics.com is a website for a next-generation construction technology company that leverages AI and NVIDIA hardware to deliver intelligent construction solutions. The website is designed to showcase the company's services, technology, and global reach.
+adenexus.com is a website for a next-generation construction technology company that leverages AI and NVIDIA hardware to deliver intelligent construction solutions. The website is designed to showcase the company's services, technology, and global reach.
 
 ## Technical Stack
 
@@ -29,7 +29,7 @@ ESGentics.com is a website for a next-generation construction technology company
 ## Project Structure
 
 ```
-esgentics.com/
+adenexus.com/
 ├── app/
 │   ├── page.tsx                 # Home page
 │   ├── technology/
@@ -122,7 +122,7 @@ esgentics.com/
 
 4. **Configure Custom Domain**:
    - In Azure Portal, navigate to your App Service → Custom domains
-   - Add your custom domain (esgentics.com)
+   - Add your custom domain (adenexus.com)
    - Configure DNS records
 
 5. **SSL Certificate**:
@@ -195,8 +195,8 @@ The website includes the following SEO optimizations:
 ## Contact
 
 For questions or support, please contact:
-- Email: contact@esgentics.com
-- Singapore Office: ESGentics Pte. Ltd., 9 Raffles Place, Republic Plaza, Singapore 048619
+- Email: contact@adenexus.com
+- Singapore Office: adenexus Pte. Ltd., 9 Raffles Place, Republic Plaza, Singapore 048619
 - European Office: 8 Rue Lemercier, 75017 Paris, France
 
 ## Project Status
@@ -223,4 +223,4 @@ For questions or support, please contact:
 
 ## License
 
-© 2026 ESGentics Pte. Ltd. All rights reserved.
+© 2026 adenexus Pte. Ltd. All rights reserved.

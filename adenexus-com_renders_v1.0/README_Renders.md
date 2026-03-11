@@ -1,4 +1,4 @@
-# ESGentics 3D 概念渲染图交付说明
+# adenexus 3D 概念渲染图交付说明
 
 ## 交付内容
 
@@ -35,10 +35,10 @@
 
 ## 版权声明
 
-© 2026 ESGentics Pte. Ltd. All Rights Reserved.
+© 2026 adenexus Pte. Ltd. All Rights Reserved.
 
-本交付的所有3D渲染素材的完整知识产权归ESGentics Pte. Ltd.所有。
-未经ESGentics书面授权，不得将素材用于其他项目或第三方交付。
+本交付的所有3D渲染素材的完整知识产权归adenexus Pte. Ltd.所有。
+未经adenexus书面授权，不得将素材用于其他项目或第三方交付。
 
 ## 版本记录
 

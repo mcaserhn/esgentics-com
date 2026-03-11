@@ -1,4 +1,4 @@
-# 🎨 ESGentics 3D渲染图精确 Prompt 库
+# 🎨 adenexus 3D渲染图精确 Prompt 库
 
 以下是针对 **R01-R05** 每张图的完整 Prompt，可直接复制到 Google Colab/Stable Diffusion 使用。
 

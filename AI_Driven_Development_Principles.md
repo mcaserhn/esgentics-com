@@ -1,6 +1,6 @@
 # AI 驱动的企业级网站开发方法论
 
-> 基于 ESGentics.com / Adenexus.com 项目实践总结的通用开发原则
+> 基于 adenexus.com / Adenexus.com 项目实践总结的通用开发原则
 
 ---
 
@@ -369,4 +369,4 @@ AI 学习改进 → 规范更完善 → 开发效率更高 →
 ---
 
 *Last Updated: 2026-03-10*  
-*Based on: ESGentics.com / Adenexus.com Project Experience*
+*Based on: adenexus.com / Adenexus.com Project Experience*
